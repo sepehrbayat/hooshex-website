@@ -1,0 +1,3 @@
+{
+  "summary": "Aligned CTA wrapper to full text width with justify-end so the ورود button now sits on the same right axis as the badge/title/paragraph, keeping the button itself shrink-wrapped.",
+  "current_status": "Super App section is transparent with soft glows; all text and CTA share the right alignment axis in RTL."}

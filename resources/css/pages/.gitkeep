@@ -1,0 +1,4 @@
+# Page-specific CSS files
+# Use @push('styles') in Blade files instead of creating files here
+# Only create files here for complex page-specific styles that require multiple CSS rules
+

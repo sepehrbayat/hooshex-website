@@ -1,0 +1,3 @@
+{
+  "summary": "Forced top alignment and pushed phone further down: parent stack now explicitly items-start at all breakpoints, and phone wrapper uses lg:pt-32 instead of margin to offset ~150px downward. No changes to animation or other content.",
+  "current_status": "Super App section transparent with subtle glows; text right-aligned; phone lowered relative to text via padding; items-start on grid ensures text anchors at top."}

@@ -1,0 +1,3 @@
+{
+  "summary": "Refit the smart career paths section to match the Figma-exported HTML/CSS: dark backdrop, fixed-width container, header arrow/link, purple/pink heading, glass cards sized 288x411 with absolute header/image/content, small pills, square icon boxes, and centered CTA button.",
+  "current_status": "Section updated per latest Figma plugin export; no tests run."}

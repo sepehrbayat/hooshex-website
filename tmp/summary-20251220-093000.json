@@ -1,0 +1,5 @@
+{
+  "summary": "کش Laravel پاک شد (cache, config, view, route). سرورها متوقف شدند. فایل home.blade.php به checkpoint قبلی برگردانده شد که فقط order classes تغییر داشت (order-1 برای فرم صورتی و order-2 برای کارت شیشه‌ای در موبایل/تبلت). تمام تغییرات pixel-perfect که اعمال شده بود حذف شد و کد به نسخه ساده قبلی برگشت. سرورها restart شدند.",
+  "current_status": "کدها به checkpoint قبلی برگشتند (فقط order classes). سرورها در حال اجرا هستند. آماده برای کار مجدد."
+}
+

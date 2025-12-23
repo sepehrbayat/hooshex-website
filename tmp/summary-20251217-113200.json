@@ -1,0 +1,4 @@
+{
+  "summary": "کاربر درخواست کرد که با استفاده از browser automation صفحه را مشاهده کنم و جزئیات را با طراحی Figma مقایسه کنم. من صفحه را در مرورگر باز کردم و snapshot گرفتم. همچنین داده‌های کامل طراحی را از Figma دریافت کردم. حالا باید به صورت دقیق‌تر بخش‌های مختلف را بررسی کنم و تفاوت‌ها را پیدا و اصلاح کنم. چند تفاوت احتمالی پیدا کردم: 1) Search input width در desktop-figma.css 496px است اما در داده‌های Figma 617px است - باید بررسی کنم. 2) باید تمام بخش‌ها را با داده‌های Figma مقایسه کنم.",
+  "current_status": "در حال بررسی دقیق صفحه در مرورگر و مقایسه با داده‌های Figma. باید تفاوت‌ها را پیدا و اصلاح کنم. Hero section، Counter section، Career Paths، Super App، Popular Courses، AI Bot، Instagram، Testimonials، Blog، Contact، و Banner را باید بررسی کنم."
+}

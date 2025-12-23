@@ -1,0 +1,3 @@
+{
+  "summary": "Removed justify-end and w-full effect on CTA wrapper, using flex with self-end so the ورود button follows the RTL axis of the right-aligned text stack.",
+  "current_status": "Super App section transparent with soft glows; text and CTA share right alignment in RTL."}

@@ -1,0 +1,5 @@
+{
+  "summary": "بخش Instagram در موبایل بازبینی و اصلاح شد. لایوت از flex-col به flex-row با align-items: flex-end تغییر کرد. لوگوی اینستاگرام (90x89px) اضافه شد. Text و Button container با align-items: flex-end تنظیم شدند. Gap (22.45px) و spacing مطابق Figma تنظیم شد. Font-size دکمه از 10px به 9px و متن دکمه به 'اینستاگرام' تغییر کرد.",
+  "current_status": "Instagram section موبایل اصلاح شد. لایوت مطابق Figma است. آماده برای تست نهایی."
+}
+

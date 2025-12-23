@@ -1,0 +1,4 @@
+{
+  "summary": "Updated button width in career paths cards from 126px to 137px to accommodate the 'مشاهده جزئیات' text on one line. Added whitespace-nowrap class to ensure text stays on a single line. All four cards now have consistent button width that properly displays the full text without wrapping.",
+  "current_status": "Career paths section button width updated to 137px with whitespace-nowrap. Text 'مشاهده جزئیات' now displays on one line in all cards. Ready for browser testing."
+}

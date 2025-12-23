@@ -1,0 +1,4 @@
+{
+  "summary": "Built a responsive Super App slice with gradient background, RTL content, CTA, and floating phone mockup; replaced the old inline section by including the new component below career paths.",
+  "current_status": "Home page now renders the new Super App component; other sections remain unchanged; phone image expected at public/images/hooshex-ai-mockup-phone.png."
+}

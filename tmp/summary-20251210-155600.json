@@ -1,0 +1,5 @@
+{
+  "summary": "Tweaked Popular Courses visuals: badges nudged closer to the corner (right-3 top-3) and instructor icon now uses solid pink background with white icon for stronger contrast. No lints.",
+  "current_status": "Popular Courses matches requested badge spacing and icon contrast."
+}
+

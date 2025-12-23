@@ -1,0 +1,4 @@
+{
+  "summary": "مشکل صفحه اصلی: اصلاح Home.php برای استفاده از متدهای static در HomePageData. اصلاح course-card برای مدیریت safe access به course['price']. پاک کردن view cache. مشکل احتمالاً از missing courses prop در popular-courses component یا خطاهای PHP است.",
+  "current_status": "اصلاحات انجام شد. باید صفحه اصلی درست لود شود."
+}

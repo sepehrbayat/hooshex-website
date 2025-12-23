@@ -1,0 +1,3 @@
+{
+  "summary": "Fixed image 404s by copying figma assets into public/figma-images/images; assets now resolvable via asset('figma-images/images/...').",
+  "current_status": "Images available under public/figma-images/images; Laravel 8000, Vite 5173."}

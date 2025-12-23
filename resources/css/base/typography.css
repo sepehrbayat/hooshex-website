@@ -1,0 +1,42 @@
+/**
+ * Typography Base Styles
+ * Persian font features and base typography rules
+ */
+
+@layer base {
+    /**
+     * Persian Font Features
+     * Enable stylistic sets for better Persian typography
+     */
+    body,
+    input,
+    textarea,
+    select,
+    button {
+        font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+        font-variation-settings: 'DOTS' 7;
+    }
+
+    /**
+     * Heading Styles
+     */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: var(--font-sans);
+        font-weight: 700;
+        text-transform: capitalize;
+        color: theme('colors.text.primary');
+    }
+
+    /**
+     * Text Transform for Persian
+     */
+    .text-capitalize-persian {
+        text-transform: capitalize;
+    }
+}
+

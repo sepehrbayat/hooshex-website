@@ -1,0 +1,4 @@
+{
+  "summary": "Documented best practices from the Super App section alignment fixes, including RTL flex alignment rules, avoiding conflicting self alignment, isolating offsets to the image wrapper, and softening glows to prevent visible borders.",
+  "current_status": "Super App section stable: text right-aligned with lg:self-center, phone offset via lg:pt-24, subtle glows, transparent background."
+}

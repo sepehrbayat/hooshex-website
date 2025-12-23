@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل Popular Courses section در iPad Pro حل شد: 1) Container padding: px-[25px_27px] برای mobile، lg:px-10 برای iPad Pro، xl:px-10 برای desktop. 2) max-width: lg:max-w-[1024px] برای iPad Pro، xl:max-w-7xl برای desktop. 3) Swiper settings: slidesPerView: 2 برای lg (1024px) با spaceBetween: 24. 4) slide padding: lg:px-0 برای حذف padding اضافی. spacing بین کارت‌ها حالا درست است.",
+  "current_status": "Popular Courses section در iPad Pro اصلاح شد. spacing و padding ها تنظیم شدند."
+}
+

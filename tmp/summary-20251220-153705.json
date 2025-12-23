@@ -1,0 +1,4 @@
+{
+  "summary": "بازسازی ساختار به صورت بسیار ماژولارتر و مقیاس‌پذیرتر. ایجاد CSS component files برای hero, features, ai-bot, sections. حذف تمام inline styles و تبدیل به CSS classes. ایجاد utility classes برای layout patterns. پاکسازی hardcoded values. ایجاد CLEAN_CODE_GUIDELINES.md برای راهنمای کد تمیز. ساختار CSS به صورت base/components/utilities سازمان‌دهی شد.",
+  "current_status": "ساختار بسیار ماژولارتر و تمیزتر شد. تمام inline styles حذف و به CSS component classes تبدیل شدند. Design tokens جایگزین hardcoded values شدند. کامپوننت‌های hero, features, ai-bot بازسازی شدند. راهنمای کد تمیز ایجاد شد. آماده برای ادامه پاکسازی سایر کامپوننت‌ها."
+}

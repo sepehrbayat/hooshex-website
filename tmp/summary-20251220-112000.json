@@ -1,0 +1,5 @@
+{
+  "summary": "Features section بهبود یافت: gap بین آیتم‌ها از 16px به 13px تغییر کرد، gap بین icon و text از 16px به 8px تغییر کرد، icon sizes از 120px به 99px در موبایل تغییر کرد، height آیتم‌ها دقیق شد (196px, 178px), order و flex properties اضافه شد. AI Bot section بهبود یافت: Form width/height (382px/266px), padding (16px 16px 24px), gap (16px), Glass card width/height (344.41px/141.5px), gap (48px), input fields height از 48px به 40px تغییر کرد، input padding (10px 16px) تنظیم شد.",
+  "current_status": "Hero, Features, و AI Bot sections بهبود یافتند. ادامه بررسی سایر بخش‌ها."
+}
+

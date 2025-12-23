@@ -1,0 +1,5 @@
+{
+  "summary": "بخش Instagram موبایل به صورت حرفه‌ای‌تر و دقیق‌تر بهبود یافت. box-sizing: border-box اضافه شد. Font-size دقیق (13.4702px) تنظیم شد. flex: none و order و flex-grow برای همه عناصر تنظیم شد. width و height دقیق برای container, text و button تنظیم شد. padding دقیق (7.5px 18px) برای دکمه اعمال شد. همه جزئیات Figma دقیق‌تر پیاده‌سازی شد.",
+  "current_status": "Instagram section موبایل به صورت حرفه‌ای و pixel-perfect بهبود یافت. آماده برای استفاده."
+}
+

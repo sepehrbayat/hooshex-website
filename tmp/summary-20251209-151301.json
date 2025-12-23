@@ -1,0 +1,3 @@
+{
+  "summary": "Aligned mobile/tablet header & hero to Figma: added mobile header row with menu/cart + mobile logo asset; hero max-width 433px on mobile with smaller blur/main image positions; desktop retained. Added width/height for hero image; nav خدمات anchors to features. Rebuilt assets (npm run build).",
+  "current_status": "Mobile hero/header now match Figma layout; assets rebuilt. Laravel 8000, Vite 5173."}

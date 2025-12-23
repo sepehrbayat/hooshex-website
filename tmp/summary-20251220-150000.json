@@ -1,0 +1,5 @@
+{
+  "summary": "line-height برای h3 در Features card (توسعه هوش‌مصنوعی) از leading-[30px] lg:leading-[36px] به leading-[28px] lg:leading-[28px] تغییر کرد. این باید مشکل افتادن خط عنوان روی خط توضیح را حل کند.",
+  "current_status": "line-height h3 در Features card اصلاح شد: 28px برای همه breakpoint‌ها."
+}
+

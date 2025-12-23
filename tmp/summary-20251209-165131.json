@@ -1,0 +1,3 @@
+{
+  "summary": "Reordered desktop hero so AI vector stays on the left: switched to lg:flex-row and set image/text orders.",
+  "current_status": "Hero layout: mobile unchanged; desktop now forces vector left and text right."}

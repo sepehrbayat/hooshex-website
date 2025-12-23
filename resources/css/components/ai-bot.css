@@ -1,0 +1,302 @@
+/**
+ * AI Bot Section Component Styles
+ * All AI bot specific styles using @layer utilities for higher specificity
+ */
+
+@import './ai-bot-forms.css';
+
+@layer components {
+    .ai-bot-section {
+        @apply relative overflow-visible bg-surface;
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-section {
+            padding-top: 64px;
+            padding-bottom: 32px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-section {
+            padding-top: 96px;
+            padding-bottom: 32px;
+        }
+    }
+
+    /* AI Bot Container */
+    .ai-bot-container {
+        @apply relative flex flex-col items-center;
+        min-height: 400px;
+        gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-container {
+            min-height: 491px;
+            gap: 24px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-container {
+            @apply items-start;
+            min-height: 592px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-container {
+            width: 1218px;
+            height: 592px;
+            margin: 0 auto;
+            overflow: visible;
+            padding-top: 0;
+        }
+    }
+
+    /* AI Bot Title */
+    .ai-bot-title {
+        @apply w-full text-right font-bold text-text-primary mb-0;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-title {
+            width: 663px;
+            height: 36px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-title {
+            font-size: 32px;
+            line-height: 48px;
+            width: auto;
+        }
+    }
+
+    /* AI Bot Pink Form */
+    .ai-bot-pink-form {
+        @apply relative z-10 w-full mt-6 order-1;
+        margin-top: 24px;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-pink-form {
+            @apply absolute;
+            left: 84px;
+            top: 60px;
+            margin-top: 0;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-pink-form {
+            left: 381px;
+            top: 0;
+            width: 758px;
+        }
+    }
+
+    .ai-bot-pink-form-inner {
+        @apply rounded-3xl bg-accent-500 shadow-xl;
+        width: 382px;
+        min-width: 332px;
+        height: 266px;
+        padding: 16px;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-pink-form-inner {
+            width: 495px;
+            height: 312px;
+            padding: 16px 24px 24px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-pink-form-inner {
+            width: 758px;
+            min-width: 643px;
+            height: 241px;
+            padding: 24px;
+        }
+    }
+
+    /* AI Bot Glass Card */
+    .ai-bot-glass-card {
+        @apply relative z-20 w-full order-2;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-glass-card {
+            @apply absolute;
+            left: calc(50% - 225.5px);
+            top: 314.67px;
+            width: 450px;
+            height: 176.83px;
+            margin-top: 0;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-glass-card {
+            left: 0;
+            width: 716px;
+            top: 152px;
+        }
+    }
+
+    .ai-bot-glass-card-inner {
+        @apply rounded-3xl;
+        position: relative;
+        isolation: isolate;
+        box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: none;
+        width: 344.41px;
+        min-width: 298px;
+        height: 141.5px;
+        padding: 16px;
+        margin: 0;
+    }
+
+    .ai-bot-glass-card-inner:focus {
+        outline: none;
+    }
+
+    .ai-bot-glass-card-inner::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        border-radius: inherit;
+        box-shadow: inset 0 0 41px -14px rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.04);
+    }
+
+    .ai-bot-glass-card-inner::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        border-radius: inherit;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        filter: url(#glass-distortion);
+        -webkit-filter: url(#glass-distortion);
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-glass-card-inner {
+            width: 450px;
+            height: 176.83px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .ai-bot-glass-card-inner {
+            width: 716px;
+            min-width: 569px;
+            height: 248px;
+            padding: 24px;
+        }
+    }
+}
+
+/* Desktop-specific positioning with higher specificity using @layer utilities */
+@layer utilities {
+    /* Override padding-bottom for ai-bot-section at all breakpoints */
+    .ai-bot-section.ai-bot-section {
+        padding-bottom: 32px !important;
+    }
+    
+    @media (min-width: 768px) {
+        .ai-bot-section.ai-bot-section {
+            padding-bottom: 32px !important;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .ai-bot-section.ai-bot-section {
+            padding-bottom: 32px !important;
+        }
+    }
+    
+    @media (min-width: 1280px) {
+        /* Using double class selector for higher specificity */
+        .ai-bot-container.ai-bot-container {
+            position: relative;
+            width: 1218px;
+            height: 592px;
+            padding-top: 0;
+        }
+
+        /* Title positioning with higher specificity */
+        .ai-bot-section .ai-bot-container .ai-bot-title.ai-bot-title {
+            position: absolute;
+            z-index: 30;
+            width: 442px;
+            height: 48px;
+            right: 0;
+            top: -56px;
+            margin: 0;
+            padding: 0;
+            line-height: 48px;
+            left: auto;
+            bottom: auto;
+            transform: none;
+        }
+
+        /* Pink form positioning */
+        .ai-bot-section .ai-bot-container .ai-bot-pink-form.ai-bot-pink-form {
+            position: absolute;
+            z-index: 10;
+            right: 79px;
+            top: 0;
+            width: 758px;
+            margin: 0;
+            left: auto;
+            bottom: auto;
+            transform: none;
+        }
+
+        /* Glass card positioning */
+        .ai-bot-section .ai-bot-container .ai-bot-glass-card.ai-bot-glass-card {
+            position: absolute;
+            z-index: 20;
+            right: 502px;
+            top: 152px;
+            width: 716px;
+            margin: 0;
+            left: auto;
+            bottom: auto;
+            transform: none;
+        }
+
+        /* Glass content overflow */
+        .ai-bot-section .ai-bot-glass-card .glass-content {
+            overflow: visible;
+            max-height: 100%;
+        }
+
+        /* Interests field specific width using nested selector */
+        .ai-bot-section .ai-bot-pink-form form > .ai-bot-field-interests.ai-bot-field-interests {
+            width: 328px;
+            min-width: 190px;
+            max-width: 328px;
+            flex-basis: 100%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            align-self: flex-end;
+            margin-left: auto;
+        }
+    }
+}

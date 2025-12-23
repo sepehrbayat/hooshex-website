@@ -1,0 +1,162 @@
+/**
+ * AI Bot Form Field Styles
+ * Extracted inline styles for form fields
+ */
+
+@layer components {
+    /* AI Bot Form */
+    .ai-bot-form {
+        @apply flex flex-wrap items-end justify-end content-end;
+        row-gap: 24px;
+        column-gap: 32px;
+    }
+
+    /* Form Field Container */
+    .ai-bot-field {
+        @apply flex flex-col md:h-auto xl:items-end;
+        width: 100%;
+        min-width: 0;
+        gap: 12px;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-field {
+            width: 210px;
+            gap: 12px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-field {
+            width: 215.33px;
+            min-width: 140px;
+            height: 81px;
+            gap: 16px;
+        }
+    }
+
+    .ai-bot-field-row-1 {
+        order: 0;
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+    .ai-bot-field-row-2 {
+        order: 1;
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+    .ai-bot-field-row-3 {
+        order: 2;
+        flex-grow: 1;
+        flex-basis: auto;
+    }
+
+    .ai-bot-field-interests {
+        @apply flex flex-col xl:justify-end xl:items-end;
+        width: 100%;
+        gap: 12px;
+        order: 3;
+        flex-grow: 0;
+        flex-basis: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .ai-bot-field-interests {
+            width: 260px;
+            gap: 12px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-field-interests {
+            width: 328px;
+            min-width: 190px;
+            height: 88px;
+            gap: 16px;
+            margin-left: auto;
+        }
+    }
+
+    /* Form Field Inner */
+    .ai-bot-field-inner {
+        @apply flex flex-col items-end gap-3;
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-field-inner {
+            width: 226px;
+            height: 81px;
+            gap: 12px;
+        }
+    }
+
+    .ai-bot-field-interests-inner {
+        @apply flex flex-col items-end;
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-field-interests-inner {
+            width: 328px;
+        }
+    }
+
+    /* Form Label */
+    .ai-bot-label {
+        @apply text-sm font-normal text-surface-light;
+        line-height: 21px;
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-label {
+            width: 226px;
+            height: 21px;
+        }
+    }
+
+    .ai-bot-label-interests {
+        @apply text-base font-normal leading-6 text-surface-light;
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-label-interests {
+            width: 328px;
+            height: 24px;
+        }
+    }
+
+    /* Form Input Container */
+    .ai-bot-input-container {
+        @apply flex items-center justify-end rounded-lg bg-white/10 backdrop-blur-sm;
+        width: 100%;
+        height: 40px;
+        padding: 12px 16px;
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-input-container {
+            width: 226px;
+            height: 48px;
+            padding: 12px 16px;
+        }
+    }
+
+    .ai-bot-select-container {
+        @apply relative flex items-center justify-end rounded-lg bg-white/10 backdrop-blur-sm;
+        width: 100%;
+        height: 40px;
+        padding: 12px 16px;
+        gap: 4px;
+    }
+
+    @media (min-width: 1280px) {
+        .ai-bot-select-container {
+            width: 328px;
+            height: 48px;
+            padding: 10px 16px;
+            gap: 4px;
+        }
+    }
+}
+

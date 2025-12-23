@@ -1,0 +1,3 @@
+{
+  "summary": "Aligned Super App text column to items-end so badge, heading, body text, and CTA share the same right axis; CTA wrapper already justify-end, keeping the button right-aligned without stretching.",
+  "current_status": "Super App section is transparent with soft glows; all text and CTA now align to the right edge in RTL."}

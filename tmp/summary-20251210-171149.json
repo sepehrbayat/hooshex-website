@@ -1,0 +1,3 @@
+{
+  "summary": "Adjusted vertical layout: parent grid now lg:items-start so text anchors at the top; phone wrapper margin increased to lg:mt-32 to push mockup lower while keeping animation intact.",
+  "current_status": "Super App section transparent with subtle glows; text right-aligned; phone sits lower relative to text."}

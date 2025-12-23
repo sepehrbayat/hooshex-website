@@ -1,0 +1,27 @@
+/**
+ * RTL Utilities
+ * Utilities for right-to-left language support
+ */
+
+@layer utilities {
+    /**
+     * RTL Flip for icons
+     */
+    [dir="rtl"] .rtl-flip {
+        transform: scaleX(-1);
+    }
+
+    /**
+     * Logical spacing for RTL
+     */
+    [dir="rtl"] .start-0 {
+        right: 0;
+        left: auto;
+    }
+
+    [dir="rtl"] .end-0 {
+        left: 0;
+        right: auto;
+    }
+}
+

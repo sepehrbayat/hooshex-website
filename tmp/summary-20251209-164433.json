@@ -1,0 +1,3 @@
+{
+  "summary": "Adjusted mobile hero title and search widths to fit within image bounds by allowing wrapping and capping max width.",
+  "current_status": "Mobile hero heading and search box now constrained to 340px with normal wrapping; pending visual verification on device."}

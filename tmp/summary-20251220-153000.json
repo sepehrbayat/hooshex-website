@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل centering در AI Bot section: lg:px-[111px] و xl:px-[111px] حذف شد و lg:px-0 xl:px-0 تنظیم شد. چون mx-auto خودش container را وسط می‌کند، padding اضافی باعث می‌شد وسط نباشد. حالا container باید درست وسط قرار بگیرد و عریض‌تر باشد.",
+  "current_status": "AI Bot section padding حذف شد برای desktop تا container درست وسط قرار گیرد."
+}
+

@@ -1,0 +1,3 @@
+{
+  "summary": "Aligned mobile hero/header per latest spec: logo right, cart+menu left; hero order title (single line), search, then AI image with centered positioning and visible spacing; wave hidden on mobile. Features already adjusted. Rebuilt assets.",
+  "current_status": "Mobile layout updated; assets rebuilt. Laravel 8000, Vite 5173."}

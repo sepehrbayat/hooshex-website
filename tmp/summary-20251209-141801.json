@@ -1,0 +1,3 @@
+{
+  "summary": "Fixed Vite manifest error by building assets (npm run build) to generate public/build/manifest.json while keeping Vite dev server on 5173 for HMR if needed.",
+  "current_status": "Laravel running on 8000; Vite dev server on 5173; manifest now present in public/build."}

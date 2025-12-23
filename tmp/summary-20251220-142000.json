@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل Features paragraph دوباره بررسی شد: whitespace-normal برای همه breakpoint‌ها (حذف md:whitespace-nowrap)، lg:min-h-[48px] برای desktop (به جای 24px) تا متن بتواند دو خط باشد، text-center اضافه شد. این باید مشکل روی هم افتادن خطوط را حل کند.",
+  "current_status": "مشکل Features paragraph اصلاح شد: whitespace-normal برای همه، min-h افزایش یافت برای desktop."
+}
+

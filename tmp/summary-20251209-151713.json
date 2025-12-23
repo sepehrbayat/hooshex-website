@@ -1,0 +1,3 @@
+{
+  "summary": "Aligned mobile hero to provided layout: tightened gap (36px headline, gap-6 md:gap-10), image wrapper gets mt-8 on mobile, responsive blur/main positions; mobile logo already present. Rebuilt assets.",
+  "current_status": "Mobile spacing refined; assets rebuilt. Laravel 8000, Vite 5173."}

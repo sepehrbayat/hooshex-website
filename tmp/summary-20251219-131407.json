@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed career paths cards bottom section visibility issue. Changed card height from fixed h-[411px] to min-h-[411px] to allow content to expand. Removed fixed width constraints that caused overflow. Increased bottom padding from pb-3 to pb-5, added pt-2 spacing to bottom section, and made bottom section use w-full instead of fixed width. Price text and 'مشاهده جزئیات' button are now fully visible in all four cards without being cut off.",
+  "current_status": "Career paths cards bottom section (price + button) is now fully visible in all four cards. Cards can expand if needed to show all content. Ready for browser testing."
+}

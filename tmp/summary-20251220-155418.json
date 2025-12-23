@@ -1,0 +1,4 @@
+{
+  "summary": "اصلاح مسیرهای @import در app.css از 'base/fonts.css' به './base/fonts.css' برای سازگاری با Vite resolver. تمام مسیرهای import به relative paths تبدیل شدند.",
+  "current_status": "مسیرهای import اصلاح شدند. Vite باید بتواند فایل‌ها را resolve کند."
+}

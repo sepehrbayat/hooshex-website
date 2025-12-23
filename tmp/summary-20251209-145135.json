@@ -1,0 +1,3 @@
+{
+  "summary": "Applied pixel-accurate Figma hero styling: 1444px container with 20px padding, 600px min height, 64px gap, 64px headline at 1.2 line-height, 617px pill search (56px tall, 13/16px padding) with search icon image-4.png, hero visual sized/positioned to Figma (727x465 frame, 274px blurred accent at 50/152, main 487x465 at -101/134). Built assets to update manifest.",
+  "current_status": "Hero matches Figma spec; assets rebuilt. Laravel 8000, Vite 5173."}

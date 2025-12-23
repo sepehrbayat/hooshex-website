@@ -1,0 +1,3 @@
+{
+  "summary": "Matched mobile features layout to Figma snippet: container max-w-384 with gap-3 wrap; cards w-176 min-h-192, centered; icons 96px on mobile (120px md); text sizes 20/14. Hero mobile already aligned; assets rebuilt.",
+  "current_status": "Mobile features and hero aligned; assets rebuilt. Laravel 8000, Vite 5173."}

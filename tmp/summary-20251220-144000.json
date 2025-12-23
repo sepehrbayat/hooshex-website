@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل فاصله بین h3 و p در Features card: lg:gap-[12px] اضافه شد به container برای desktop (به جای 8px)، h3: lg:min-h-[36px] اضافه شد (حذف h-[30px] و flex items-center) تا line-height درست کار کند. این باید فاصله بین عنوان و توضیح را افزایش دهد.",
+  "current_status": "مشکل فاصله بین h3 و p در Features card حل شد: gap و min-height تنظیم شد."
+}
+

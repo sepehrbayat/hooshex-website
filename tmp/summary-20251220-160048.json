@@ -1,0 +1,4 @@
+{
+  "summary": "بررسی تمام فایل‌های CSS برای یافتن استفاده از component classes در @apply. اصلاح ai-bot.css برای حذف @apply liquid-glass و کپی مستقیم محتوای liquid-glass. بررسی سایر فایل‌ها برای اطمینان از عدم وجود مشکل مشابه.",
+  "current_status": "تمام مشکلات @apply component classes شناسایی و اصلاح شدند: form-control در forms.css، card-feature در features.css، liquid-glass در ai-bot.css. باید خطاها برطرف شده باشند."
+}

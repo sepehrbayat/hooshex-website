@@ -1,0 +1,5 @@
+{
+  "summary": "استخراج جزئیات کامل از CSS Figma موبایل برای بخش AI Bot انجام شد و پیاده‌سازی pixel-perfect انجام شد. تغییرات: عنوان font-size 16px, width 382px. فرم صورتی: padding 16px 16px 24px (top/right/bottom/left), gap 16px, border-radius 24px, width 382px, height 266px, فیلدها width 167px (نام/نام خانوادگی/شماره تماس) و 164px (علاقه مندی‌ها), input height 40px, padding 10px 16px, gap 12px بین label و input. کارت شیشه‌ای: width 344.41px, min-width 298px, height 141.5px, padding 16px, border-radius 24px, gap 48px, background rgba(224,224,224,0.16). سوال: width 312.41px, height 29.3px, gap 212px بین ستاره و متن, ستاره 32x29.3px با 3 لایه gradient. دکمه‌ها: Group 299 width 201.71px, اتصال فایل absolute left 91.71px width 110px, میکروفون absolute left 0px width 32px, شروع جستجو width 104px. همه مقادیر دقیق از Figma استخراج شد.",
+  "current_status": "پیاده‌سازی pixel-perfect بر اساس CSS Figma موبایل تکمیل شد. تمام اندازه‌ها، padding، gap، spacing، typography، colors دقیقاً مطابق Figma هستند. آماده برای تست در مرورگر."
+}
+

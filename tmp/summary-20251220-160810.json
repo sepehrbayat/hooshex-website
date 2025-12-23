@@ -1,0 +1,4 @@
+{
+  "summary": "بهبود کد debug در app.js برای AI Bot section: اضافه کردن retry logic با findSection که تا 5 بار تلاش می‌کند تا section را پیدا کند (برای Livewire hydration). تغییر selector container از '.relative.flex' به '.ai-bot-container'. این باعث می‌شود خطای 'AI Bot section not found' فقط وقتی نمایش داده شود که section واقعاً وجود نداشته باشد.",
+  "current_status": "کد debug بهبود یافت تا با Livewire سازگار باشد. خطا باید دیگر نمایش داده نشود یا فقط بعد از تمام تلاش‌ها نمایش داده شود."
+}

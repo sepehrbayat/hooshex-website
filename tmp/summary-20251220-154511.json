@@ -1,0 +1,4 @@
+{
+  "summary": "پیاده‌سازی Laravel Frontend Best Practices. ایجاد LayoutComposer برای داده‌های مشترک layout. ایجاد HomePageData ViewModel برای ساختار داده‌ها. انتقال منطق از Blade به Livewire Component. تبدیل تمام @include به Blade Components (x-auth.profile-menu, x-home.blog-card, x-home.testimonial-card, x-home.course-card). ثبت View Composer در AppServiceProvider. حذف منطق از home.blade.php و انتقال به Home Livewire component. ایجاد مستند LARAVEL_FRONTEND_BEST_PRACTICES.md.",
+  "current_status": "تمام Best Practiceها پیاده‌سازی شدند. Views logic-less هستند. از View Composers و ViewModels استفاده می‌شود. تمام @include به Blade Components تبدیل شدند. ساختار ماژولار و حرفه‌ای است."
+}

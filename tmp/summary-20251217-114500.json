@@ -1,0 +1,4 @@
+{
+  "summary": "کاربر دو اسکرین‌شات از صفحه ساخته شده و صفحه کامل در Figma گذاشت و خواست که دقیقاً همان را در بیاورم. من تفاوت‌های کلیدی را پیدا و اصلاح کردم: 1) Hero section: placeholder text را از 'میگردی' به 'میکردی' تغییر دادم. 2) Banner section: عنوان را از 'دوره گام\u200cبه\u200cگام هوشکس' به 'دوره گادمود هوشکس' تغییر دادم. سایر بخش‌ها (Features, Career Paths, Super App, Popular Courses, AI Bot, Instagram, Testimonials, Blog, Contact) به نظر درست می‌رسند.",
+  "current_status": "دو تغییر اصلی اعمال شد: placeholder text در Hero section و عنوان Banner section. باید بررسی کنم که آیا تفاوت‌های دیگری وجود دارد یا نه. صفحه آماده بررسی مجدد است."
+}

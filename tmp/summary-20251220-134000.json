@@ -1,0 +1,5 @@
+{
+  "summary": "اصلاح Swiper settings برای Popular Courses: slidesPerView از 4 به 2 برای iPad Pro (1024px) تغییر کرد. spaceBetween: 24 برای lg و xl: 3 slides برای desktop (1280px+). این باعث می‌شود کارت‌ها با spacing مناسب نمایش داده شوند.",
+  "current_status": "Popular Courses Swiper settings اصلاح شد. iPad Pro حالا 2 کارت در هر row با spacing 24px نمایش می‌دهد."
+}
+

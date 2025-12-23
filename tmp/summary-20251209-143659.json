@@ -1,0 +1,3 @@
+{
+  "summary": "Fixed header logo not loading by copying hooshex-logo.png into public/figma-images/images so asset() resolves.",
+  "current_status": "Logo now present in public assets; Laravel 8000, Vite 5173."}

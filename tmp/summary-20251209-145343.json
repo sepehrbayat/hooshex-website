@@ -1,0 +1,3 @@
+{
+  "summary": "Tightened spacing below hero and before features: hero pb reduced to 16 (was 120px), features section pt set to 10 and pb 14 to pull the cards closer to the search box while keeping bottom breathing room.",
+  "current_status": "Hero/features gap reduced; Laravel 8000, Vite 5173."}

@@ -1,0 +1,4 @@
+{
+  "summary": "حذف import های اضافی tailwindcss/components و tailwindcss/utilities از app.css. در Tailwind CSS v4 با @tailwindcss/vite plugin، فقط @import 'tailwindcss' کافی است و تمام لایه‌ها خودکار لود می‌شوند.",
+  "current_status": "Import های اضافی حذف شدند. باید خطا برطرف شود."
+}

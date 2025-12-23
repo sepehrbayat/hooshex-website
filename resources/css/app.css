@@ -1,0 +1,84 @@
+/**
+ * Main CSS Entry Point
+ * 
+ * Structure:
+ * - Base: Typography, fonts, resets
+ * - Components: Reusable component styles (prefer Blade Components when possible)
+ * - Utilities: Utility classes and helpers
+ * - Pages: Page-specific styles (use @push('styles') in Blade instead)
+ * - Vendors: Third-party library overrides
+ */
+
+/* All @import statements must come first (before @source and @theme) */
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn/Vazirmatn-font-face.css');
+@import 'tailwindcss';
+
+/* Base Layer */
+@import './base/fonts.css';
+@import './base/typography.css';
+
+/* Components Layer */
+@import './components/buttons.css';
+@import './components/cards.css';
+@import './components/forms.css';
+@import './components/liquid-glass.css';
+@import './components/swiper.css';
+@import './components/hero.css';
+@import './components/features.css';
+@import './components/ai-bot.css';
+@import './components/sections.css';
+
+/* Utilities Layer */
+@import './utilities/rtl.css';
+@import './utilities/animations.css';
+@import './utilities/layout.css';
+
+/* Source directives come after all imports */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Vendors Layer */
+/* Import third-party library overrides here if needed */
+/* @import 'vendors/select2.css'; */
+
+/* Pages Layer */
+/* Use @push('styles') in Blade files instead of creating files here */
+/* Only create files here for complex page-specific styles */
+/* @import 'pages/dashboard.css'; */
+
+@theme {
+    --font-sans: 'Vazirmatn', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    /* Brand colors */
+    --color-primary-50: rgba(119, 95, 238, 0.1);
+    --color-primary-400: #442CBB;
+    --color-primary-500: #775FEE;
+    --color-primary-600: #5537EA;
+    --color-primary-800: #22165E;
+    --color-accent-400: rgba(235, 85, 200, 0.36);
+    --color-accent-500: #EB55C8;
+    --color-surface: #FCF1FB;
+    --color-surface-light: #F5F5F5;
+    --color-text-primary: #22165E;
+    --color-text-secondary: #2D2D2D;
+    --color-text-muted: #AAAAAA;
+    /* Radii */
+    --radius-pill: 32px;
+    --radius-card: 16px;
+    --radius-btn: 8px;
+}
+
+@layer base {
+    body {
+        @apply bg-surface text-text-secondary antialiased;
+        font-family: var(--font-sans);
+    }
+
+    /* Hide elements with x-cloak until Alpine.js is ready */
+    /* Note: !important is necessary here for Alpine.js to work correctly */
+    [x-cloak] {
+        display: none !important;
+    }
+}

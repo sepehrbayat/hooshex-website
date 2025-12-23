@@ -1,0 +1,3 @@
+{
+  "summary": "Advised on logged-out UI: keep cart visible across breakpoints, add profile/login affordance, and ensure cart taps redirect to auth if needed.",
+  "current_status": "Awaiting decision on logged-out header icons/CTA; no code changes made."}

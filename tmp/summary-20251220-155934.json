@@ -1,0 +1,4 @@
+{
+  "summary": "اصلاح features.css: حذف استفاده از @apply card-feature در .feature-card. در Tailwind CSS v4 نمی‌توان از کلاس component در @apply کلاس component دیگر استفاده کرد. محتوای card-feature مستقیماً در feature-card کپی شد.",
+  "current_status": "مشکل @apply card-feature برطرف شد. باید خطا حل شود."
+}

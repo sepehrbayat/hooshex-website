@@ -1,0 +1,3 @@
+{
+  "summary": "Reduced glow footprint behind mockup: shrunk pink to 56x56 (blur 110) and purple to 64x64 (blur 120) with slight opacity boost so color remains but edges stay contained, minimizing any section borders.",
+  "current_status": "Super App section transparent; right-aligned text/CTA; tighter, softer glows to avoid visible boundaries."}

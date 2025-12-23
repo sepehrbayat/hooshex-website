@@ -1,0 +1,4 @@
+{
+  "summary": "Rebuilt hero per Figma spec with in-code layout, wave SVG, gradient frame, blur glow, and real hero PNG; wired nav links to real anchors/routes; added contact CTA and exposed figma assets to public.",
+  "current_status": "Homepage header/hero now code-based with figma assets; downstream sections remain coded with tokens; ready for asset refinement if better renders provided."
+}

@@ -1,0 +1,5 @@
+{
+  "summary": "اصلاحات AI Bot section در desktop: 1) Container: lg:max-w-[1218px] و lg:px-[111px] برای centering در desktop. 2) Pink Form: lg:absolute lg:left-[381px] lg:top-0 lg:w-[758px] lg:min-w-[643px] lg:h-[241px] lg:p-6 برای اندازه‌های دقیق desktop. همه تغییرات مطابق desktop-figma.css اعمال شد.",
+  "current_status": "AI Bot section در desktop اصلاح شد: container و form positioning و اندازه‌ها مطابق desktop-figma.css تنظیم شدند."
+}
+

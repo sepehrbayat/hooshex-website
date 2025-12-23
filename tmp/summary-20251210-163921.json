@@ -1,0 +1,3 @@
+{
+  "summary": "Anchored Super App text stack to the right by constraining it with max-w-xl and self-end while keeping items-end/text-right, so badge/heading/body/CTA share the right axis without centering drift.",
+  "current_status": "Super App section stays transparent with soft glows; text and CTA should now align consistently on the right edge."}

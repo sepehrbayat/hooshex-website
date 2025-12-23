@@ -1,0 +1,3 @@
+{
+  "summary": "Raised the pink halo behind the AI vector on mobile (top from 200px to 150px) while keeping md/lg unchanged.",
+  "current_status": "Halo position adjusted upward on mobile; other hero tweaks remain."}

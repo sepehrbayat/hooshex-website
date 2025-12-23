@@ -1,0 +1,3 @@
+{
+  "summary": "Installed npm deps, fixed console import:legacy registration, started Laravel on :8000 and Vite on :5173.",
+  "current_status": "Dev servers running (php artisan serve :8000, Vite :5173); homepage ready to view."}

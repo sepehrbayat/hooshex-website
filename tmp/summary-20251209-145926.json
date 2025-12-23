@@ -1,0 +1,3 @@
+{
+  "summary": "Applied full polish: search icon now a submit button with focus/aria; added width/height to key images to reduce CLS; added hover to secondary buttons; improved alt texts; linked خدمات nav to features; mobile menu highlights خانه. Rebuilt assets to update manifest.",
+  "current_status": "UX tweaks live; assets rebuilt. Laravel 8000, Vite 5173."}

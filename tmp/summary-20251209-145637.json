@@ -1,0 +1,3 @@
+{
+  "summary": "Polished UX per review: linked nav “خدمات” to features; mobile menu highlights home; added hover lift/opacity to gradient CTAs; added focus ring to hero search; improved alt texts; reduced hero bottom padding and features top padding already. Rebuilt assets to update manifest.",
+  "current_status": "Polish applied; assets rebuilt. Laravel 8000, Vite 5173."}

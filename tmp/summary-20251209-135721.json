@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed Tailwind unknown bg-surface by defining brand tokens in app.css @theme; restarted Vite (now on 5174) and artisan serve.",
+  "current_status": "Servers: Laravel :8000, Vite :5174. Custom colors/radii available (bg-surface etc.)."
+}

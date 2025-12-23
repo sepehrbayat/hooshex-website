@@ -1,0 +1,3 @@
+{
+  "summary": "Increased mobile gap between hero title and search by raising column gap to improve spacing.",
+  "current_status": "Mobile hero spacing refined; heading-search gap widened while md+ remains unchanged."}

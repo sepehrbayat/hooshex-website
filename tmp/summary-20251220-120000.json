@@ -1,0 +1,5 @@
+{
+  "summary": "Features section در تبلت بهبود یافت: کارت‌ها width و height مطابق Figma تنظیم شد (Courses: 184px/196px, Roadmap: 124px/196px, Super App: 166px/196px, Learn: 195px/196px). Icon size در تبلت 99px باقی ماند (نه 120px). Gap بین کارت‌ها در تبلت به 13px تغییر کرد (از 24px). Padding section به 56px (px-14) تنظیم شد. Typography در تبلت font-size 20px و line-height 30px برای headings، font-size 14px و line-height 21px برای paragraphs.",
+  "current_status": "Hero و Features sections در تبلت بهبود یافتند. در حال ادامه بررسی سایر sections."
+}
+

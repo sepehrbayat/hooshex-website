@@ -1,0 +1,3 @@
+{
+  "summary": "Lowered phone mockup for better balance: parent grid now lg:items-end and image wrapper margin increased to lg:mt-16 (~50px drop).",
+  "current_status": "Super App section transparent with subtle glows; text right-aligned; phone mockup sits lower to align visually with text."}

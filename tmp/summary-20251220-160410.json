@@ -1,0 +1,4 @@
+{
+  "summary": "اصلاح ترتیب @import و @source در app.css برای Tailwind CSS v4: تمام @import ها قبل از @source قرار گرفتند. حذف @import تکراری فونت Vazirmatn از fonts.css. پاک کردن cache. باید خطاهای @import و component classes برطرف شده باشند.",
+  "current_status": "تمام مشکلات شناسایی و اصلاح شدند: ترتیب @import/@source اصلاح شد، @import تکراری حذف شد، cache پاک شد. باید Vite بدون خطا اجرا شود."
+}

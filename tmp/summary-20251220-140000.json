@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل line-height و whitespace برای Hero title و Features paragraph حل شد: 1) Hero h1: md:leading-[36px] (به جای 120px) برای tablet، lg:leading-[91px] (به جای 91.077px) برای desktop، lg:min-h-[179px] lg:h-[179px] اضافه شد. 2) Features paragraph: whitespace-normal برای mobile/desktop، md:whitespace-nowrap فقط برای tablet، min-h-[21px] lg:min-h-[24px] به جای h-[21px]. این باعث می‌شود خطوط روی هم نیفتند.",
+  "current_status": "مشکل line-height و whitespace در Hero و Features sections حل شد. خطوط دیگر روی هم نمی‌افتند."
+}
+

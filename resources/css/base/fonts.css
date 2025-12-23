@@ -1,0 +1,18 @@
+/**
+ * Font Definitions
+ * Vazirmatn font with Persian support
+ * Note: Font import is in app.css to ensure proper ordering
+ */
+
+@layer base {
+    :root {
+        --font-sans: 'Vazirmatn', ui-sans-serif, system-ui, sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+            'Noto Color Emoji';
+    }
+
+    body {
+        font-family: var(--font-sans);
+    }
+}
+

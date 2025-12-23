@@ -1,0 +1,3 @@
+{
+  "summary": "Pinned the Super App text stack to the right by adding lg:ml-auto alongside items-end/text-right/max-w-xl/self-end, keeping CTA wrapper justify-end; this prevents centering drift on wide screens.",
+  "current_status": "Super App section remains transparent with soft glows; text and CTA should align to the right edge even on large viewports."}

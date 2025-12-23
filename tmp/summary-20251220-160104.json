@@ -1,0 +1,4 @@
+{
+  "summary": "اصلاح sections.css: حذف استفاده از @apply section-padding در .section-base و .section-base-surface. در Tailwind CSS v4 نمی‌توان از utility class (یا component class) در @apply استفاده کرد. مقادیر padding مستقیماً در CSS قرار گرفتند.",
+  "current_status": "تمام مشکلات @apply با component/utility classes شناسایی و اصلاح شدند: form-control، card-feature، liquid-glass، section-padding. باید خطاها برطرف شده باشند."
+}

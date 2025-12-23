@@ -1,0 +1,5 @@
+{
+  "summary": "تحلیل دقیق طراحی موبایل Figma برای بخش AI Bot انجام شد. از CSS موبایل Figma مشخص شد که: عنوان top: 4094px، فرم صورتی top: 4134px (40px پایین‌تر)، کارت شیشه‌ای top: 4345px (211px پایین‌تر از فرم). همه با position absolute هستند. کد را اصلاح کردم: عنوان font-size 16px در موبایل، فرم با mt-[40px] (40px از عنوان)، border-radius 24px در موبایل، padding p-4 (16px) در موبایل، min-height 266px، max-width 382px. کارت شیشه‌ای با mt-[211px] (211px از فرم)، border-radius 24px در موبایل، padding p-4 (16px) در موبایل، min-height 141.5px، max-width 344.41px، gap-[48px] بین المان‌های داخلی. همه تغییرات فقط برای موبایل اعمال شد و دسکتاپ/تبلت بدون تغییر باقی ماندند.",
+  "current_status": "تغییرات اعمال شدند. لایوت موبایل بر اساس Figma اصلاح شد: spacing دقیق (40px و 211px)، اندازه‌ها (266px و 141.5px)، border-radius (24px)، padding (16px)، gap (48px). آماده برای تست در مرورگر."
+}
+

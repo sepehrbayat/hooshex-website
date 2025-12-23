@@ -1,0 +1,4 @@
+{
+  "summary": "اصلاح forms.css: حذف استفاده از @apply form-control در .form-select. در Tailwind CSS v4 نمی‌توان از کلاس component در @apply کلاس component دیگر استفاده کرد. محتوای form-control مستقیماً در form-select کپی شد.",
+  "current_status": "مشکل @apply form-control برطرف شد. باید خطا حل شود."
+}

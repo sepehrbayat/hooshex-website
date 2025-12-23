@@ -1,0 +1,5 @@
+{
+  "summary": "Overhauled the Popular Courses component to match the soft, centered cyberpunk design: card bg switched to light purple with large rounding, removed borders/shadows, centered typography, floating images, solid pink badge, and pink outline pill CTA; layout remains responsive grid. Replaced prior inline section earlier; vectors already in public.",
+  "current_status": "Popular Courses component now matches target visual style; todos remain completed."
+}
+

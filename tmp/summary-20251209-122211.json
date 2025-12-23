@@ -1,0 +1,4 @@
+{
+  "summary": "Implemented backend/database completion: added enums, policies, Sanctum/api otp + payment checkout/callback, Meilisearch searchables, Filament resources (AI tools, posts, courses), LMS enrollment middleware/player stub, import hardening for orders, seeds, ops providers for Horizon/Telescope, and tests for OTP/AiTool filter.",
+  "current_status": "All plan todos marked completed; pending env configuration and runtime validation (DB/Redis/Meilisearch/SMS.ir/Zarinpal)."
+}

@@ -1,0 +1,3 @@
+{
+  "summary": "Deepened visual hierarchy: increased phone wrapper offset to lg:pt-48 so the mockup sits much lower, giving the text clear priority and more negative space between headline/paragraph and phone. Mobile remains unchanged.",
+  "current_status": "Super App section transparent with subtle glows; text right-aligned; phone is now anchored lower on desktop."}

@@ -1,0 +1,5 @@
+{
+  "summary": "Fixed testimonials title alignment: Changed from justify-end to justify-start to position title on the right side in RTL layout. In RTL, justify-start aligns to the right (visual right), while justify-end aligns to the left. Title 'درباره ما چی میگن؟' now correctly positioned on the right side above Nastaran's card.",
+  "current_status": "Testimonials title alignment fixed - now positioned on the right side in RTL layout. Ready for browser testing."
+}
+

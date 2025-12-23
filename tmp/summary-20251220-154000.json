@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل centering در AI Bot section: lg:px-0 xl:px-0 به lg:mx-auto xl:mx-auto تغییر کرد تا container درست وسط قرار بگیرد. mx-auto باید container را در وسط صفحه قرار دهد.",
+  "current_status": "AI Bot section: padding حذف شد و mx-auto برای centering اضافه شد."
+}
+

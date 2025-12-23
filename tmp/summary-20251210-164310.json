@@ -1,0 +1,3 @@
+{
+  "summary": "Found root cause: parent wrapper had base items-center on the flex layout, centering the entire text column; grid item default stretch plus max-w caused the stack to float center. Fixed by removing base items-center on the wrapper and pinning the text column with lg:justify-self-end (keeping items-end/text-right). CTA wrapper already justify-end, so badge/title/text/button now align on the right axis.",
+  "current_status": "Super App section transparent with soft glows; text stack uses items-end/text-right and justify-self-end on lg while wrapper no longer centers items."}

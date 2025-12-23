@@ -1,0 +1,4 @@
+{
+  "summary": "کاربر درخواست کرد که با استفاده از browser automation صفحه را مشاهده کنم و جزئیات را با طراحی Figma مقایسه کنم. من صفحه را در مرورگر باز کردم و داده‌های کامل طراحی را از Figma دریافت کردم. سپس بخش Career Paths را به صورت دقیق بررسی کردم و چند تفاوت پیدا و اصلاح کردم: 1) دکمه 'مشاهده جزئیات' باید border-2 (نه border-1)، width 126px، و padding 10px 24px داشته باشد. 2) Header کارت باید top: 18px (نه pt-3 = 12px) و width: 263px, height: 23.62px داشته باشد. 3) Content container باید width: 248px با px-5 (20px) padding داشته باشد. 4) Image spacing باید margin-top: 17px داشته باشد. این تغییرات اعمال شدند.",
+  "current_status": "بخش Career Paths اصلاح شد. باید به بررسی سایر بخش‌ها ادامه دهم: Hero section، Counter section، Super App، Popular Courses، AI Bot، Instagram، Testimonials، Blog، Contact، و Banner را باید بررسی و اصلاح کنم."
+}

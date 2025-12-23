@@ -1,0 +1,135 @@
+{
+  "images": [
+    {
+      "filename": "image-1.png",
+      "nodeId": "33453:11379",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-2.png",
+      "nodeId": "33453:11380",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-3.png",
+      "nodeId": "33453:11382",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-4.png",
+      "nodeId": "I33453:11383;33439:12249",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-5.png",
+      "nodeId": "I33465:11746;4223:1557",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-6.png",
+      "nodeId": "I33465:11747;4223:1561",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-7.png",
+      "nodeId": "I33465:11748;4223:1566",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-8.png",
+      "nodeId": "I33465:11749;4223:1570",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-9.png",
+      "nodeId": "I33453:12373;33456:11831",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-10.png",
+      "nodeId": "I33459:11575;33456:11831",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-11.png",
+      "nodeId": "I33459:11616;33456:11831",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-12.png",
+      "nodeId": "I33453:12374;33456:11831",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-13.png",
+      "nodeId": "33461:11668",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-14.png",
+      "nodeId": "I33463:11904;7260:14512",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-15.png",
+      "nodeId": "I33463:11905;7260:14512",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-16.png",
+      "nodeId": "33473:12091",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-17.png",
+      "nodeId": "I33463:11907;7260:14512",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-18.png",
+      "nodeId": "33476:12136",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-19.png",
+      "nodeId": "I33465:12072;5438:7969",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-20.png",
+      "nodeId": "I33465:12073;5438:7969",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-21.png",
+      "nodeId": "I33465:12074;5438:7969",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-22.png",
+      "nodeId": "I33465:12075;5438:7969",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-23.png",
+      "nodeId": "33468:12615",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-24.png",
+      "nodeId": "I33468:12629;3505:778",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-25.png",
+      "nodeId": "I33468:12629;3505:781",
+      "placeholder": "https://placehold.co/400x300"
+    },
+    {
+      "filename": "image-26.png",
+      "nodeId": "I33468:12629;3505:784",
+      "placeholder": "https://placehold.co/400x300"
+    }
+  ],
+  "generatedAt": "2025-12-09T09:42:20.455Z"
+}

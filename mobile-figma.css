@@ -1,0 +1,11614 @@
+/* Phone */
+
+position: relative;
+width: 430px;
+height: 5670px;
+
+/* Secondary/Background Color/Background */
+background: #FCF1FB;
+
+
+/* Hero */
+
+position: absolute;
+height: 74px;
+left: 0px;
+right: -3px;
+top: 0px;
+
+
+
+/* Hero Items */
+
+position: absolute;
+height: 527px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+/* 100
+
+Text
+*/
+background: #FCF1FB;
+
+
+/* Frame 1890167578 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 192px;
+
+position: absolute;
+height: 41.57px;
+left: 25px;
+right: 27px;
+top: 16px;
+
+
+
+/* Frame 1890167577 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 64px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/menu */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/menu */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* menu */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 29.17%;
+bottom: 70.83%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 50%;
+bottom: 50%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 70.83%;
+bottom: 29.17%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* vuesax/linear/shopping-cart */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/shopping-cart */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* shopping-cart */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 10.22%;
+top: 8.33%;
+bottom: 29.21%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 62.5%;
+right: 27.08%;
+top: 81.25%;
+bottom: 8.33%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 60.42%;
+top: 81.25%;
+bottom: 8.33%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 12.5%;
+top: 33.33%;
+bottom: 66.67%;
+
+/* Text Color/200 */
+border: 1.5px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 145px;
+height: 41.57px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 145px;
+height: 41.57px;
+
+background: url(Untitled design (2).png);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 371 */
+
+position: absolute;
+width: 241px;
+height: 217px;
+left: 96px;
+top: 228px;
+
+
+
+/* Ellipse 77 */
+
+position: absolute;
+width: 128px;
+height: 128px;
+left: 96px;
+top: 307px;
+
+/* Secondary/500 */
+background: #EB55C8;
+opacity: 0.52;
+filter: blur(21.25px);
+
+
+/* d076daf1-1217-41d5-aa48-12a4a48d64fa 1 */
+
+position: absolute;
+width: 227px;
+height: 217px;
+left: calc(50% - 227px/2 + 7px);
+top: 228px;
+
+background: url(d076daf1-1217-41d5-aa48-12a4a48d64fa.png);
+
+
+/* Final Footer Mobile */
+
+position: absolute;
+height: 320px;
+left: 0px;
+right: 0px;
+bottom: -9px;
+
+
+
+/* Footer */
+
+position: absolute;
+width: 430px;
+height: 9.92px;
+left: calc(50% - 430px/2);
+top: 0px;
+
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0%;
+bottom: 96.9%;
+
+/* Secondary/500 */
+background: #EB55C8;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* BG Footer */
+
+position: absolute;
+height: 310px;
+left: 0px;
+right: 0px;
+top: 10px;
+
+/* Primary/800 */
+background: #22165E;
+
+
+/* Frame 1890167388 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 86px;
+height: 21px;
+right: 67px;
+top: 113px;
+
+
+
+/* Frame 1890167387 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 86px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167582 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 68px;
+
+position: absolute;
+height: 217px;
+left: -32px;
+right: 32px;
+top: 24px;
+
+
+
+/* Frame 1890167395 */
+
+width: 179px;
+height: 217px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* لینک های مفید */
+
+position: absolute;
+width: 86px;
+height: 21px;
+left: 93px;
+top: 2px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+
+
+
+/* Frame 1890167394 */
+
+position: absolute;
+width: 179px;
+height: 169px;
+right: 0px;
+top: 48px;
+
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 115px;
+height: 18px;
+left: 64px;
+top: 0px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 99px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 121px;
+height: 18px;
+left: 58px;
+top: 37px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 104px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 84px;
+height: 18px;
+left: 95px;
+top: 74px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 72px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 120px;
+height: 18px;
+left: 58px;
+top: 111px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 104px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 108px;
+height: 18px;
+left: 70px;
+top: 148px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 94px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167397 */
+
+width: 187px;
+height: 214px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1890167395 */
+
+position: absolute;
+width: 179px;
+height: 217px;
+left: 8px;
+top: 0px;
+
+
+
+/* دوره های محبوب */
+
+position: absolute;
+width: 97px;
+height: 21px;
+left: 82px;
+top: 2px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+
+
+
+/* Frame 1890167394 */
+
+position: absolute;
+width: 176px;
+height: 169px;
+right: 3px;
+top: 48px;
+
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 171px;
+height: 18px;
+left: 5px;
+top: 0px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 149px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 122px;
+height: 18px;
+left: 54px;
+top: 37px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 107px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 161px;
+height: 18px;
+left: 15px;
+top: 74px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 141px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 123px;
+height: 18px;
+left: 53px;
+top: 111px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 108px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 141px;
+height: 18px;
+left: 35px;
+top: 148px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 124px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 141px;
+height: 18px;
+left: 35px;
+top: 148px;
+
+
+
+/* دوره طراحی رابط کاربری بینهایت */
+
+width: 124px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167397 */
+
+position: absolute;
+width: 0px;
+height: 220px;
+left: 0px;
+top: -7px;
+
+
+
+/* Line 3 */
+
+position: absolute;
+width: 220px;
+left: calc(50% - 220px/2 + 110px);
+top: 0px;
+bottom: 220px;
+
+transform: rotate(90deg);
+
+
+/* Frame 1890167583 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 179px;
+
+position: absolute;
+height: 24px;
+left: 32px;
+right: 32px;
+top: 277px;
+
+
+
+/* Frame 1890167581 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 214px;
+
+width: 91px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167404 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 24px;
+
+width: 88px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167400 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 88px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Namad */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 9.31px;
+
+width: 90.61px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 261 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 98 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+/* Foundation/Bright */
+background: #F5F5F5;
+border-radius: 3.38395px;
+
+
+/* etehadiye */
+
+position: absolute;
+width: 18.08px;
+height: 19.07px;
+left: 2.96px;
+top: 2.3px;
+
+background: url(etehadiye.png);
+
+
+/* Group 262 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 98 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 33.31px;
+top: 0px;
+
+/* Foundation/Bright */
+background: #F5F5F5;
+border-radius: 3.38395px;
+
+
+/* logo (1) */
+
+position: absolute;
+width: 18.08px;
+height: 19.07px;
+left: 36.26px;
+top: 2.3px;
+
+background: url(logo (1).png);
+
+
+/* Group 263 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Rectangle 98 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 66.61px;
+top: 0px;
+
+/* Foundation/Bright */
+background: #F5F5F5;
+border-radius: 3.38395px;
+
+
+/* logo */
+
+position: absolute;
+width: 18.08px;
+height: 19.07px;
+left: 69.57px;
+top: 2.63px;
+
+background: url(logo.png);
+
+
+/* Frame 1890167417 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 96px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Social Icons */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Foundation/Icon Default */
+background: #E0E0E0;
+
+
+/* Social Icons */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Foundation/Icon Default */
+background: #E0E0E0;
+
+
+/* Social Icons */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0.06%;
+top: 0%;
+bottom: 0.02%;
+
+/* Foundation/Icon Default */
+background: #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 24.32%;
+right: 24.32%;
+top: 24.32%;
+bottom: 24.32%;
+
+/* Foundation/Icon Default */
+background: #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.7%;
+right: 17.3%;
+top: 17.3%;
+bottom: 70.71%;
+
+/* Foundation/Icon Default */
+background: #E0E0E0;
+
+
+/* Social Icons */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 7.93%;
+bottom: 9.21%;
+
+/* Foundation/Icon Default */
+background: #E0E0E0;
+
+
+/* Frame 1890167665 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+height: 513px;
+left: 24px;
+right: 24px;
+top: 3542px;
+
+
+
+/* Frame 1890167422 */
+
+width: 382px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167412 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+position: absolute;
+width: 376px;
+height: 28px;
+left: 0px;
+top: 0px;
+
+
+
+/* Frame 1890167411 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 2px;
+gap: 4px;
+
+margin: 0 auto;
+width: 102px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* arrow-left */
+
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.36%;
+right: 83.58%;
+top: 33.5%;
+bottom: 33.5%;
+
+border: 1.5px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 7.84%;
+right: 78.43%;
+top: 25%;
+bottom: 25%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* همه دوره‌ها */
+
+width: 74px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* دوره ‌های محبوب هوشکس */
+
+margin: 0 auto;
+width: 174px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1890167313 */
+
+position: absolute;
+width: 98px;
+height: 21px;
+left: 1070px;
+top: 126.21px;
+
+
+
+/* Mobile */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 24px 20px;
+gap: 16px;
+
+width: 394px;
+height: 459px;
+overflow-x: scroll;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* product-cards/product-card-new */
+
+width: 292px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Item 2 */
+
+position: absolute;
+width: 252px;
+height: 24px;
+left: calc(50% - 252px/2 - 0px);
+top: 16px;
+
+
+
+/* cards/design */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Clip path group */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* clip0_4418_9555 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 9.46%;
+right: 9.46%;
+top: 8.33%;
+bottom: 6.25%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 38.84%;
+right: 38.74%;
+top: 79.92%;
+bottom: 6.25%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 30.21%;
+right: 30.14%;
+top: 44.68%;
+bottom: 20.12%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 50.04%;
+right: 49.96%;
+top: 46.34%;
+bottom: 43.12%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 43.84%;
+right: 43.66%;
+top: 8.33%;
+bottom: 79.17%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 9.46%;
+right: 78.04%;
+top: 46.54%;
+bottom: 40.96%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 78.04%;
+right: 9.46%;
+top: 46.54%;
+bottom: 40.96%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 15.62%;
+right: 56.17%;
+top: 14.84%;
+bottom: 53.46%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 56.34%;
+right: 15.62%;
+top: 14.84%;
+bottom: 53.46%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+position: absolute;
+width: 49px;
+height: 23.62px;
+left: 203px;
+top: 0.19px;
+
+/* Primary/400 */
+background: #775FEE;
+border-radius: 8px;
+
+
+/* جدید */
+
+width: 23px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 161.13px;
+height: 158.22px;
+left: calc(50% - 161.13px/2 + 0.5px);
+top: 72px;
+
+background: url(b060234e-3d10-4ad8-8023-ba73bd391541.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 252px;
+height: 132px;
+left: calc(50% - 252px/2);
+top: 255px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 27px;
+
+position: absolute;
+height: 132px;
+left: 20px;
+right: 20px;
+top: 255px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 252px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* دوره جامع برنامه نویسی فرانت اند */
+
+width: 252px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167550 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 131.2px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name Title */
+
+width: 93px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* حامد عبدی */
+
+position: absolute;
+width: 225px;
+height: 18px;
+right: -0.2px;
+top: 0px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* برنامه نویس Full Stack */
+
+position: absolute;
+width: 225px;
+height: 15px;
+right: -0.2px;
+top: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+right: 0px;
+top: 1.4px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 31.31px;
+height: 33.47px;
+right: -0.55px;
+top: -0.24px;
+
+/* Secondary/500 */
+background: #EB55C8;
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 6.9px;
+top: 8.87px;
+
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.16%;
+top: 8.33%;
+bottom: 50%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.21%;
+right: 14.21%;
+top: 62.5%;
+bottom: 8.33%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 130px;
+height: 24px;
+left: 122px;
+top: 4px;
+
+
+
+/* 3,000,000 تومان */
+
+width: 104px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 112px;
+height: 32px;
+right: 140px;
+top: 0px;
+
+/* Secondary/500 */
+border: 2px solid #EB55C8;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 64px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/500 */
+color: #EB55C8;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* product-cards/product-card-new */
+
+width: 292px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Item 2 */
+
+position: absolute;
+width: 252px;
+height: 24px;
+left: calc(50% - 252px/2 - 0px);
+top: 16px;
+
+
+
+/* cards/ai */
+
+position: absolute;
+visibility: hidden;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+position: absolute;
+width: 49px;
+height: 23.62px;
+left: 203px;
+top: 0.19px;
+
+/* Primary/400 */
+background: #775FEE;
+border-radius: 8px;
+
+
+/* جدید */
+
+width: 23px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 161.13px;
+height: 158.22px;
+left: calc(50% - 161.13px/2 + 0.5px);
+top: 72px;
+
+background: url(7e3999be-9aba-4175-ac02-e9c53b0b4c42.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 252px;
+height: 132px;
+left: calc(50% - 252px/2);
+top: 255px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 27px;
+
+position: absolute;
+height: 132px;
+left: 20px;
+right: 20px;
+top: 255px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 252px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* دوره جامع برنامه نویسی فرانت اند */
+
+width: 252px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167550 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 131.2px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name Title */
+
+width: 93px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* حامد عبدی */
+
+position: absolute;
+width: 225px;
+height: 18px;
+right: -0.2px;
+top: 0px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* برنامه نویس Full Stack */
+
+position: absolute;
+width: 225px;
+height: 15px;
+right: -0.2px;
+top: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+right: 0px;
+top: 1.4px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 31.31px;
+height: 33.47px;
+right: -0.55px;
+top: -0.24px;
+
+/* Secondary/500 */
+background: #EB55C8;
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 6.9px;
+top: 8.87px;
+
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.16%;
+top: 8.33%;
+bottom: 50%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.21%;
+right: 14.21%;
+top: 62.5%;
+bottom: 8.33%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 130px;
+height: 24px;
+left: 122px;
+top: 4px;
+
+
+
+/* 3,000,000 تومان */
+
+width: 107px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 112px;
+height: 32px;
+right: 140px;
+top: 0px;
+
+/* Secondary/500 */
+border: 2px solid #EB55C8;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 64px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/500 */
+color: #EB55C8;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* product-cards/product-card-new */
+
+width: 292px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Item 2 */
+
+position: absolute;
+width: 252px;
+height: 24px;
+left: calc(50% - 252px/2 - 0px);
+top: 16px;
+
+
+
+/* cards/design */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Clip path group */
+
+position: absolute;
+visibility: hidden;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* clip0_4418_9555 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 9.46%;
+right: 9.46%;
+top: 8.33%;
+bottom: 6.25%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 38.84%;
+right: 38.74%;
+top: 79.92%;
+bottom: 6.25%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 30.21%;
+right: 30.14%;
+top: 44.68%;
+bottom: 20.12%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 50.04%;
+right: 49.96%;
+top: 46.34%;
+bottom: 43.12%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 43.84%;
+right: 43.66%;
+top: 8.33%;
+bottom: 79.17%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 9.46%;
+right: 78.04%;
+top: 46.54%;
+bottom: 40.96%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 78.04%;
+right: 9.46%;
+top: 46.54%;
+bottom: 40.96%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 15.62%;
+right: 56.17%;
+top: 14.84%;
+bottom: 53.46%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 56.34%;
+right: 15.62%;
+top: 14.84%;
+bottom: 53.46%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+position: absolute;
+width: 55px;
+height: 23.62px;
+left: 203px;
+top: 0.19px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+
+/* محبوب */
+
+width: 29px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 161.13px;
+height: 158.22px;
+left: calc(50% - 161.13px/2 + 0.5px);
+top: 72px;
+
+background: url(ad834bda-bcf8-411e-94e3-ffd178e4c1b6.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 252px;
+height: 132px;
+left: calc(50% - 252px/2);
+top: 255px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 27px;
+
+position: absolute;
+height: 132px;
+left: 20px;
+right: 20px;
+top: 255px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 252px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* دوره جامع برنامه نویسی فرانت اند */
+
+width: 252px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167550 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 131.2px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name Title */
+
+width: 93px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* حامد عبدی */
+
+position: absolute;
+width: 225px;
+height: 18px;
+right: -0.2px;
+top: 0px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* برنامه نویس Full Stack */
+
+position: absolute;
+width: 225px;
+height: 15px;
+right: -0.2px;
+top: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+right: 0px;
+top: 1.4px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 31.31px;
+height: 33.47px;
+right: -0.55px;
+top: -0.24px;
+
+/* Secondary/500 */
+background: #EB55C8;
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 6.9px;
+top: 8.87px;
+
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.16%;
+top: 8.33%;
+bottom: 50%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.21%;
+right: 14.21%;
+top: 62.5%;
+bottom: 8.33%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 130px;
+height: 24px;
+left: 122px;
+top: 4px;
+
+
+
+/* 3,000,000 تومان */
+
+width: 103px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 112px;
+height: 32px;
+right: 140px;
+top: 0px;
+
+/* Secondary/500 */
+border: 2px solid #EB55C8;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 64px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/500 */
+color: #EB55C8;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* product-cards/product-card-new */
+
+width: 292px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Item 2 */
+
+position: absolute;
+width: 252px;
+height: 24px;
+left: calc(50% - 252px/2 - 0px);
+top: 16px;
+
+
+
+/* cards/video */
+
+position: absolute;
+visibility: hidden;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+position: absolute;
+width: 88px;
+height: 23.62px;
+left: 164px;
+top: 0px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+
+/* جدید */
+
+width: 62px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 161.13px;
+height: 158.22px;
+left: calc(50% - 161.13px/2 + 0.5px);
+top: 72px;
+
+background: url(d95395dc-49fd-47df-bafd-6bf324d80ff5.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 252px;
+height: 132px;
+left: calc(50% - 252px/2);
+top: 255px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+height: 132px;
+left: 20px;
+right: 20px;
+top: 255px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 252px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* تولید محتوا با هوش مصنوعی */
+
+width: 252px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167550 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 131.2px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Name Title */
+
+width: 93px;
+height: 33px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* امید توتونچی */
+
+position: absolute;
+width: 225px;
+height: 18px;
+right: -0.2px;
+top: 0px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* تدوینگر فیلم */
+
+position: absolute;
+width: 225px;
+height: 15px;
+right: -0.2px;
+top: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+right: 0px;
+top: 1.4px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 31.31px;
+height: 33.47px;
+right: -0.55px;
+top: -0.24px;
+
+/* Secondary/500 */
+background: #EB55C8;
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+right: 6.9px;
+top: 8.87px;
+
+
+
+/* vuesax/linear/user */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* user */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 29.16%;
+top: 8.33%;
+bottom: 50%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.21%;
+right: 14.21%;
+top: 62.5%;
+bottom: 8.33%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+isolation: isolate;
+
+width: 252px;
+height: 47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,000,000 تومان */
+
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/700 */
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 252px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 130px;
+height: 24px;
+left: 122px;
+top: 4px;
+
+
+
+/* 3,000,000 تومان */
+
+width: 104px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 112px;
+height: 32px;
+right: 140px;
+top: 0px;
+
+/* Secondary/500 */
+border: 2px solid #EB55C8;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 64px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/500 */
+color: #EB55C8;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group 318 */
+
+position: absolute;
+width: 430px;
+height: 131px;
+left: 0px;
+top: 4526px;
+
+
+
+/* Frame 1890167648 */
+
+position: absolute;
+height: 120px;
+left: 0px;
+right: 0px;
+top: 4537px;
+
+/* 100
+
+Text
+*/
+background: #FCF1FB;
+
+
+/* Frame 1890167653 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 0px;
+gap: 22.45px;
+
+position: absolute;
+width: 310.01px;
+height: 89px;
+left: calc(50% - 310.01px/2 + 0.5px);
+top: 4526px;
+
+
+
+/* Frame 1890167652 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 13.47px;
+
+width: 197.56px;
+height: 77.47px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ما هر روز کلی مطلب آموزشی جالب در اینستاگراممون منتشر میکنیم ! */
+
+width: 197.56px;
+height: 40px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 13.4702px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 7.5px 18px;
+gap: 6px;
+
+width: 119px;
+height: 24px;
+
+/* Secondary/500 */
+border: 1.5px solid #EB55C8;
+border-radius: 6px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/arrow-left */
+
+width: 12px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/arrow-left */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+
+
+/* arrow-left */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 25.03%;
+right: 25%;
+top: 23.33%;
+bottom: 23.38%;
+
+/* Secondary/500 */
+border: 1.125px solid #EB55C8;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* متن دکمه */
+
+width: 65px;
+height: 14px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 9px;
+line-height: 14px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/500 */
+color: #EB55C8;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* abstract logo instagram */
+
+width: 90px;
+height: 89px;
+
+background: url(.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 308 */
+
+position: absolute;
+width: 382px;
+height: 392.5px;
+left: calc(50% - 382px/2);
+top: 4094px;
+
+
+
+/* Group 310 */
+
+position: absolute;
+width: 382px;
+height: 352.5px;
+left: 24px;
+top: 4134px;
+
+
+
+/* Ai Form Mobile */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+align-content: center;
+padding: 16px 16px 24px;
+gap: 16px;
+
+position: absolute;
+width: 382px;
+min-width: 332px;
+height: 266px;
+left: 24px;
+top: 4134px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 24px;
+
+
+/* Frame 1890167560 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 12px;
+
+width: 167px;
+min-width: 120px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* نام خانوادگی */
+
+width: 167px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Glass text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+width: 167px;
+height: 40px;
+
+/* Foundation/Low Op. Default/10% Default
+
+for Glass 
+*/
+background: rgba(224, 224, 224, 0.16);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* متن ورودی */
+
+width: 80px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+color: rgba(0, 0, 0, 0.25);
+font-variation-settings: 'DOTS' 7;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167559 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 12px;
+
+width: 167px;
+min-width: 120px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* نام */
+
+width: 167px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Glass text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+width: 167px;
+height: 40px;
+
+/* Foundation/Low Op. Default/10% Default
+
+for Glass 
+*/
+background: rgba(224, 224, 224, 0.16);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* متن ورودی */
+
+width: 19px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+color: rgba(0, 0, 0, 0.25);
+font-variation-settings: 'DOTS' 7;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167558 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 12px;
+
+width: 164px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* علاقه مندی ها */
+
+width: 164px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Glass text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 16px;
+gap: 4px;
+isolation: isolate;
+
+width: 164px;
+height: 40px;
+
+/* Foundation/Low Op. Default/10% Default
+
+for Glass 
+*/
+background: rgba(224, 224, 224, 0.16);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* متن ورودی */
+
+width: 82px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* vuesax/linear/arrow-down */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 10px;
+top: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* vuesax/linear/arrow-down */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* arrow-down */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17%;
+right: 17%;
+top: 37.29%;
+bottom: 33.13%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* Frame 1890167561 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 12px;
+
+width: 170px;
+min-width: 120px;
+height: 73px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+
+/* شماره تماس */
+
+width: 170px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/White */
+color: #FFFFFF;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Glass text field */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+width: 170px;
+height: 40px;
+
+/* Foundation/Low Op. Default/10% Default
+
+for Glass 
+*/
+background: rgba(224, 224, 224, 0.16);
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* متن ورودی */
+
+width: 90px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+color: rgba(0, 0, 0, 0.25);
+font-variation-settings: 'DOTS' 7;
+
+opacity: 0.4;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ai Generat Mobile */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 48px;
+
+position: absolute;
+width: 344.41px;
+min-width: 298px;
+height: 141.5px;
+left: calc(50% - 344.41px/2 - 0.51px);
+top: 4345px;
+
+/* Foundation/Low Op. Default/10% Default
+
+for Glass 
+*/
+background: rgba(224, 224, 224, 0.16);
+/* Glass */
+border-radius: 24px;
+
+
+/* Frame 1890167564 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 212px;
+
+width: 312.41px;
+height: 29.3px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 300 */
+
+width: 32px;
+height: 29.3px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Star 1 */
+
+position: absolute;
+width: 26.42px;
+height: 26.42px;
+left: 0px;
+top: 2.89px;
+
+/* Gradient/2 */
+background: linear-gradient(262.08deg, #1C41B0 -8.02%, #7B41C6 47.83%, #9F41DA 98.37%);
+
+
+/* Star 2 */
+
+position: absolute;
+width: 13.21px;
+height: 13.21px;
+left: 18.79px;
+top: 0px;
+
+/* Gradient/2 */
+background: linear-gradient(262.08deg, #1C41B0 -8.02%, #7B41C6 47.83%, #9F41DA 98.37%);
+opacity: 0.5;
+border-radius: 0.5px;
+
+
+/* Star 3 */
+
+position: absolute;
+width: 7.92px;
+height: 7.92px;
+left: 1.25px;
+top: 4.83px;
+
+/* Gradient/2 */
+background: linear-gradient(262.08deg, #1C41B0 -8.02%, #7B41C6 47.83%, #9F41DA 98.37%);
+opacity: 0.2;
+border-radius: 0.2px;
+
+
+/* چه دوره ای مناسب منه؟ */
+
+width: 155px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 1890167563 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 58px;
+
+width: 312.41px;
+height: 32.25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Group 299 */
+
+margin: 0 auto;
+width: 201.71px;
+height: 32.25px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+position: absolute;
+width: 110px;
+height: 32px;
+left: 91.71px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 8px;
+
+
+/* vuesax/linear/link */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/link */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* link */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 62.46%;
+right: 8.33%;
+top: 27.08%;
+bottom: 27.09%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 62.5%;
+top: 27.08%;
+bottom: 27.09%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.34%;
+top: 50%;
+bottom: 50%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* متن دکمه */
+
+width: 54px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/400 */
+color: #775FEE;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0.25px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+
+/* متن دکمه */
+
+display: none;
+width: 48px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Bright */
+color: #F5F5F5;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/send */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.99%;
+right: 13%;
+top: 12.99%;
+bottom: 12.99%;
+
+/* Foundation/Bright */
+border: 1.5px solid #F5F5F5;
+
+
+/* Vector */
+
+position: absolute;
+left: 42.13%;
+right: 42.96%;
+top: 41.92%;
+bottom: 43.12%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+margin: 0 auto;
+width: 104px;
+height: 32px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/microphone-2 */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/microphone-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* microphone-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.34%;
+top: 8.33%;
+bottom: 35.42%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.13%;
+right: 18.12%;
+top: 40.21%;
+bottom: 20.83%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.21%;
+right: 44.21%;
+top: 25.76%;
+bottom: 73.21%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.67%;
+right: 46.62%;
+top: 35.19%;
+bottom: 64.38%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 79.17%;
+bottom: 8.33%;
+
+/* Primary/400 */
+border: 1.5px solid #775FEE;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* متن دکمه */
+
+width: 48px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/400 */
+color: #775FEE;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Typing */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 1.4px;
+
+position: absolute;
+width: 5.4px;
+height: 30px;
+left: 366px;
+top: 4387.57px;
+
+
+
+/* Flashing line */
+
+width: 0px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Line 63 */
+
+position: absolute;
+left: -inf%;
+right: -inf%;
+top: 0%;
+bottom: 100%;
+
+/* Text Color/400 */
+border: 0.5px solid #AAAAAA;
+transform: rotate(90deg);
+
+
+/* ـ */
+
+width: 4px;
+height: 30px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: right;
+text-transform: lowercase;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/400 */
+color: #AAAAAA;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* چی برام مناسبه؟ */
+
+position: absolute;
+width: 382px;
+height: 24px;
+left: 24px;
+top: 4094px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Frame 1890167666 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 382px;
+height: 145.52px;
+left: 24px;
+top: 4912px;
+
+background: url(Gemini_Generated_Image_2c99jj2c99jj2c99.png);
+
+
+/* Bn 1 Final */
+
+width: 382px;
+height: 145.52px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Slider-Final 1 */
+
+position: absolute;
+width: 381px;
+height: 145.52px;
+left: 0px;
+top: 0px;
+
+background: url(Gemini_Generated_Image_2c99jj2c99jj2c99.png), url(Slider-1.jpg);
+border-radius: 10.16px;
+
+
+/* Bottons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2.11667px 4.23333px;
+gap: 2.12px;
+
+position: absolute;
+width: 44.35px;
+height: 14.82px;
+left: 324.64px;
+top: 109.54px;
+
+/* Text Color/200 */
+border: 0.264583px solid #2D2D2D;
+border-radius: 4.23333px;
+
+
+/* vuesax/linear/arrow-left */
+
+width: 4.76px;
+height: 4.76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/arrow-left */
+
+position: absolute;
+width: 4.76px;
+height: 4.76px;
+left: 0px;
+top: 0px;
+
+
+
+/* arrow-left */
+
+position: absolute;
+width: 4.76px;
+height: 4.76px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 32.93%;
+right: 37.5%;
+top: 17%;
+bottom: 17%;
+
+/* Text Color/200 */
+border: 0.396875px solid #2D2D2D;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* طراح محصول دیجیتال */
+
+width: 29px;
+height: 6px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 3.70417px;
+line-height: 160%;
+/* identical to box height, or 6px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group 370 */
+
+position: absolute;
+width: 435px;
+height: 169px;
+left: -2px;
+top: 86px;
+
+
+
+/* Frame 1890167573 */
+
+position: absolute;
+height: 169px;
+left: -0.47%;
+right: -0.7%;
+top: 86px;
+
+
+
+/* Component 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+height: 56px;
+left: 62px;
+right: 62px;
+top: 88px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 32px;
+
+
+/* Group 111 */
+
+width: 149px;
+height: 28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* دنبال چه دوره‌ای میگردی ؟ */
+
+position: absolute;
+width: 149px;
+height: 28px;
+left: 112px;
+top: 14px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* identical to box height, or 200% */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/500 */
+color: #7F7F7F;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* vuesax/linear/search-normal */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/search-normal */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* search-normal */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 12.5%;
+top: 8.33%;
+bottom: 12.5%;
+
+border: 1.5px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 83.33%;
+right: 8.33%;
+top: 83.33%;
+bottom: 8.33%;
+
+border: 1.5px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890167419 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+height: 73px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+
+
+/* هوشِکس؛ مرجع هوش مصنوعی فارسی */
+
+margin: 0 auto;
+width: 435px;
+height: 73px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Comments */
+
+position: absolute;
+width: 384px;
+height: 177.07px;
+left: 22px;
+top: 4696px;
+
+
+
+/* Frame 1890167671 */
+
+position: absolute;
+width: 125.37px;
+height: 16.47px;
+left: 258.63px;
+top: 0px;
+
+
+
+/* درباره ما چی میگن؟ */
+
+position: absolute;
+width: 125.37px;
+height: 16.47px;
+right: 0px;
+top: 0px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Frame 1890167636 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 15.3766px 11.8619px;
+gap: 4.39px;
+
+position: absolute;
+width: 159px;
+height: 134px;
+left: 20px;
+top: 43.07px;
+
+border-radius: 20px;
+
+
+/* Frame 1890167640 */
+
+width: 135.28px;
+height: 21px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167639 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4.39px;
+
+position: absolute;
+width: 135.28px;
+height: 20.21px;
+left: 0px;
+top: 0px;
+
+
+
+/* Frame 196 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1.31799px 0px;
+gap: 0.88px;
+
+width: 36.67px;
+height: 9.67px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/star */
+
+width: 7.03px;
+height: 7.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Clip path group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* clip0_4418_9900 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.69%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.69%;
+
+background: #EB55C8;
+
+
+/* Group */
+
+width: 6.36px;
+height: 5.81px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.57%;
+right: 61.07%;
+top: 19.94%;
+bottom: 19.94%;
+
+background: #EB55C8;
+
+
+/* Group */
+
+width: 6.36px;
+height: 5.81px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 41.32%;
+right: 41.32%;
+top: 19.94%;
+bottom: 19.94%;
+
+background: #EB55C8;
+
+
+/* Group */
+
+width: 6.36px;
+height: 5.81px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 61.08%;
+right: 21.57%;
+top: 19.94%;
+bottom: 19.94%;
+
+background: #EB55C8;
+
+
+/* vuesax/linear/star */
+
+width: 7.03px;
+height: 7.03px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Clip path group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* clip0_4418_9900 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+/* Secondary/400 */
+border: 0.43933px solid #EF77D3;
+
+
+/* Group */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.69%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.69%;
+
+/* Secondary/Warning/100 */
+border: 0.43933px solid #F5F0B7;
+
+
+/* محمد */
+
+width: 27px;
+height: 16px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 10.5439px;
+line-height: 16px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Avatar */
+
+width: 20.21px;
+height: 20.21px;
+
+background: #EDDDD6;
+box-shadow: 0px 0.878661px 0.878661px rgba(0, 0, 0, 0.25);
+border-radius: 1.88912px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 270 */
+
+position: absolute;
+width: 21.82px;
+height: 22.92px;
+left: -0.8px;
+top: 1.52px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 52.95%;
+right: 32.75%;
+top: 34.62%;
+bottom: 48.6%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 52.95%;
+right: 32.75%;
+top: 34.62%;
+bottom: 48.6%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: -3.98%;
+right: -3.99%;
+top: 53.73%;
+bottom: -20.9%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: -3.98%;
+right: -3.99%;
+top: 53.73%;
+bottom: -20.9%;
+
+background: #7772D3;
+
+
+/* Group */
+
+position: absolute;
+left: 13.58%;
+right: 18.11%;
+top: 53.74%;
+bottom: 12.15%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.58%;
+right: 18.11%;
+top: 53.74%;
+bottom: 12.15%;
+
+background: #9393E5;
+
+
+/* Group */
+
+position: absolute;
+left: 28.1%;
+right: 35.07%;
+top: 59.19%;
+bottom: 24.76%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 28.1%;
+right: 35.07%;
+top: 59.19%;
+bottom: 24.76%;
+
+background: #7772D3;
+
+
+/* Group */
+
+position: absolute;
+left: 37.03%;
+right: 41.7%;
+top: 56.13%;
+bottom: 23.53%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 37.03%;
+right: 41.7%;
+top: 56.13%;
+bottom: 23.53%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 37.03%;
+right: 41.7%;
+top: 56.13%;
+bottom: 23.53%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 37.03%;
+right: 41.7%;
+top: 56.13%;
+bottom: 23.53%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.03%;
+right: 41.7%;
+top: 56.13%;
+bottom: 23.53%;
+
+background: #FCA397;
+
+
+/* Group */
+
+position: absolute;
+left: 39.77%;
+right: 42.8%;
+top: 56.67%;
+bottom: 32.54%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 39.77%;
+right: 42.8%;
+top: 56.67%;
+bottom: 32.54%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 39.77%;
+right: 42.8%;
+top: 56.67%;
+bottom: 32.54%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 39.77%;
+right: 42.8%;
+top: 56.67%;
+bottom: 32.54%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 39.77%;
+right: 42.8%;
+top: 56.67%;
+bottom: 32.54%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 25.92%;
+right: 35.07%;
+top: 19.22%;
+bottom: 36.75%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 25.92%;
+right: 35.07%;
+top: 19.22%;
+bottom: 36.75%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 25.92%;
+right: 35.07%;
+top: 19.22%;
+bottom: 36.75%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 25.92%;
+right: 35.07%;
+top: 19.22%;
+bottom: 36.75%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 25.92%;
+right: 35.07%;
+top: 19.22%;
+bottom: 36.75%;
+
+background: #FCA397;
+
+
+/* Group */
+
+position: absolute;
+left: 55.68%;
+right: 40.99%;
+top: 39.89%;
+bottom: 50.82%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 55.68%;
+right: 40.99%;
+top: 39.89%;
+bottom: 50.82%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 29.67%;
+right: 63.8%;
+top: 43.72%;
+bottom: 49.44%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.67%;
+right: 63.8%;
+top: 43.72%;
+bottom: 49.44%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 29.37%;
+right: 65.71%;
+top: 47.21%;
+bottom: 50.92%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.37%;
+right: 65.71%;
+top: 47.21%;
+bottom: 50.92%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.29%;
+right: 29.24%;
+top: 7.51%;
+bottom: 57.98%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 48.2%;
+right: 49.97%;
+top: 37.07%;
+bottom: 57.98%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 48.2%;
+right: 49.97%;
+top: 37.07%;
+bottom: 57.98%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 58.74%;
+right: 39.36%;
+top: 36.24%;
+bottom: 58.83%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 58.74%;
+right: 39.36%;
+top: 36.24%;
+bottom: 58.83%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 45.33%;
+right: 49.33%;
+top: 32.2%;
+bottom: 64.82%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 45.33%;
+right: 49.33%;
+top: 32.2%;
+bottom: 64.82%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 55.68%;
+right: 38.53%;
+top: 30.52%;
+bottom: 67.03%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 55.68%;
+right: 38.53%;
+top: 30.52%;
+bottom: 67.03%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 19.02%;
+right: 51.31%;
+top: 81.76%;
+bottom: 10.95%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 19.02%;
+right: 51.31%;
+top: 81.76%;
+bottom: 10.95%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: 47.87%;
+right: 50.19%;
+top: 94.35%;
+bottom: -12.25%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 47.87%;
+right: 50.19%;
+top: 94.35%;
+bottom: -12.25%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: 66.55%;
+right: 23.84%;
+top: 91.95%;
+bottom: -7.26%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 66.55%;
+right: 23.84%;
+top: 91.95%;
+bottom: -7.26%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: 74.79%;
+right: 18.13%;
+top: 76.53%;
+bottom: 19.1%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 74.79%;
+right: 18.13%;
+top: 76.53%;
+bottom: 19.1%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: 26.58%;
+right: 59.32%;
+top: 39.63%;
+bottom: 43.35%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 28.81%;
+right: 59.32%;
+top: 39.63%;
+bottom: 43.8%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 28.81%;
+right: 59.32%;
+top: 39.63%;
+bottom: 43.8%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: 31.46%;
+right: 61.05%;
+top: 39.66%;
+bottom: 43.39%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.46%;
+right: 61.05%;
+top: 39.66%;
+bottom: 43.39%;
+
+background: #46467F;
+
+
+/* Group */
+
+position: absolute;
+left: 26.58%;
+right: 61.55%;
+top: 40.08%;
+bottom: 43.35%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26.58%;
+right: 61.55%;
+top: 40.08%;
+bottom: 43.35%;
+
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 26.6%;
+right: 64.89%;
+top: 19.22%;
+bottom: 56.24%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26.6%;
+right: 64.89%;
+top: 19.22%;
+bottom: 56.24%;
+
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 48.66%;
+right: 44.73%;
+top: 50.71%;
+bottom: 45.42%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 48.66%;
+right: 44.73%;
+top: 50.71%;
+bottom: 45.42%;
+
+background: #000000;
+
+
+/* Frame 1890167658 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 4.39px;
+
+position: absolute;
+width: 135px;
+height: 69px;
+left: 0.14px;
+top: 32.62px;
+
+
+
+/* دوره خیلی مفیدی بود و مطالب رو به شکل کاربردی توضیح می‌داد. پروژه‌های عملی کمک کرد تجربه واقعی پیدا کنم. در کل بنظرم ارزش وقت و هزینه‌اش رو داشت. */
+
+width: 135.31px;
+height: 41.74px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167633 */
+
+position: absolute;
+width: 163px;
+height: 134px;
+left: 201px;
+top: 43.07px;
+
+border-radius: 20px;
+
+
+/* Frame 1890167655 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+padding: 4.42px;
+gap: 4.42px;
+
+position: absolute;
+width: 163.98px;
+height: 116.25px;
+left: -0.24px;
+top: -4.71px;
+
+
+
+/* Frame 306 */
+
+position: absolute;
+width: 136px;
+height: 21px;
+left: 14px;
+top: 15px;
+
+
+
+/* Frame 1890167635 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4.42px;
+
+position: absolute;
+width: 136.14px;
+height: 20.33px;
+left: 0px;
+top: 0px;
+
+
+
+/* Frame 196 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1.326px 0px;
+gap: 0.88px;
+
+width: 36.89px;
+height: 9.72px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/star */
+
+width: 7.07px;
+height: 7.07px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Clip path group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* clip0_4418_9900 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.68%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.68%;
+
+background: #EB55C8;
+
+
+/* Group */
+
+width: 6.4px;
+height: 5.85px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.57%;
+right: 61.08%;
+top: 19.95%;
+bottom: 19.94%;
+
+background: #EB55C8;
+
+
+/* Group */
+
+width: 6.4px;
+height: 5.85px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 41.32%;
+right: 41.32%;
+top: 19.95%;
+bottom: 19.94%;
+
+background: #EB55C8;
+
+
+/* Group */
+
+width: 6.4px;
+height: 5.85px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 61.07%;
+right: 21.57%;
+top: 19.95%;
+bottom: 19.94%;
+
+/* Secondary/Warning/100 */
+border: 0.442px solid #F5F0B7;
+
+
+/* vuesax/linear/star */
+
+width: 7.07px;
+height: 7.07px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Clip path group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* clip0_4418_9900 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #000000;
+/* Secondary/400 */
+border: 0.442px solid #EF77D3;
+
+
+/* Group */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.68%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.68%;
+
+/* Secondary/Warning/100 */
+border: 0.442px solid #F5F0B7;
+
+
+/* سحر */
+
+width: 21px;
+height: 16px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 10.608px;
+line-height: 16px;
+/* identical to box height */
+text-transform: capitalize;
+
+/* Text Color/200 */
+color: #2D2D2D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Avatar */
+
+width: 20.33px;
+height: 20.33px;
+
+background: #EDDDD6;
+box-shadow: 0px 0.884px 0.884px rgba(0, 0, 0, 0.25);
+border-radius: 1.9006px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Group 271 */
+
+position: absolute;
+width: 20.91px;
+height: 23.7px;
+left: calc(50% - 20.91px/2 - 0px);
+top: 1.45px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 60.36%;
+right: 34.84%;
+top: 25.92%;
+bottom: 72.02%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 60.36%;
+right: 34.84%;
+top: 25.92%;
+bottom: 72.02%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 49.42%;
+right: 44.61%;
+top: 26.33%;
+bottom: 70.11%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 49.42%;
+right: 44.61%;
+top: 26.33%;
+bottom: 70.11%;
+
+background: #000000;
+
+
+/* Group 269 */
+
+position: absolute;
+width: 20.91px;
+height: 23.7px;
+left: -0.29px;
+top: 1.45px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 20.98%;
+right: 21.95%;
+top: 7.13%;
+bottom: 23.22%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 20.98%;
+right: 21.95%;
+top: 7.13%;
+bottom: 23.22%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 10.93%;
+right: -1.42%;
+top: 62.31%;
+bottom: -23.71%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 10.93%;
+right: -1.42%;
+top: 62.31%;
+bottom: -23.71%;
+
+background: #7772D3;
+
+
+/* Group */
+
+position: absolute;
+left: 38.93%;
+right: 40.22%;
+top: 50.33%;
+bottom: 28.82%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 38.93%;
+right: 40.22%;
+top: 50.33%;
+bottom: 28.82%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 38.93%;
+right: 40.22%;
+top: 50.33%;
+bottom: 28.82%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 38.93%;
+right: 40.22%;
+top: 50.33%;
+bottom: 28.82%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 38.93%;
+right: 40.22%;
+top: 50.33%;
+bottom: 28.82%;
+
+background: #FCA397;
+
+
+/* Group */
+
+position: absolute;
+left: 38.94%;
+right: 40.94%;
+top: 49.39%;
+bottom: 37.74%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 38.94%;
+right: 40.94%;
+top: 49.39%;
+bottom: 37.74%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 38.94%;
+right: 40.94%;
+top: 49.39%;
+bottom: 37.74%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 38.94%;
+right: 40.94%;
+top: 49.39%;
+bottom: 37.74%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 38.94%;
+right: 40.94%;
+top: 49.39%;
+bottom: 37.74%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 83.24%;
+right: 11.43%;
+top: 81.84%;
+bottom: -12.05%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 83.24%;
+right: 11.43%;
+top: 81.84%;
+bottom: -12.05%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 83.24%;
+right: 11.43%;
+top: 81.84%;
+bottom: -12.05%;
+
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 27.89%;
+right: 32.69%;
+top: 13.29%;
+bottom: 42.09%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 27.89%;
+right: 32.69%;
+top: 13.29%;
+bottom: 42.09%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 27.89%;
+right: 32.69%;
+top: 13.29%;
+bottom: 42.09%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 27.89%;
+right: 32.69%;
+top: 13.29%;
+bottom: 42.09%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 27.89%;
+right: 32.69%;
+top: 13.29%;
+bottom: 42.09%;
+
+background: #FCA397;
+
+
+/* Group */
+
+position: absolute;
+left: 58.16%;
+right: 38.63%;
+top: 34.35%;
+bottom: 56.23%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 58.16%;
+right: 38.63%;
+top: 34.35%;
+bottom: 56.23%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 31.72%;
+right: 61.76%;
+top: 37.61%;
+bottom: 55.32%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.72%;
+right: 61.76%;
+top: 37.61%;
+bottom: 55.32%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 31.33%;
+right: 63.64%;
+top: 41.22%;
+bottom: 56.93%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.33%;
+right: 63.64%;
+top: 41.22%;
+bottom: 56.93%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 61.22%;
+right: 36.29%;
+top: 29.76%;
+bottom: 64.05%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 61.22%;
+right: 36.29%;
+top: 29.76%;
+bottom: 64.05%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 50.03%;
+right: 47.07%;
+top: 30.04%;
+bottom: 63.36%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50.03%;
+right: 47.07%;
+top: 30.04%;
+bottom: 63.36%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 33.96%;
+right: 32.79%;
+top: 11.75%;
+bottom: 64.46%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.96%;
+right: 32.79%;
+top: 11.75%;
+bottom: 64.46%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 37.58%;
+right: 38.41%;
+top: 65.36%;
+bottom: 28.66%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.58%;
+right: 38.41%;
+top: 65.36%;
+bottom: 28.66%;
+
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: -1.43%;
+right: 56.66%;
+top: 67.25%;
+bottom: -23.44%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: -1.43%;
+right: 56.66%;
+top: 67.25%;
+bottom: -23.44%;
+
+background: #7772D3;
+
+
+/* Group */
+
+position: absolute;
+left: 54.01%;
+right: 38.27%;
+top: 46.46%;
+bottom: 50.3%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 54.01%;
+right: 38.27%;
+top: 46.46%;
+bottom: 50.3%;
+
+background: #000000;
+
+
+/* Group */
+
+position: absolute;
+left: 32.42%;
+right: 61.07%;
+top: 46.78%;
+bottom: 46.71%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 32.42%;
+right: 61.07%;
+top: 46.78%;
+bottom: 46.71%;
+
+background: #FFFFFF;
+
+
+/* vuesax/linear/arrow-right */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 372px;
+top: 106.7px;
+
+
+
+/* vuesax/linear/arrow-right */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+
+
+/* arrow-right */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.13%;
+right: 33.3%;
+top: 17%;
+bottom: 17%;
+
+border: 1.125px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* vuesax/linear/arrow-right */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 106.7px;
+
+transform: rotate(-180deg);
+
+
+/* vuesax/linear/arrow-right */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+transform: rotate(-180deg);
+
+
+/* arrow-right */
+
+position: absolute;
+width: 12px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+transform: rotate(-180deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 33.3%;
+right: 37.13%;
+top: 17%;
+bottom: 17%;
+
+border: 1.125px solid rgba(51, 33, 140, 0.3);
+transform: rotate(-180deg);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890167675 */
+
+position: absolute;
+width: 136.14px;
+height: 75px;
+left: 215.61px;
+top: 88.07px;
+
+
+
+/* من قبلاً کلی دوره نصفه‌نیمه رها کرده بودم، ولی اینجا ساختار و مسیر یادگیری خیلی منظم و قابل فهم بود و بالاخره تونستم ادامه بدم و کلی یاد بگیرم. */
+
+position: absolute;
+width: 138.96px;
+height: 75px;
+left: -2.82px;
+top: 0px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Favorite Courses */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 377px;
+height: 1780px;
+left: 24px;
+top: 914px;
+
+
+
+/* Courses Tab */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 377px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167411 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 74px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* arrow-left */
+
+width: 14px;
+height: 14px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.23%;
+right: 88.18%;
+top: 24.33%;
+bottom: 24.33%;
+
+border: 1.5px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 81.08%;
+top: 11.11%;
+bottom: 11.11%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* همه دوره‌ها */
+
+width: 56px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* مسیر‌های شغلی هوشمند */
+
+width: 169px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Mobile */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 24px 16px;
+gap: 16px;
+
+width: 377px;
+height: 1740px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 288px;
+height: 411px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+width: 288px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890168146 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 115px;
+
+position: absolute;
+width: 263px;
+height: 23.62px;
+left: 12px;
+top: 18px;
+
+
+
+/* تولید محتوای هوشمند */
+
+width: 93px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/600 */
+color: #442CBB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+width: 55px;
+height: 23.62px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* متوسط */
+
+width: 29px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 175px;
+height: 172px;
+left: calc(50% - 175px/2 - 0.5px);
+top: 59px;
+
+background: url(99fe7f72-fdf5-4579-a0b5-25ad10f81947.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 248px;
+height: 138px;
+left: calc(50% - 248px/2);
+top: 243px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+height: 138px;
+left: 20px;
+right: 20px;
+top: 243px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 248px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* استراتژیست محتوای هوشمند */
+
+width: 248px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* میانگین درآمد: 30 میلیون تومان */
+
+width: 183px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 200.4px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 204.5px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 207.7px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 45.83%;
+top: 37.5%;
+bottom: 62.5%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.29%;
+right: 8.33%;
+top: 41.46%;
+bottom: 41.46%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 12.5%;
+top: 14.58%;
+bottom: 14.58%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* تعداد موقعیت شغلی در بازار: 240 */
+
+width: 190px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 203.9px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 208px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 211.2px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.16%;
+right: 9.92%;
+top: 11.03%;
+bottom: 11.04%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.92%;
+right: 69.25%;
+top: 27.71%;
+bottom: 15.63%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/400 */
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 126px;
+height: 32px;
+left: calc(50% - 126px/2);
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 78px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/400 */
+color: #775FEE;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 288px;
+height: 411px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+width: 288px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890168146 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 115px;
+
+position: absolute;
+width: 263px;
+height: 23.62px;
+left: 12px;
+top: 18px;
+
+
+
+/* تولید محتوای هوشمند */
+
+width: 93px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/600 */
+color: #442CBB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+width: 55px;
+height: 23.62px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* متوسط */
+
+width: 29px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 175px;
+height: 172px;
+left: calc(50% - 175px/2 - 0.5px);
+top: 59px;
+
+background: url(a2a081c7-aff2-4c38-9cf1-901fb59b9029.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 248px;
+height: 138px;
+left: calc(50% - 248px/2);
+top: 243px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+height: 138px;
+left: 20px;
+right: 20px;
+top: 243px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 248px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* استراتژیست محتوای هوشمند */
+
+width: 248px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* میانگین درآمد: 30 میلیون تومان */
+
+width: 183px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 200.4px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 204.5px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 207.7px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 45.83%;
+top: 37.5%;
+bottom: 62.5%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.29%;
+right: 8.33%;
+top: 41.46%;
+bottom: 41.46%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 12.5%;
+top: 14.58%;
+bottom: 14.58%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* تعداد موقعیت شغلی در بازار: 240 */
+
+width: 190px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 203.9px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 208px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 211.2px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.16%;
+right: 9.92%;
+top: 11.03%;
+bottom: 11.04%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.92%;
+right: 69.25%;
+top: 27.71%;
+bottom: 15.63%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/400 */
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 126px;
+height: 32px;
+left: calc(50% - 126px/2);
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 78px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/400 */
+color: #775FEE;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 288px;
+height: 411px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+width: 288px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890168146 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 115px;
+
+position: absolute;
+width: 263px;
+height: 23.62px;
+left: 12px;
+top: 18px;
+
+
+
+/* تولید محتوای هوشمند */
+
+width: 93px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/600 */
+color: #442CBB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+width: 55px;
+height: 23.62px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* متوسط */
+
+width: 29px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 175px;
+height: 172px;
+left: calc(50% - 175px/2 - 0.5px);
+top: 59px;
+
+background: url(8fee6efd-7854-457e-be89-08ee8d07076b.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 248px;
+height: 138px;
+left: calc(50% - 248px/2);
+top: 243px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+height: 138px;
+left: 20px;
+right: 20px;
+top: 243px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 248px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* استراتژیست محتوای هوشمند */
+
+width: 248px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* میانگین درآمد: 30 میلیون تومان */
+
+width: 183px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 200.4px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 204.5px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 207.7px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 45.83%;
+top: 37.5%;
+bottom: 62.5%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.29%;
+right: 8.33%;
+top: 41.46%;
+bottom: 41.46%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 12.5%;
+top: 14.58%;
+bottom: 14.58%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* تعداد موقعیت شغلی در بازار: 240 */
+
+width: 190px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 203.9px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 208px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 211.2px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.16%;
+right: 9.92%;
+top: 11.03%;
+bottom: 11.04%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.92%;
+right: 69.25%;
+top: 27.71%;
+bottom: 15.63%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/400 */
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 126px;
+height: 32px;
+left: calc(50% - 126px/2);
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 78px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/400 */
+color: #775FEE;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 288px;
+height: 411px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* masire shoghli */
+
+width: 288px;
+height: 411px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890168146 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 115px;
+
+position: absolute;
+width: 263px;
+height: 23.62px;
+left: 12px;
+top: 18px;
+
+
+
+/* تولید محتوای هوشمند */
+
+width: 93px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/600 */
+color: #442CBB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+width: 55px;
+height: 23.62px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* متوسط */
+
+width: 29px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* HTML CSS SIDE 1 */
+
+position: absolute;
+width: 175px;
+height: 172px;
+left: calc(50% - 175px/2 - 0.5px);
+top: 59px;
+
+background: url(99fe7f72-fdf5-4579-a0b5-25ad10f81947.png);
+
+
+/* Group 300 */
+
+position: absolute;
+width: 248px;
+height: 138px;
+left: calc(50% - 248px/2);
+top: 243px;
+
+
+
+/* Frame 1890167553 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+position: absolute;
+height: 138px;
+left: 20px;
+right: 20px;
+top: 243px;
+
+
+
+/* Frame 1890167551 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 16px;
+
+width: 248px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* استراتژیست محتوای هوشمند */
+
+width: 248px;
+height: 24px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* میانگین درآمد: 30 میلیون تومان */
+
+width: 183px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 200.4px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 204.5px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 207.7px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/wallet-2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 29.17%;
+right: 45.83%;
+top: 37.5%;
+bottom: 62.5%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.29%;
+right: 8.33%;
+top: 41.46%;
+bottom: 41.46%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 12.5%;
+top: 14.58%;
+bottom: 14.58%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* Price Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+
+width: 248px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* تعداد موقعیت شغلی در بازار: 240 */
+
+width: 190px;
+height: 32px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Disabled */
+color: #606060;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Mask group */
+
+width: 30.2px;
+height: 30.2px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 281 */
+
+position: absolute;
+width: 30.2px;
+height: 30.2px;
+left: 203.9px;
+top: 0px;
+
+background: #D9D9D9;
+border-radius: 5.69547px;
+
+
+/* images 1 */
+
+position: absolute;
+width: 22px;
+height: 23px;
+left: 208px;
+top: 4px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 5px;
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 211.2px;
+top: 7.47px;
+
+
+
+/* vuesax/linear/like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* like */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 31.16%;
+right: 9.92%;
+top: 11.03%;
+bottom: 11.04%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.92%;
+right: 69.25%;
+top: 27.71%;
+bottom: 15.63%;
+
+/* Foundation/Icon Default */
+border: 1.5px solid #E0E0E0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Frame 1890168134 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* 4,700,000 تومان */
+
+display: none;
+width: 252px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/400 */
+color: #999999;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector 307 */
+
+position: absolute;
+display: none;
+width: 63px;
+height: 0px;
+left: 187px;
+top: 8px;
+
+/* Secondary/Neutral/400 */
+border: 1px solid #999999;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Frame 1890167552 */
+
+width: 248px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+visibility: hidden;
+width: 112px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* Web Buttons */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 24px;
+gap: 8px;
+
+position: absolute;
+width: 126px;
+height: 32px;
+left: calc(50% - 126px/2);
+top: 0px;
+
+/* Primary/400 */
+border: 2px solid #775FEE;
+border-radius: 16px;
+
+
+/* متن دکمه */
+
+width: 78px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/400 */
+color: #775FEE;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167936 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 382px;
+height: 212px;
+left: 24px;
+top: 5097px;
+
+
+
+/* Frame 1890167935 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 32px;
+
+width: 382px;
+height: 188px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* بلاگ آی لرن */
+
+width: 382px;
+height: 16px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167701 */
+
+width: 382px;
+height: 140px;
+
+background: rgba(119, 95, 238, 0.1);
+/* Glass */
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 1890167701 */
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 252px;
+top: 10px;
+
+background: url(Untitled-1.png);
+border-radius: 8px;
+
+
+/* آموزش انواع زبان های برنامه نویسی */
+
+position: absolute;
+width: 229px;
+height: 22px;
+left: 4px;
+top: 59px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/900 */
+color: #1A1A1A;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* vuesax/linear/calendar-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 219px;
+top: 113px;
+
+
+
+/* vuesax/linear/calendar-2 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* calendar-2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 66.67%;
+top: 8.33%;
+bottom: 79.17%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 66.67%;
+right: 33.33%;
+top: 8.33%;
+bottom: 79.17%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 14.59%;
+top: 37.87%;
+bottom: 62.13%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 14.58%;
+bottom: 8.34%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 47.92%;
+right: 47.92%;
+top: 55%;
+bottom: 40.83%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 32.5%;
+right: 63.34%;
+top: 55%;
+bottom: 40.83%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* Vector */
+
+position: absolute;
+left: 32.5%;
+right: 63.34%;
+top: 67.5%;
+bottom: 28.33%;
+
+border: 1px solid rgba(51, 33, 140, 0.3);
+
+
+/* ١٤ آبان ١٤٠٤ */
+
+position: absolute;
+width: 63px;
+height: 18px;
+left: 148px;
+top: 112px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/600 */
+color: #666666;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* ٥ دقیقه زمان مطالعه */
+
+position: absolute;
+width: 101px;
+height: 18px;
+left: 15px;
+top: 112px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Secondary/Neutral/600 */
+color: #666666;
+font-variation-settings: 'DOTS' 7;
+
+
+
+/* Frame 1890167567 */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 124px;
+top: 113px;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+background: rgba(51, 33, 140, 0.3);
+
+
+/* Cards Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 13px;
+gap: 8px;
+
+position: absolute;
+width: 79px;
+height: 23.62px;
+left: 140px;
+top: 10px;
+
+/* Secondary/500 */
+background: #EB55C8;
+border-radius: 8px;
+
+
+/* جدید */
+
+width: 53px;
+height: 15px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 15px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* 100 */
+color: #FCF1FB;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 1890167703 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 64px;
+height: 8px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Ellipse 8 */
+
+width: 8px;
+height: 8px;
+
+background: #BBAFF7;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 9 */
+
+width: 8px;
+height: 8px;
+
+background: #BBAFF7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 308 */
+
+width: 32px;
+height: 8px;
+
+background: #5537EA;
+border-radius: 14px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* counter */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+padding: 0px;
+gap: 13px;
+
+position: absolute;
+height: 387px;
+left: 26px;
+right: 30px;
+top: 488px;
+
+
+
+/* Courses */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 176px;
+height: 196px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* DeWatermark.ai_1755427728808-removebg-preview 1 */
+
+width: 99px;
+height: 99px;
+
+background: url(4.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* دوره های متنوع */
+
+width: 176px;
+height: 30px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* بیش از 1۰ دوره آموزشی کاربردی */
+
+width: 176px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Roadmap */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 184px;
+height: 196px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* DeWatermark.ai_1755427053769-removebg-preview 1 */
+
+width: 99px;
+height: 99px;
+
+background: url(3.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* مسیر شغلی */
+
+width: 184px;
+height: 30px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* طراحی مسیر شغلی */
+
+width: 184px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Mentoring */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 166px;
+height: 178px;
+
+border-radius: 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 1890167539 */
+
+width: 99px;
+height: 98px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* c0d1bdda-fe55-4234-9d07-bf13cce1924e-removebg-preview (1) 1 */
+
+position: absolute;
+width: 99px;
+height: 99px;
+left: -5px;
+top: 0px;
+
+background: url(2.png);
+
+
+/* سوپر اپلیکیشن */
+
+width: 166px;
+height: 30px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* بهترین هوش‌مصنوعی فارسی */
+
+width: 166px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Learn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 195px;
+height: 178px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* vecteezy_3d-target-icon-or-target-symbol-with-arrow_47492111 1 */
+
+width: 99px;
+height: 99px;
+
+background: url(5.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* توسعه هوش‌مصنوعی */
+
+width: 195px;
+height: 30px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* اتوماسیون فرآیند با هوش‌مصنوعی */
+
+width: 195px;
+height: 21px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+text-align: center;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Primary/800 */
+color: #22165E;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Why iLearn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 344px;
+height: 770px;
+left: 43px;
+top: 2733px;
+
+
+
+/* img */
+
+width: 344px;
+height: 456px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Subtract */
+
+position: absolute;
+width: 153px;
+height: 153px;
+left: 39px;
+top: 85px;
+
+/* Primary/700 */
+background: #33218C;
+opacity: 0.52;
+filter: blur(45.55px);
+
+
+/* Ellipse 77 */
+
+position: absolute;
+width: 153px;
+height: 153px;
+left: 39px;
+top: 85px;
+
+/* Secondary/500 */
+background: #EB55C8;
+opacity: 0.52;
+filter: blur(100.05px);
+
+
+/* Subtract */
+
+position: absolute;
+width: 153px;
+height: 153px;
+left: 116px;
+top: 228px;
+
+/* Secondary/500 */
+background: #EB55C8;
+opacity: 0.52;
+filter: blur(45.55px);
+
+
+/* Ellipse 77 */
+
+position: absolute;
+width: 153px;
+height: 153px;
+left: 116px;
+top: 228px;
+
+/* Secondary/500 */
+background: #EB55C8;
+opacity: 0.52;
+filter: blur(100.05px);
+
+
+/* Airbrush-Image-Enhancer-1755449806432 1 */
+
+position: absolute;
+width: 288px;
+height: 345px;
+left: 49px;
+top: 55px;
+
+background: url(b19204b7-74f1-404d-a03b-451231f0a7c0.png);
+
+
+/* Frame 1890167450 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 0px;
+gap: 12px;
+
+width: 323px;
+height: 298px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* بهترین هوش مصنوعی فارسی؛ سوپر وب اپلیکیشن هوشِکس */
+
+width: 323px;
+height: 72px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: right;
+text-transform: capitalize;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* توی دنیای ابزارهای هوش مصنوعی،اگه دنبال بهترین هوش مصنوعی فارسی میگردی کم پیش میاد یه پلتفرم واقعاً فارسی‌زبان پیدا کنی که همه‌چیز رو یک‌جا داشته باشه. هوشکس دقیقاً برای همین ساخته شده: یه سوپر وب اپ فارسی که کمک می‌کنه راحت‌تر محتوا بسازی، طراحی کنی، و حتی کارهای سئو و تحلیل رو سریع‌تر پیش ببری. */
+
+width: 323px;
+height: 168px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* or 200% */
+display: flex;
+align-items: center;
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Text Color/200 */
+color: #2D2D2D;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Web Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 8px;
+
+width: 229px;
+height: 32px;
+
+/* Secondary/500 */
+background: #EB55C8;
+/* Elevation/Inner Shadows/Primary */
+box-shadow: 0px 2px 8px rgba(235, 85, 200, 0.46), inset 0px -4px 16px rgba(102, 24, 84, 0.13), inset 0px 4px 16px rgba(102, 24, 84, 0.11);
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* vuesax/linear/arrow-left */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* vuesax/linear/arrow-left */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* arrow-left */
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 32.93%;
+right: 37.5%;
+top: 17%;
+bottom: 17%;
+
+/* Foundation/Bright */
+border: 1.5px solid #F5F5F5;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* متن دکمه */
+
+width: 178px;
+height: 18px;
+
+font-family: 'IRANSansX';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+text-align: right;
+font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on;
+
+/* Foundation/Bright */
+color: #F5F5F5;
+font-variation-settings: 'DOTS' 7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;

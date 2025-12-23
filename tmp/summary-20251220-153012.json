@@ -1,0 +1,4 @@
+{
+  "summary": "ایجاد System Design کامل برای سایت و بازسازی صفحه اصلی به صورت کاملاً ماژولار. ایجاد Design System tokens، سازمان‌دهی CSS به ساختار base/components/utilities، ایجاد کامپوننت‌های UI قابل استفاده مجدد (button, section-header, section) و استخراج تمام بخش‌های صفحه اصلی به کامپوننت‌های جداگانه. تمام inline styles به Tailwind classes تبدیل شدند و RTL به صورت کامل پشتیبانی می‌شود.",
+  "current_status": "پروژه به صورت کامل بازسازی شد. System Design Document ایجاد شد. Design System tokens در Tailwind config تعریف شدند. CSS به ساختار modular سازمان‌دهی شد. کامپوننت‌های UI و home sections ایجاد شدند. فایل home-refactored.blade.php به عنوان نسخه جدید آماده است. آماده برای جایگزینی با فایل اصلی."
+}

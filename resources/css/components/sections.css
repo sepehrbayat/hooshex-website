@@ -1,0 +1,106 @@
+/**
+ * Common Section Styles
+ * Reusable section patterns
+ */
+
+@layer components {
+    /* Section Base */
+    .section-base {
+        @apply bg-transparent;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    @media (min-width: 768px) {
+        .section-base {
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .section-base {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+
+    .section-base-surface {
+        @apply bg-surface;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    @media (min-width: 768px) {
+        .section-base-surface {
+            padding-top: 64px;
+            padding-bottom: 64px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .section-base-surface {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+    }
+
+    /* Section Container */
+    .section-container {
+        @apply mx-auto w-full;
+        max-width: 1216px;
+        padding-left: 25px;
+        padding-right: 27px;
+    }
+
+    @media (min-width: 768px) {
+        .section-container {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .section-container {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .section-container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    /* Section Container Wide */
+    .section-container-wide {
+        @apply mx-auto w-full;
+        max-width: 1290px;
+        padding-left: 25px;
+        padding-right: 27px;
+    }
+
+    @media (min-width: 768px) {
+        .section-container-wide {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .section-container-wide {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    @media (min-width: 1280px) {
+        .section-container-wide {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+

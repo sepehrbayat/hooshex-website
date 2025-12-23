@@ -1,0 +1,4 @@
+{
+  "summary": "Removed custom Alpine import/start to avoid multiple Alpine instances warning; rely on Livewire-provided Alpine and register modal components via global Alpine data.",
+  "current_status": "Need to rebuild front-end assets (npm run build/dev) so browser gets updated app.js; career paths component remains in place, awaiting refreshed assets and verification."
+}

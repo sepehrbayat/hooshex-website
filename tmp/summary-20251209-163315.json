@@ -1,0 +1,3 @@
+{
+  "summary": "Adjusted mobile per latest screenshot: header logo left, cart+menu right; hero order title (one line), search, then AI graphic centered with more top space (260px area) and blur repositioned; added gap on hero container; wave hidden on mobile. Rebuilt assets.",
+  "current_status": "Mobile layout refined; assets rebuilt. Laravel 8000, Vite 5173."}

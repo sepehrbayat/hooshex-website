@@ -1,0 +1,4 @@
+{
+  "summary": "پیاده‌سازی راهکارهای حرفه‌ای جایگزین !important در Tailwind CSS. حذف تمام !important از swiper.css و ai-bot.css با استفاده از @layer utilities و nested selectors برای افزایش specificity. تنظیم important: '#app' در tailwind.config.js برای override کردن کتابخانه‌های خارجی. استفاده از double class selectors و parent selectors. تنها !important باقی مانده برای Alpine.js x-cloak است که ضروری است. ایجاد مستند TAILWIND_IMPORTANT_STRATEGY.md.",
+  "current_status": "تمام !important غیرضروری حذف شدند. از @layer utilities برای overrides استفاده شد. important strategy در config تنظیم شد. Specificity به درستی مدیریت می‌شود. کد تمیزتر و قابل نگهداری‌تر است."
+}

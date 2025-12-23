@@ -1,0 +1,5 @@
+{
+  "summary": "اصلاح AI Bot section در desktop: container اصلی xl:max-w-[1440px] و inner container xl:w-[1218px] xl:mx-auto تنظیم شد. Pink Form: xl:left-[381px] xl:top-0 xl:w-[758px] xl:h-[241px] xl:p-6 و gap xl:gap-[24px_32px]. Glass Card: xl:left-0 xl:w-[716px] xl:min-w-[569px] xl:h-[248px] xl:top-[152px] xl:p-6 و gap xl:gap-[66px]. همه مقادیر از desktop-figma.css استخراج شد.",
+  "current_status": "AI Bot section در desktop با Figma pixel-perfect هماهنگ شد."
+}
+

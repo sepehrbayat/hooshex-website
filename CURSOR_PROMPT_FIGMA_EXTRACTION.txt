@@ -1,0 +1,37 @@
+Extract the complete homepage design from Figma using MCP tools and implement it with 100% pixel-perfect accuracy.
+
+PROCESS:
+1. Join Figma channel using mcp_TalkToFigma_join_channel
+2. Get document info with mcp_TalkToFigma_get_document_info
+3. Read design with mcp_TalkToFigma_read_my_design
+4. For each section (Hero, Features, Career Paths, Super App, Courses, AI Bot, Tools, Instagram, Testimonials, Blog, Contact, Banner):
+   - Get node info with mcp_TalkToFigma_get_node_info
+   - Extract: position (top/left/width/height), colors (exact hex/rgba), typography (size/weight/line-height), spacing (padding/margin/gap), effects (shadows/blur/gradients), border-radius
+   - Implement in Blade using Tailwind with EXACT values: w-[758px], h-[592px], bg-[#EB55C8], text-[#22165E], gap-[24px], rounded-[32px], shadow-[0px_2px_8px_rgba(235,85,200,0.46)]
+
+REQUIREMENTS:
+- Use exact pixel values from Figma (no approximation)
+- Use arbitrary Tailwind values [value] for exact matches
+- Match colors exactly (use hex, not theme colors)
+- Match typography exactly (size/weight/line-height)
+- Match spacing exactly (padding/margin/gap)
+- Match all visual effects (glass: bg-[rgba(224,224,224,0.16)], blur: blur-[100.05px], gradients, shadows)
+- Maintain RTL layout
+- Extract mobile/tablet designs separately for responsive
+
+SPECIAL ATTENTION:
+- AI Bot section: glass chatbox at top-[152px], pink form bg-[#EB55C8] at left-[381px], glass inputs bg-[rgba(224,224,224,0.16)]
+- All sections: extract and match EVERY detail from Figma
+
+VERIFY:
+- Compare rendered output with Figma side-by-side
+- Check all sections match pixel-perfect
+- Test responsive breakpoints
+
+Output: Complete homepage matching Figma 100% exactly.
+
+
+
+
+
+

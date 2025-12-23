@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل Features paragraph: flex items-center justify-center حذف شد چون باعث می‌شد خطوط روی هم بیفتند. حالا فقط text-center و whitespace-normal دارد. min-h-[21px] lg:min-h-[48px] برای desktop باقی ماند تا متن بتواند دو خط باشد.",
+  "current_status": "مشکل Features paragraph: flex classes حذف شد. متن حالا باید به درستی چند خط باشد."
+}
+

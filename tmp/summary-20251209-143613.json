@@ -1,0 +1,3 @@
+{
+  "summary": "Replaced header logo block with provided hooshex logo asset (figma-images/images/hooshex-logo.png).",
+  "current_status": "Logo loads from public/figma-images/images; Laravel 8000, Vite 5173."}

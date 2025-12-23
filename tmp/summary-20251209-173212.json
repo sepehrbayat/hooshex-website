@@ -1,0 +1,3 @@
+{
+  "summary": "Forced hero container to LTR to anchor AI vector on the left; kept text block RTL for correct alignment while preserving order (image order-1, text order-2).",
+  "current_status": "Hero desktop should now show AI vector on the left; please refresh to confirm."}

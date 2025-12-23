@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل فضای خالی بیشتر در سمت چپ موبایل حل شد. علت: Header و سایر بخش‌ها padding یکسان نداشتند. Header از `left: 25px; right: 27px;` استفاده می‌کرد که در RTL باعث فضای بیشتر می‌شد. همه بخش‌ها (Hero, AI Bot, Testimonials, Blog) به `padding-left: 25px; padding-right: 27px;` یکسان شدند.",
+  "current_status": "مشکل فضای خالی در موبایل حل شد. همه بخش‌ها padding یکسان دارند."
+}
+

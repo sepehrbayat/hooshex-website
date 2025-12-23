@@ -1,0 +1,244 @@
+###  FRONTEND & RTL PROTOCOLS (Learned Patterns)
+- **RTL Alignment Rule:** In `dir="rtl"`, remember that `justify-start` aligns to the **RIGHT** and `justify-end` aligns to the **LEFT** (opposite of LTR). Always prefer `items-start` (Top/Right) over `items-end`. Avoid `self-end` on text blocks as it breaks vertical balance.
+- **CRITICAL RTL Justify Rule:** For right-aligned content in RTL, use `justify-start` (NOT `justify-end`). For left-aligned content in RTL, use `justify-end` (NOT `justify-start`). This is the OPPOSITE of LTR behavior.
+- **RTL Element Order Rule:** In RTL with `dir="rtl"` and `flex-row`, HTML order is reversed visually. To place icons on the RIGHT side of text, put icons FIRST in HTML. Example: `<Icon /><Text />` displays as `[Icon] [Text]` from right-to-left. If icons appear on left, reverse the HTML order.
+- **Asymmetrical Offsets:** To stagger elements (e.g., Image lower than Text), apply padding/margin to the **Child Wrapper** (e.g., `lg:pt-24` on the image div), NEVER to the Parent Container.
+- **Visual Continuity:** Sections must use `bg-transparent` to allow the global atmospheric background to flow through. Do not use `bg-white` or `bg-gray-900` on `<section>` tags unless explicitly requested.
+- **Visual Hierarchy:** In split layouts, Text should generally start higher than heavy visual media. Use `lg:self-center` for text if vertical centering is needed, but default to `items-start` for the grid parent.
+## Smart Architect Workflow
+- Default to modern Laravel 11/12 & Filament v3 best practices; no permission requests for standard scaffolding.
+- Ask only on business/revenue-impact decisions; proceed on technical defaults.
+- No hallucinations: admit when a lib/feature doesn’t exist.
+
+## UI Delivery (Skeleton First)
+- Build functional, semantic, responsive skeletons first (Tailwind utility defaults).
+- After skeleton approval, request design assets/screens; mobile-first classes.
+
+## Code Quality
+- PHP 8.3+, strict typing, type-hinted signatures.
+- Use Enums for statuses/roles/types (no magic strings).
+- Avoid arbitrary Tailwind values; extend tokens in `tailwind.config.js`.
+- Modular monolith layout under `app/Domains/*`.
+
+## Security & Reliability
+- Always add CSRF to forms.
+- Use Form Requests / Filament validation.
+- Use Policies for authorization.
+- Queue long-running work via Redis.
+
+## TDD-Lite
+- Feature tests for critical flows (buy course, import legacy data, filters, checkout).
+
+## Localization & RTL
+- Persian-first; Jalali in Filament; middleware to convert numerals to Persian.
+- Tailwind font: Vazirmatn / IRANSans.
+
+## Legacy Reference
+- Legacy WordPress source lives at `/home/sepehr/Downloads/backup-10.20.2025_13-27-26_hooshexc` — consult for behavior/assets when uncertain.
+- Legacy DB dump: `localhost.sql` (root). Treat as forensic inspiration, not schema to reuse.
+
+## Frontend Stack
+- TALL (Tailwind, Alpine, Livewire, Blade); SSR only, no CSR frameworks.
+- Use `wire:navigate` for internal links where applicable.
+
+## Backend Stack
+- Laravel 11/12, Filament v3 for admin/CMS/panels.
+- Sanctum for APIs.
+- PostgreSQL primary DB; Redis for cache/queue; Meilisearch via Scout.
+- Payments via `shetabit/payment` (Zarinpal default, switchable).
+- Telescope (dev), Horizon (prod/ops).
+
+## Migration Command
+- One-way import `php artisan import:legacy`: users (WP hash strategy), ai_tools (meta mapping), posts, courses/products, form archives.
+
+## Browser/Server
+- Do not start servers unless requested; don't guess ports. Inspect code or ask.
+- **Default Ports**: Laravel backend on port 7668, Vite dev server on port 3001 (configured to avoid conflicts with other projects).
+- Use `npm run start` to start both servers, or `npm run serve` for Laravel only, `npm run dev` for Vite only.
+
+## Persistence
+- Respect dirty git state; never revert user changes unintentionally.
+
+## Frontend Best Practices (Lessons Learned)
+- **CSS Layout**: Always use Flexbox/Grid for component layouts; avoid absolute positioning unless absolutely necessary. Never use inline `!important` styles - fix root CSS conflicts instead.
+- **Alpine.js**: Livewire v3 bundles Alpine.js - NEVER install `alpinejs` separately in package.json. Use `window.Alpine.data()` via `alpine:init` event. Don't call `Alpine.start()` manually.
+- **CSS Conflicts**: Check for global CSS files (desktop-figma.css, etc.) that might override styles. Use Tailwind utilities and proper specificity instead of fighting with `!important`.
+- **Component Structure**: Start with semantic HTML, add Tailwind classes incrementally. Test at all breakpoints (mobile/tablet/desktop). Keep components simple - prefer flexbox over complex absolute positioning.
+- **Debugging**: Always hard refresh (Ctrl+Shift+R) when debugging layout issues. Check browser DevTools computed styles and accessibility tree. Verify production builds, not just dev server.
+- **wire:ignore**: Use sparingly - only when preventing Livewire from updating specific DOM sections (e.g., third-party widgets). Don't wrap entire components unnecessarily.
+
+## Frontend Development Checklist (Before Deploying Components)
+- [ ] HTML is semantic and accessible
+- [ ] CSS uses Tailwind utilities (no inline `!important`)
+- [ ] Responsive breakpoints tested (mobile, tablet, desktop)
+- [ ] No console errors or warnings
+- [ ] Alpine components work (if used)
+- [ ] Livewire reactivity works (if used)
+- [ ] Production build succeeds
+- [ ] No duplicate dependencies in `package.json`
+- [ ] Browser cache cleared and tested
+- [ ] Accessibility tree shows all content
+
+## Common Frontend Pitfalls to Avoid
+1. **CSS Conflicts**: Always check for global CSS that might override your styles
+2. **Alpine Duplication**: Never install `alpinejs` separately when using Livewire
+3. **Absolute Positioning**: Use flexbox/grid instead for layouts
+4. **Inline Styles**: Avoid `!important` inline styles - fix root cause
+5. **Cache Issues**: Always hard refresh when debugging layout issues
+6. **Missing Content**: Check accessibility tree if content exists but isn't visible
+
+## Figma Alignment Protocol (Pixel Perfect Matching)
+
+When aligning website sections with Figma designs, follow this comprehensive workflow:
+
+### General Instruction
+```
+Connect to Figma via Figma MCP and fully align section [section name] with the Figma design.
+Use all 40+ Figma MCP tools to extract precise information.
+```
+
+### Step 1: Connect and Extract Information from Figma
+
+1. **Connect to Figma:**
+   - Use `mcp_TalkToFigma_get_document_info` to get general document information
+   - Use `mcp_TalkToFigma_get_selection` to check current selection
+   - Use `mcp_TalkToFigma_read_my_design` to get complete design details of selected elements
+
+2. **Find Target Section:**
+   - Use `mcp_TalkToFigma_scan_text_nodes` to find specific text (e.g., "بلاگ هوشکس")
+   - Use `mcp_TalkToFigma_scan_nodes_by_types` to find related Frame/Component/Group elements
+   - Use `mcp_TalkToFigma_get_nodes_info` to get information for multiple nodes simultaneously
+
+3. **Extract Details:**
+   - For each important element, use `mcp_TalkToFigma_get_node_info`
+   - Extract all information: dimensions, colors, spacing, typography, positioning
+
+### Step 2: Analysis and Comparison
+
+1. **Read Current Code:**
+   - Read the relevant Blade file (`resources/views/livewire/home.blade.php`)
+   - Find the relevant section
+   - Review extracted Figma CSS files (`desktop-figma.css`, `mobile-figma.css`, `tablet-figma.css`)
+
+2. **Compare:**
+   - Dimensions (width, height)
+   - Colors (background, text, border)
+   - Spacing (padding, margin, gap)
+   - Typography (font-size, line-height, font-weight)
+   - Positioning (absolute, relative, left, top, right, bottom)
+   - Border-radius, shadows, opacity
+
+### Step 3: Apply Changes
+
+1. **Update HTML/Blade:**
+   - Update Tailwind classes
+   - Update inline styles
+   - Change HTML structure if needed
+
+2. **RTL Alignment:**
+   - In RTL, `justify-start` = right, `justify-end` = left
+   - Use `dir="rtl"`
+   - `text-right` for Persian text
+
+3. **Responsive Design:**
+   - For mobile: use `md:` and `lg:` breakpoints
+   - Adjust dimensions and spacing for each breakpoint
+
+### Step 4: Review and Test
+
+1. **Linting:**
+   - Use `read_lints` to find syntax errors
+
+2. **Visual Testing:**
+   - If possible, use browser automation
+   - Compare with Figma design
+
+### Alignment Checklist
+
+For each section, verify:
+
+**Container/Frame:**
+- [ ] Exact width (px)
+- [ ] Exact height (px)
+- [ ] Background color/opacity
+- [ ] Border-radius
+- [ ] Padding/margin
+- [ ] Gap (for flex/grid)
+- [ ] Flex-direction
+- [ ] Align-items
+- [ ] Justify-content
+- [ ] Position (relative/absolute)
+
+**Typography:**
+- [ ] Font-family (Vazirmatn)
+- [ ] Font-size (px)
+- [ ] Font-weight
+- [ ] Line-height
+- [ ] Text-align
+- [ ] Text-transform
+- [ ] Color
+- [ ] Font-feature-settings
+- [ ] Font-variation-settings
+
+**Images:**
+- [ ] Width (px)
+- [ ] Height (px)
+- [ ] Position (absolute: left, top)
+- [ ] Border-radius
+- [ ] Object-fit
+
+**Buttons/Badges:**
+- [ ] Width (px)
+- [ ] Height (px)
+- [ ] Padding (px)
+- [ ] Background color
+- [ ] Border-radius
+- [ ] Font-size
+- [ ] Line-height
+- [ ] Position (absolute: left, top)
+
+**Icons:**
+- [ ] Width (px)
+- [ ] Height (px)
+- [ ] Position (absolute: left, top)
+- [ ] Color/fill
+
+**Spacing Elements:**
+- [ ] Width (px)
+- [ ] Height (px)
+- [ ] Background color/opacity
+- [ ] Position
+
+### Important Notes
+
+1. **Precision in Dimensions:** Always use exact px values, not approximate values
+2. **RTL Support:** Always consider RTL and use `dir="rtl"` and `text-right`
+3. **Font Settings:** Always add `font-feature-settings` and `font-variation-settings`
+4. **Responsive:** Use Tailwind breakpoints for mobile/tablet
+5. **Comments:** Add "Pixel Perfect from Figma" comments in code
+6. **Inline Styles:** Use inline styles for exact px values that don't exist in Tailwind
+
+### Figma MCP Tools to Use
+
+1. `mcp_TalkToFigma_get_document_info` - General document information
+2. `mcp_TalkToFigma_get_selection` - Current selection
+3. `mcp_TalkToFigma_read_my_design` - Complete design details
+4. `mcp_TalkToFigma_get_node_info` - Specific node information
+5. `mcp_TalkToFigma_get_nodes_info` - Multiple nodes information
+6. `mcp_TalkToFigma_scan_text_nodes` - Text search
+7. `mcp_TalkToFigma_scan_nodes_by_types` - Search by type
+8. `mcp_TalkToFigma_get_styles` - Document styles
+9. `mcp_TalkToFigma_get_local_components` - Local components
+10. And other related tools...
+
+### Expected Output
+
+After alignment, the code should:
+- Be 100% identical to Figma design
+- Have all dimensions, colors, spacing exact
+- RTL works correctly
+- Responsive works for mobile/tablet/desktop
+- "Pixel Perfect from Figma" comments added
+- No linting errors exist
+
+

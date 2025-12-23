@@ -1,0 +1,4 @@
+{
+  "summary": "Copied hooshex-ai-mockup-phone.png into public/images so the Super App component loads the phone mockup from the expected public path.",
+  "current_status": "Super App component in home view references the mockup now present in public/images; other sections unchanged."
+}

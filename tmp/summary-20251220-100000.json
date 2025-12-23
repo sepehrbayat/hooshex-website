@@ -1,0 +1,5 @@
+{
+  "summary": "تست کامل modal ها انجام شد. modal های ورود و ثبت نام و سبد خرید درست کار می‌کنند. backdrop click handler (@click.self) و escape key handler (@keydown.escape.window) برای هر دو modal اضافه شد. CSS برای x-cloak اضافه شد تا modal ها تا زمان لود شدن Alpine.js مخفی بمانند. کد JavaScript صحیح است - open: false به صورت پیش‌فرض است.",
+  "current_status": "همه مشکلات برطرف شد. Modal ها حالا با کلیک روی backdrop، Escape key، یا دکمه ✕ بسته می‌شوند. تست ها موفقیت‌آمیز بودند."
+}
+

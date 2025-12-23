@@ -1,0 +1,5 @@
+{
+  "summary": "Figma plugin successfully connected to socket server in channel 'bou8y6q0', and socket server is running. However, MCP server cannot join the channel because join_channel tool is not available in the MCP tools list. This prevents accessing Figma document info. Need to troubleshoot why join_channel tool isn't exposed or restart MCP server.",
+  "current_status": "Figma connection established in channel bou8y6q0. Blocked: Cannot join channel from MCP side because join_channel tool not available. Need to resolve this to access Figma designs."
+}
+

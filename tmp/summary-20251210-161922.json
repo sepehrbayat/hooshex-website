@@ -1,0 +1,3 @@
+{
+  "summary": "Adjusted Super App CTA alignment by removing full-width constraint so it sits right-aligned under the paragraph; removed the inset gradient overlay to eliminate any faint section border while keeping a transparent background and soft glows only.",
+  "current_status": "Super App section now blends seamlessly with page background; CTA is right-aligned in RTL without stretching."}

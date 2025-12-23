@@ -1,0 +1,4 @@
+{
+  "summary": "پاک کردن تمام cache های Laravel (cache, config, route, view, optimize) و restart کردن سرور روی پورت 7668.",
+  "current_status": "تمام cache ها پاک شدند. سرور Laravel روی پورت 7668 restart شد. پروژه آماده استفاده است."
+}

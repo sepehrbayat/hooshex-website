@@ -1,0 +1,3 @@
+{
+  "summary": "Aligned Super App CTA container to the right and removed decorative background glows to eliminate the faint section border while keeping the section transparent.",
+  "current_status": "Super App section now inherits the global background with no border; CTA sits under the paragraph right-aligned in RTL."}

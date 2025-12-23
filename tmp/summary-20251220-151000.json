@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل AI Bot section در desktop حل شد: 1) Container: lg:max-w-[1218px] (به جای 1024px) برای desktop، lg:px-[111px] (به جای px-10) برای centering. 2) Pink Form: lg:absolute lg:left-[381px] lg:top-0 (به جای ml-auto right-0) برای positioning درست، lg:w-[758px] lg:min-w-[643px] lg:h-[241px] lg:p-6 (به جای w-auto h-auto p-10) برای اندازه‌های desktop. این باید section را در وسط قرار دهد و اندازه‌ها را درست کند.",
+  "current_status": "AI Bot section در desktop اصلاح شد: container و form positioning و اندازه‌ها مطابق desktop-figma.css تنظیم شد."
+}
+

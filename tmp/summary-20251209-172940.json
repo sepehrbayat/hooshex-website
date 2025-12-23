@@ -1,0 +1,3 @@
+{
+  "summary": "Adjusted hero layout so in RTL the AI vector stays on the left at desktop by swapping flex orders between text and image sections.",
+  "current_status": "Hero desktop alignment fixed; ready for visual check."}

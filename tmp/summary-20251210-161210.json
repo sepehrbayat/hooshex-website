@@ -1,0 +1,3 @@
+{
+  "summary": "Made Super App section fully transparent to let the global background flow through by removing the full-section gradient overlay and setting bg-transparent on the section; kept only subtle corner glows.",
+  "current_status": "Super App slice now inherits page background; pink CTA and text contrast remain as last update."}

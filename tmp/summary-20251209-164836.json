@@ -1,0 +1,3 @@
+{
+  "summary": "Increased mobile hero column gap to separate title and search box (gap-12 on base, md gap aligned).",
+  "current_status": "Hero spacing adjusted; title/search no longer touch on mobile."}

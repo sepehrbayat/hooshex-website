@@ -1,0 +1,5 @@
+{
+  "summary": "Updated the Figma MCP configuration in ~/.cursor/mcp.json to use the npm package approach with 'bunx cursor-talk-to-figma-mcp@latest' instead of the direct file path. This simplifies the configuration and automatically uses the latest version. Socket server is still running on port 3055.",
+  "current_status": "Figma MCP configuration updated to use npm package. User needs to restart Cursor for the changes to take effect. Socket server is running and ready for connections."
+}
+

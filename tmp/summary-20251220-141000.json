@@ -1,0 +1,5 @@
+{
+  "summary": "اصلاح Features paragraph: whitespace-normal برای mobile/desktop، md:whitespace-nowrap فقط برای tablet، min-h-[21px] lg:min-h-[24px] به جای h-[21px] برای اجازه دادن به چند خط. Hero h1 قبلاً اصلاح شد (md:leading-[36px], lg:leading-[91px], lg:min-h-[179px]).",
+  "current_status": "مشکل line-height و whitespace در Hero و Features sections حل شد. paragraph حالا می‌تواند چند خط باشد در desktop."
+}
+

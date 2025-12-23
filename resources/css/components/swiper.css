@@ -1,0 +1,109 @@
+/**
+ * Swiper Custom Styles
+ * Customization for Swiper slider component
+ * Using @layer utilities for higher specificity instead of !important
+ */
+
+@layer components {
+    /* Swiper Container */
+    .swiper {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    /* Swiper Pagination - Using higher specificity by targeting specific pagination classes */
+    .swiper-pagination.testimonials-swiper-pagination,
+    .swiper-pagination.courses-swiper-pagination,
+    .swiper-pagination.blog-swiper-pagination,
+    .swiper .testimonials-swiper-pagination,
+    .swiper .courses-swiper-pagination,
+    .swiper .blog-swiper-pagination {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        direction: ltr; /* Force LTR for pagination dots */
+    }
+
+    /* Override Swiper's default positioning with higher specificity */
+    .swiper .swiper-pagination-horizontal.swiper-pagination-horizontal {
+        bottom: auto;
+        left: auto;
+        right: auto;
+        transform: none;
+        width: auto;
+        position: relative;
+    }
+
+    .swiper-pagination-bullet {
+        width: 0.5rem;
+        height: 0.5rem;
+        background: rgba(119, 95, 238, 0.3);
+        border-radius: 9999px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .swiper-pagination-bullet-active {
+        width: 2rem;
+        background: #EB55C8;
+    }
+
+    /* Swiper Navigation Buttons */
+    .swiper-button-prev,
+    .swiper-button-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: auto;
+        height: auto;
+        margin-top: 0;
+        color: #5537EA;
+        z-index: 20;
+    }
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        display: none;
+    }
+
+    /* RTL Support for Swiper */
+    .swiper[dir="rtl"] .swiper-button-prev {
+        left: 0;
+        right: auto;
+    }
+
+    .swiper[dir="rtl"] .swiper-button-next {
+        right: 0;
+        left: auto;
+    }
+}
+
+/* Higher specificity overrides for external library styles */
+@layer utilities {
+    /* Force pagination positioning with higher specificity */
+    .swiper-wrapper + .swiper-pagination,
+    .swiper .swiper-pagination.swiper-pagination-bullets {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        right: auto;
+        transform: none;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 1.5rem auto 0;
+    }
+}

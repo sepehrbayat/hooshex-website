@@ -1,0 +1,4 @@
+{
+  "summary": "کاربر گزارش داد که هیچکدام از عکس‌ها لود نمی‌شوند و خواستار تغییر فونت‌ها به Vazirmatn شد. من تمام مسیرهای تصاویر را به تصاویر موجود در public/figma-images/images اصلاح کردم (از نام‌های node ID به نام‌های واقعی فایل‌ها) و تمام فونت‌ها را از IRANSansX به Vazirmatn تغییر دادم. تصاویر Hero: ai-vector-hero-section.png, Counter: various-courses-vector.png, career-path-vector.png, super-app-vector.png, dev-with-ai-vector.png, Super App: image-13.png, Courses: startup-with-ai-vector.png, prompt-ai-vector.png, content-ai-vector.png, dolloar-income-vector.png, Blog: image-19.png, image-20.png, image-21.png, image-22.png.",
+  "current_status": "تمام مسیرهای تصاویر اصلاح شدند و تمام فونت‌ها به Vazirmatn تغییر کردند. تصاویر باید حالا لود شوند."
+}

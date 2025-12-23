@@ -1,0 +1,4 @@
+{
+  "summary": "Reduced gap between form fields from 32px to 24px to ensure phone number field stays in first row next to last name. All three fields (name, last name, phone) now fit in one line with 210px width each.",
+  "current_status": "Form layout fixed: phone number now in first row next to last name. Gap reduced to fit all three fields in one line. Ready for browser testing."
+}

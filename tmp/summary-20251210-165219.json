@@ -1,0 +1,3 @@
+{
+  "summary": "Applied RTL fix: text column now uses items-start; CTA wrapper uses justify-start with full width so badge/title/text/button all align to the right edge in RTL.",
+  "current_status": "Super App section remains transparent with soft glows; all text and CTA aligned per RTL rule (items-start/justify-start)."}

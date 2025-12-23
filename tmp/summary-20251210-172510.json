@@ -1,0 +1,3 @@
+{
+  "summary": "Removed conflicting self-end on the text wrapper, switched to self-start so text stays at the top while phone remains lowered via lg:pt-48; parent already items-start.",
+  "current_status": "Super App section transparent with soft glows; text pinned top-right, phone lowered; CTA/right alignment intact."}

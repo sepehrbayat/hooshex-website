@@ -1,0 +1,7 @@
+{
+  "summary": "User reported severe stability issues with Figma-Linux (white screens, freezes, crashes). Created comprehensive improvement prompts in English for Cursor AI to help fix or rebuild Figma-Linux. Created two documents: detailed improvement prompts and quick fix guide with diagnostic commands.",
+  "current_status": "Created comprehensive prompts for fixing Figma-Linux. User can use these prompts in Cursor AI to either troubleshoot current installation or build a custom stable version. Documents include multiple approaches: quick fixes, custom Electron wrapper, and complete rebuild."
+}
+
+
+

@@ -1,0 +1,4 @@
+{
+  "summary": "Resolved Vite manifest error by running Vite on default port 5173; Laravel serve remains on :8000.",
+  "current_status": "Vite dev server: http://localhost:5173, Laravel: http://localhost:8000."
+}

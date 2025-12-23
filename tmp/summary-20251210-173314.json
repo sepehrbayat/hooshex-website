@@ -1,0 +1,3 @@
+{
+  "summary": "Raised the phone mockup slightly by reducing its wrapper padding to lg:pt-24, keeping the staggered effect but tightening vertical spacing.",
+  "current_status": "Super App section remains transparent; text right-aligned with lg:self-center; phone offset now 24 (lg) for balanced alignment."}

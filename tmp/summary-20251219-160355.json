@@ -1,0 +1,5 @@
+{
+  "summary": "Cleaned up blog section card alignment by replacing margin-left and padding-left with proper positioning values. Changed badge left position from 197px to 229px (cleaner than using margin-left: 32px). Updated metadata container to use padding-right: 93px instead of padding-left for proper RTL support. All changes apply to all blog cards via the existing @foreach loop. No linting errors.",
+  "current_status": "Blog section cards now have cleaner, more maintainable positioning code. Badge badges are properly right-aligned and metadata containers have correct RTL padding. All four blog cards (آموزش هوش مصنوعی برای کسب‌وکارها, چطور از هوش مصنوعی پول بسازیم؟, راهنمای ابزارهای هوشکس, شروع یادگیری دیتاساینس) now have consistent alignment."
+}
+

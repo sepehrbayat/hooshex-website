@@ -1,0 +1,4 @@
+{
+  "summary": "Fixed 'مشاهده دوره' button in popular courses section. Updated button width from 112px to 116px, height from 32px to 28px. Updated container width from 252px to 258px and height from 32px to 17px. Added whitespace-nowrap to keep text on one line. Added negative margin-top (-mt-1) to move button slightly higher. All changes applied to resources/views/components/home/course-card.blade.php.",
+  "current_status": "Popular courses section button styling updated. Button now displays correctly with proper dimensions, text stays on one line, and button is positioned slightly higher. Ready for browser testing."
+}

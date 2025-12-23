@@ -1,0 +1,4 @@
+{
+  "summary": "اصلاح مسیرهای @import در app.css. تغییر از './base/fonts.css' به 'base/fonts.css' برای سازگاری با Vite. اصلاح تمام مسیرهای import در components و utilities. اصلاح import در ai-bot.css.",
+  "current_status": "مسیرهای import اصلاح شدند. Vite باید بتواند فایل‌ها را پیدا کند."
+}

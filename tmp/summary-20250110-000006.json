@@ -1,0 +1,5 @@
+{
+  "summary": "Removed non-working unofficial figma-linux and set up Figma PWA installation via Chrome. Created desktop entry file for easy launching. User will install Figma as PWA through Chrome browser which should work much better and support plugins including Cursor MCP Plugin.",
+  "current_status": "Ready for user to install Figma as PWA through Chrome. Once installed, it will function like desktop version and should properly support Figma plugins. Then user can connect Cursor MCP Plugin to read designs."
+}
+

@@ -1,0 +1,5 @@
+{
+  "summary": "کاربر channel ID را داد (p9tph1bx) اما من نمی‌توانم tool join_channel را پیدا کنم. برای استخراج عکس‌های نمادها (etehadiye.png, logo (1).png, logo.png) از Figma، نیاز به join کردن channel دارم. باید node ID های Group 261, 262, 263 را پیدا کنم و سپس از export_node_as_image استفاده کنم.",
+  "current_status": "در انتظار راهنمایی برای join کردن channel یا پیدا کردن node ID های نمادها از روش دیگری. عکس‌های نمادها باید در public/figma-images/images ذخیره شوند: etehadiye.png, logo-1.png, logo.png"
+}
+

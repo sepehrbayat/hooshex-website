@@ -1,0 +1,5 @@
+{
+  "summary": "به\u200cروزرسانی فایل AI_BOT_DESKTOP_FIX.md با توضیحات کامل و دقیق: مشکل ریشه‌ای شناسایی شد (استفاده از xl: prefix در inline styles که کار نمی\u200cکند). تمام مقادیر دقیق از desktop-figma.css استخراج و در فایل مستند شد: Container اصلی (1218x592), Title (442x48, absolute), Pink Form (758x241, absolute, left 381px, top 0px, padding 24px, gap 24px 32px), Input fields (Phone Number, Last Name, First Name, Favorite) با تمام جزئیات width, height, padding, gap, order, flex-grow، Glass Card (716x248, absolute, left 0px, top 152px, padding 24px, gap 66px), AI Frame 1 و AI Frame 2 با buttons (File Attach, Microphone, Search) با تمام جزئیات. راه حل: استفاده از Tailwind classes برای responsive، inline styles فقط برای مقادیر ثابت.",
+  "current_status": "فایل توضیحات کامل به\u200cروزرسانی شد برای Cursor AI تا خودش مشکل را حل کند."
+}
+

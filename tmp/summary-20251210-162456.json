@@ -1,0 +1,3 @@
+{
+  "summary": "Realigned Super App text stack to RTL/right: wrapper is flex-column items-end with text-right, and CTA container now justify-end so heading, paragraphs, and button align to the right together.",
+  "current_status": "Super App section uses right-aligned text and CTA; transparent background and soft glows remain."}

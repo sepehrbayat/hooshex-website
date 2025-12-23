@@ -1,0 +1,5 @@
+{
+  "summary": "مشکل AI Bot section: max-w برای lg به 1024px تغییر کرد (مثل سایر sections) و xl:px-0 تنظیم شد تا container درست وسط قرار بگیرد. xl:max-w-[1218px] حفظ شد.",
+  "current_status": "AI Bot section: max-width و padding تنظیم شد برای centering بهتر."
+}
+

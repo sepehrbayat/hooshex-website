@@ -1,0 +1,3 @@
+{
+  "summary": "Realigned Super App text stack per RTL axis: text column now uses items-start with text-right; CTA wrapper no longer full-width/centered and is self-end so badge, heading, paragraphs, and button share the same right start line; section remains transparent with soft glows only.",
+  "current_status": "Super App section text and CTA align to the right edge as in the mock; backgrounds unchanged."}

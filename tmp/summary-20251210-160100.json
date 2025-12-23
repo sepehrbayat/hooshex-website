@@ -1,0 +1,5 @@
+{
+  "summary": "Adjusted Popular Courses cards: increased vertical padding to px-5 py-8 for taller feel and tightened badge position to right-2 top-2. No lints.",
+  "current_status": "Popular Courses visuals refined for height and badge placement per target."
+}
+

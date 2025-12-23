@@ -1,0 +1,5 @@
+{
+  "summary": "پیاده\u200cسازی pixel-perfect AI Bot section در desktop: از desktop-figma.css تمام جزئیات استخراج شد. Title: absolute, width 442px, height 48px, left calc(50% - 221px + 388px), top 0px. Pink Form inputs: Phone Number (215.33px, order 0), Last Name (215.33px, order 1), First Name (215.33px, order 2), Favorite (328px, order 3). Glass Card buttons: File Attach (164px), Microphone (48px), Search (187px) با box-shadow دقیق. همه مقادیر width, height, padding, gap, order, flex-grow از CSS استخراج شد.",
+  "current_status": "AI Bot section در desktop با تمام جزئیات از desktop-figma.css پیاده\u200cسازی شد."
+}
+

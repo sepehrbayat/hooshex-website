@@ -1,0 +1,3 @@
+{
+  "summary": "Matched mobile hero per Figma snippet: mobile header icons 24px with 42px logo, hero text centered above image, reduced gap/title 32px, blur and main image positioned per provided coords (128px blur at 96/307, main 227x217 at 110/228). Hid wave SVG on mobile. Rebuilt assets.",
+  "current_status": "Mobile hero/header aligned to Figma positions; assets rebuilt. Laravel 8000, Vite 5173."}

@@ -1,0 +1,5 @@
+{
+  "summary": "رفع مشکل ریشه‌ای AI Bot section در desktop: مشکل اصلی استفاده از xl: prefix در inline style attribute ها بود که کار نمی‌کند. تمام مقادیر desktop را به Tailwind classes تبدیل کردم (xl:w-[215.33px], xl:h-[81px], xl:gap-4, xl:px-4 xl:py-3). Input fields (Phone Number, Last Name, First Name, Favorite) و Glass Card buttons (File Attach, Microphone, Search) اصلاح شدند. هنوز باید padding و gap در input fields را بررسی کنم.",
+  "current_status": "در حال رفع مشکل ریشه‌ای: تبدیل inline style های غیرقابل استفاده به Tailwind classes برای desktop."
+}
+

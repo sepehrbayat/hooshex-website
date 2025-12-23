@@ -1,0 +1,3 @@
+{
+  "summary": "Attempted to run builder.io dev-tools quickcopy command; it prompted for an integration description and was cancelled before completion. No code changes applied.",
+  "current_status": "Builder import pending user-provided integration description; project unchanged."}

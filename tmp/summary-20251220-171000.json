@@ -1,0 +1,5 @@
+{
+  "summary": "رفع کامل مشکل ریشه‌ای AI Bot section در desktop: تمام inline style های با xl: prefix که کار نمی‌کردند حذف شدند و به Tailwind classes تبدیل شدند. Input fields (Phone Number, Last Name, First Name) و Favorite (Interests) با classes صحیح (xl:w-[215.33px], xl:h-[81px], xl:gap-4, xl:px-4 xl:py-3) اصلاح شدند. Glass Card (AI Frame 1 و AI Frame 2) با classes صحیح (xl:w-[668px], xl:h-[88px], xl:gap-[212px], xl:gap-[314px]) اصلاح شدند. همه مقادیر desktop از desktop-figma.css استفاده شده است.",
+  "current_status": "مشکل ریشه‌ای رفع شد: تمام inline style های غیرقابل استفاده به Tailwind classes تبدیل شدند."
+}
+
