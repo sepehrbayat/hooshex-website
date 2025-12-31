@@ -1,0 +1,247 @@
+/* HooshEx Design System - Post Resource Enhanced UI */
+
+/* Primary Colors */
+:root {
+    --hooshex-primary: #775FEE;
+    --hooshex-surface: #FCF1FB;
+    --hooshex-deep-purple: #22165E;
+    --hooshex-body: #2D2D2D;
+    --hooshex-muted: #AAAAAA;
+    --hooshex-border-light: #f3e8f8;
+}
+
+/* Page Background */
+.fi-page-simple,
+.fi-page-resource,
+.fi-page {
+    background-color: var(--hooshex-surface) !important;
+}
+
+/* Enhanced Card Styling */
+.fi-section {
+    background-color: white !important;
+    border-radius: 1rem !important;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1) !important;
+    border: 1px solid var(--hooshex-border-light) !important;
+}
+
+/* Form Input Heights */
+.fi-input-wrp input[type="text"],
+.fi-input-wrp input[type="email"],
+.fi-input-wrp input[type="password"],
+.fi-input-wrp input[type="url"],
+.fi-input-wrp input[type="number"],
+.fi-select-input {
+    height: 2.75rem !important; /* h-11 */
+    font-size: 0.9375rem !important;
+    border-radius: 0.5rem !important;
+}
+
+/* Enhanced Select Dropdown */
+.fi-select {
+    border-radius: 0.5rem !important;
+}
+
+.fi-select-input {
+    background-color: white !important;
+    border: 1.5px solid #e5e7eb !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-select-input:hover {
+    border-color: var(--hooshex-primary) !important;
+}
+
+.fi-select-input:focus {
+    border-color: var(--hooshex-primary) !important;
+    box-shadow: 0 0 0 3px rgba(119, 95, 238, 0.1) !important;
+}
+
+/* Rich Editor Min Height */
+.fi-fo-rich-editor .tiptap {
+    min-height: 400px !important;
+}
+
+/* Labels Outside Inputs */
+.fi-fo-field-wrp-label {
+    font-weight: 500 !important;
+    color: var(--hooshex-deep-purple) !important;
+    margin-bottom: 0.5rem !important;
+    font-size: 0.875rem !important;
+}
+
+/* Helper Text */
+.fi-fo-field-wrp-hint {
+    color: var(--hooshex-muted) !important;
+    font-size: 0.8125rem !important;
+}
+
+/* Primary Button (Save) */
+.fi-btn-primary,
+button[type="submit"].fi-btn {
+    background-color: var(--hooshex-primary) !important;
+    color: white !important;
+    border-radius: 0.5rem !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 600 !important;
+    border: none !important;
+    box-shadow: 0 4px 6px -1px rgba(119, 95, 238, 0.3) !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-btn-primary:hover,
+button[type="submit"].fi-btn:hover {
+    background-color: #6348d9 !important;
+    box-shadow: 0 6px 10px -1px rgba(119, 95, 238, 0.4) !important;
+    transform: translateY(-1px) !important;
+}
+
+.fi-btn-primary:active,
+button[type="submit"].fi-btn:active {
+    transform: translateY(0) !important;
+}
+
+/* Secondary Buttons */
+.fi-btn-secondary,
+.fi-btn[class*="outline"] {
+    color: var(--hooshex-muted) !important;
+    border-color: #e5e7eb !important;
+    background-color: white !important;
+    border-radius: 0.5rem !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-btn-secondary:hover,
+.fi-btn[class*="outline"]:hover {
+    color: var(--hooshex-deep-purple) !important;
+    border-color: var(--hooshex-primary) !important;
+}
+
+/* Section Headers */
+.fi-section-header-heading {
+    color: var(--hooshex-deep-purple) !important;
+    font-weight: 600 !important;
+    font-size: 1.125rem !important;
+}
+
+.fi-section-description {
+    color: var(--hooshex-muted) !important;
+    font-size: 0.875rem !important;
+}
+
+/* Increased Spacing */
+.fi-section-content-ctn {
+    padding: 2rem !important;
+}
+
+.fi-fo-grid {
+    gap: 1.5rem !important;
+}
+
+/* Placeholder Enhancement */
+.fi-fo-placeholder {
+    background-color: #f9fafb !important;
+    border: 1px dashed #e5e7eb !important;
+    border-radius: 0.5rem !important;
+    padding: 0.75rem 1rem !important;
+    color: var(--hooshex-body) !important;
+}
+
+/* Textarea Styling */
+.fi-input-wrp textarea {
+    border-radius: 0.5rem !important;
+    border: 1.5px solid #e5e7eb !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-input-wrp textarea:hover {
+    border-color: var(--hooshex-primary) !important;
+}
+
+.fi-input-wrp textarea:focus {
+    border-color: var(--hooshex-primary) !important;
+    box-shadow: 0 0 0 3px rgba(119, 95, 238, 0.1) !important;
+}
+
+/* Image Picker Styling */
+.curator-picker {
+    border-radius: 0.5rem !important;
+    overflow: hidden !important;
+}
+
+/* Multi-Select Tags */
+.choices__item {
+    background-color: var(--hooshex-primary) !important;
+    border-radius: 0.375rem !important;
+    padding: 0.25rem 0.75rem !important;
+}
+
+/* Collapsible Sections */
+.fi-collapsible-header {
+    background-color: #f9fafb !important;
+    border-radius: 0.5rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-collapsible-header:hover {
+    background-color: var(--hooshex-surface) !important;
+}
+
+/* Title Input Enhancement */
+input[id*="title"] {
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    color: var(--hooshex-deep-purple) !important;
+}
+
+/* Slug Prefix Styling */
+.fi-input-prefix {
+    background-color: #f9fafb !important;
+    color: var(--hooshex-muted) !important;
+    font-weight: 500 !important;
+}
+
+/* Enhanced Focus States */
+.fi-input:focus-within {
+    ring-color: var(--hooshex-primary) !important;
+}
+
+/* Status Select Emojis */
+.fi-select-option {
+    font-size: 0.9375rem !important;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .fi-section-content-ctn {
+        padding: 1.5rem !important;
+    }
+    
+    .fi-input-wrp input[type="text"],
+    .fi-input-wrp input[type="email"],
+    .fi-input-wrp input[type="password"],
+    .fi-select-input {
+        height: 2.5rem !important;
+    }
+}
+
+/* Grid Gap Enhancement */
+[class*="grid-cols-12"] {
+    gap: 2rem !important;
+}
+
+/* Animation for Button Interactions */
+@keyframes pulse-primary {
+    0%, 100% {
+        box-shadow: 0 4px 6px -1px rgba(119, 95, 238, 0.3);
+    }
+    50% {
+        box-shadow: 0 6px 10px -1px rgba(119, 95, 238, 0.5);
+    }
+}
+
+.fi-btn-primary:focus {
+    animation: pulse-primary 1.5s ease-in-out infinite !important;
+}

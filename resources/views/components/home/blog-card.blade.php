@@ -17,7 +17,7 @@
 
 <div class="card rounded-lg overflow-hidden bg-white shadow-md w-full max-w-[292px] h-[308px] flex flex-col">
     {{-- Blog Image --}}
-    <div class="relative w-full h-[180px] overflow-hidden bg-gray-100">
+    <div class="relative w-full h-[180px] overflow-hidden bg-primary-50">
         <img 
             src="{{ asset($image) }}" 
             alt="{{ $blog['title'] ?? '' }}" 

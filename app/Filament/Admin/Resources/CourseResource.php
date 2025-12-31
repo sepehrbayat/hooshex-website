@@ -23,6 +23,16 @@ class CourseResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-academic-cap';
 
+    protected static ?string $navigationLabel = 'دوره‌ها';
+
+    protected static ?string $modelLabel = 'دوره';
+
+    protected static ?string $pluralModelLabel = 'دوره‌ها';
+
+    protected static ?string $navigationGroup = 'آموزش';
+
+    protected static ?int $navigationSort = 1;
+
     public static function form(Form $form): Form
     {
         return $form->schema([
@@ -65,6 +75,12 @@ class CourseResource extends Resource
                                 ->label('Thumbnail Image')
                                 ->directory('course-thumbnails')
                                 ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp'])
+                                ->buttonLabel('Select or Upload Image')
+                                ->constrained(true)
+                                ->size('lg')
+                                ->lazyLoad()
+                                ->live() // Force update after selection
+                                ->afterStateUpdated(fn ($livewire) => $livewire->dispatch('refresh-form'))
                                 ->columnSpanFull(),
                             Forms\Components\Select::make('intro_video_provider')
                                 ->options([
@@ -110,14 +126,32 @@ class CourseResource extends Resource
                         ->schema([
                             Forms\Components\Select::make('level')
                                 ->options([
-                                    CourseLevel::Beginner->value => 'Beginner',
-                                    CourseLevel::Intermediate->value => 'Intermediate',
-                                    CourseLevel::Advanced->value => 'Advanced',
+                                    CourseLevel::Beginner->value => 'مقدماتی',
+                                    CourseLevel::Intermediate->value => 'متوسط',
+                                    CourseLevel::Advanced->value => 'پیشرفته',
                                 ])
                                 ->nullable(),
+                            Forms\Components\Select::make('course_type')
+                                ->options([
+                                    'recorded' => 'ضبط شده',
+                                    'live' => 'زنده',
+                                    'hybrid' => 'ترکیبی',
+                                ])
+                                ->nullable()
+                                ->label('نوع دوره'),
                             Forms\Components\TextInput::make('duration')
                                 ->maxLength(50)
                                 ->helperText('e.g., "12h 30m"'),
+                            Forms\Components\TextInput::make('total_hours')
+                                ->numeric()
+                                ->nullable()
+                                ->label('مجموع ساعات')
+                                ->helperText('مثلاً: 39'),
+                            Forms\Components\TextInput::make('total_lessons')
+                                ->numeric()
+                                ->nullable()
+                                ->label('تعداد جلسات')
+                                ->helperText('تعداد کل جلسات دوره'),
                             Forms\Components\TextInput::make('students_count')
                                 ->numeric()
                                 ->nullable()
@@ -125,60 +159,97 @@ class CourseResource extends Resource
                             Forms\Components\TextInput::make('guarantee_text')
                                 ->maxLength(255)
                                 ->nullable()
-                                ->helperText('e.g., "30-day money-back"')
+                                ->helperText('مثلاً: ضمانت بازگشت 30 روزه')
+                                ->columnSpanFull(),
+                            Forms\Components\TextInput::make('support_type')
+                                ->maxLength(255)
+                                ->nullable()
+                                ->label('نوع پشتیبانی')
+                                ->helperText('مثلاً: تلگرام، ایمیل، تیکتینگ')
                                 ->columnSpanFull(),
                             Forms\Components\TextInput::make('price')
                                 ->numeric()
                                 ->required()
                                 ->default(0)
-                                ->helperText('Price in Toman'),
+                                ->helperText('قیمت به تومان'),
                             Forms\Components\TextInput::make('sale_price')
                                 ->numeric()
                                 ->nullable()
-                                ->helperText('Sale price in Toman'),
+                                ->helperText('قیمت تخفیف خورده'),
                             Forms\Components\Toggle::make('is_certificate_available')
                                 ->default(true)
-                                ->label('Certificate Available'),
+                                ->label('دریافت گواهینامه'),
+                            Forms\Components\Toggle::make('has_lifetime_access')
+                                ->default(true)
+                                ->label('دسترسی مادام‌العمر'),
+                            Forms\Components\Toggle::make('has_practice_files')
+                                ->default(false)
+                                ->label('فایل‌های تمرینی'),
+                            Forms\Components\DateTimePicker::make('last_updated_at')
+                                ->label('آخرین به‌روزرسانی')
+                                ->nullable(),
                             Forms\Components\Select::make('status')
                                 ->options([
-                                    CourseStatus::Draft->value => 'Draft',
-                                    CourseStatus::Published->value => 'Published',
-                                    CourseStatus::Archived->value => 'Archived',
+                                    CourseStatus::Draft->value => 'پیش‌نویس',
+                                    CourseStatus::Published->value => 'منتشر شده',
+                                    CourseStatus::Archived->value => 'آرشیو شده',
                                 ])
                                 ->required()
                                 ->default(CourseStatus::Draft->value),
-                            Forms\Components\Toggle::make('is_featured'),
+                            Forms\Components\Toggle::make('is_featured')
+                                ->label('دوره ویژه'),
                         ])->columns(2),
 
                     // Tab 4: Lists
                     Forms\Components\Tabs\Tab::make('Lists')
                         ->schema([
                             Forms\Components\RichEditor::make('description')
-                                ->label('Course Description')
+                                ->label('توضیحات دوره')
+                                ->columnSpanFull(),
+                            Forms\Components\Repeater::make('what_you_learn')
+                                ->label('چیزهایی که یاد می‌گیرید')
+                                ->simple(
+                                    Forms\Components\TextInput::make('item')
+                                        ->label('مورد')
+                                        ->required()
+                                )
+                                ->defaultItems(0)
+                                ->columnSpanFull(),
+                            Forms\Components\Repeater::make('course_requirements')
+                                ->label('الزامات دوره')
+                                ->simple(
+                                    Forms\Components\TextInput::make('item')
+                                        ->label('الزام')
+                                        ->required()
+                                )
+                                ->defaultItems(0)
+                                ->columnSpanFull(),
+                            Forms\Components\Repeater::make('course_includes')
+                                ->label('این دوره شامل')
+                                ->simple(
+                                    Forms\Components\TextInput::make('item')
+                                        ->label('مورد')
+                                        ->required()
+                                )
+                                ->defaultItems(0)
                                 ->columnSpanFull(),
                             Forms\Components\Repeater::make('prerequisites')
-                                ->schema([
-                                    Forms\Components\TextInput::make('value')
-                                        ->label('Prerequisite')
+                                ->label('پیش‌نیازها')
+                                ->simple(
+                                    Forms\Components\TextInput::make('item')
+                                        ->label('پیش‌نیاز')
                                         ->required()
-                                        ->maxLength(255),
-                                ])
+                                )
                                 ->defaultItems(0)
-                                ->itemLabel(fn (array $state): ?string => $state['value'] ?? null)
-                                ->dehydrateStateUsing(fn ($state) => collect($state)->pluck('value')->filter()->values()->toArray())
-                                ->hydrateStateUsing(fn ($state) => collect($state ?? [])->map(fn ($item) => ['value' => $item])->toArray())
                                 ->columnSpanFull(),
                             Forms\Components\Repeater::make('target_audience')
-                                ->schema([
-                                    Forms\Components\TextInput::make('value')
-                                        ->label('Target Audience')
+                                ->label('مخاطبان هدف')
+                                ->simple(
+                                    Forms\Components\TextInput::make('item')
+                                        ->label('مخاطب')
                                         ->required()
-                                        ->maxLength(255),
-                                ])
+                                )
                                 ->defaultItems(0)
-                                ->itemLabel(fn (array $state): ?string => $state['value'] ?? null)
-                                ->dehydrateStateUsing(fn ($state) => collect($state)->pluck('value')->filter()->values()->toArray())
-                                ->hydrateStateUsing(fn ($state) => collect($state ?? [])->map(fn ($item) => ['value' => $item])->toArray())
                                 ->columnSpanFull(),
                         ]),
 
@@ -208,21 +279,26 @@ class CourseResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('title')
                     ->searchable()
-                    ->sortable(),
+                    ->sortable()
+                    ->label('عنوان'),
                 Tables\Columns\TextColumn::make('teacher.name')
                     ->searchable()
-                    ->sortable(),
+                    ->sortable()
+                    ->label('مدرس'),
                 Tables\Columns\TextColumn::make('price')
                     ->money('IRR')
-                    ->sortable(),
+                    ->sortable()
+                    ->label('قیمت'),
                 Tables\Columns\TextColumn::make('status')
                     ->badge()
-                    ->formatStateUsing(fn ($state) => $state?->value ?? 'N/A'),
+                    ->label('وضعیت'),
                 Tables\Columns\IconColumn::make('is_featured')
-                    ->boolean(),
+                    ->boolean()
+                    ->label('ویژه'),
                 Tables\Columns\TextColumn::make('published_at')
                     ->date()
-                    ->sortable(),
+                    ->sortable()
+                    ->label('تاریخ انتشار'),
             ])
             ->filters([
                 Tables\Filters\SelectFilter::make('status')
@@ -245,6 +321,7 @@ class CourseResource extends Resource
     {
         return [
             CourseResource\RelationManagers\ChaptersRelationManager::class,
+            CourseResource\RelationManagers\LicensesRelationManager::class,
         ];
     }
 

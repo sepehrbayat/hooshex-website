@@ -5,17 +5,20 @@ declare(strict_types=1);
 namespace App\Filament\App\Pages;
 
 use App\Domains\Auth\Models\User;
+use Filament\Actions;
 use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
 use Filament\Notifications\Notification;
+use Filament\Pages\Concerns\InteractsWithFormActions;
 use Filament\Pages\Page;
 use Illuminate\Support\Facades\Hash;
 
 class Profile extends Page implements HasForms
 {
     use InteractsWithForms;
+    use InteractsWithFormActions;
 
     protected static ?string $navigationIcon = 'heroicon-o-user';
 
@@ -103,13 +106,41 @@ class Profile extends Page implements HasForms
             $user->password = Hash::make($data['new_password']);
         }
 
-        $user->update([
+        // Update user data (email and mobile updates handled separately if changed)
+        $updateData = [
             'name' => $data['name'],
-            'email' => $data['email'],
-            'mobile' => $data['mobile'] ?? null,
             'bio' => $data['bio'] ?? null,
             'avatar_path' => $data['avatar_path'] ?? null,
-        ]);
+        ];
+
+        // Only update email if it has changed
+        if ($data['email'] !== $user->email) {
+            // Check if new email is already taken
+            if (User::where('email', $data['email'])->where('id', '!=', $user->id)->exists()) {
+                Notification::make()
+                    ->title('این ایمیل قبلاً استفاده شده است')
+                    ->danger()
+                    ->send();
+                return;
+            }
+            $updateData['email'] = $data['email'];
+        }
+
+        // Only update mobile if it has changed
+        $newMobile = $data['mobile'] ?? null;
+        if ($newMobile !== $user->mobile) {
+            // Check if new mobile is already taken (if not empty)
+            if (!empty($newMobile) && User::where('mobile', $newMobile)->where('id', '!=', $user->id)->exists()) {
+                Notification::make()
+                    ->title('این شماره موبایل قبلاً استفاده شده است')
+                    ->danger()
+                    ->send();
+                return;
+            }
+            $updateData['mobile'] = $newMobile;
+        }
+
+        $user->update($updateData);
 
         Notification::make()
             ->title('پروفایل با موفقیت به‌روزرسانی شد')
@@ -120,9 +151,14 @@ class Profile extends Page implements HasForms
     protected function getFormActions(): array
     {
         return [
-            Forms\Components\Actions\Action::make('save')
+            Actions\Action::make('save')
                 ->label('ذخیره')
                 ->submit('save'),
         ];
+    }
+
+    protected function hasFullWidthFormActions(): bool
+    {
+        return false;
     }
 }

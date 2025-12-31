@@ -79,7 +79,8 @@ return new class extends Migration
                     $table->index('order_id');
                 }
                 // Index for polymorphic relation queries
-                if (!$this->hasIndex('order_items', 'order_items_orderable_index')) {
+                // Note: morphs() already creates this index as 'order_items_orderable_type_orderable_id_index'
+                if (!$this->hasIndex('order_items', 'order_items_orderable_type_orderable_id_index')) {
                     $table->index(['orderable_type', 'orderable_id']);
                 }
             });
@@ -140,7 +141,7 @@ return new class extends Migration
                 // MySQL/PostgreSQL use information_schema
                 $database = $connection->getDatabaseName();
                 $result = $connection->selectOne(
-                    "SELECT COUNT(*) as count FROM information_schema.statistics 
+                    "SELECT COUNT(*) as count FROM information_schema.statistics
                      WHERE table_schema = ? AND table_name = ? AND index_name = ?",
                     [$database, $table, $indexName]
                 );
@@ -152,4 +153,3 @@ return new class extends Migration
         }
     }
 };
-

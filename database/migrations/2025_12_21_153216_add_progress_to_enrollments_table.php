@@ -11,9 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('enrollments', function (Blueprint $table) {
-            $table->unsignedInteger('progress')->default(0)->after('expires_at');
-        });
+        if (Schema::hasTable('enrollments')) {
+            Schema::table('enrollments', function (Blueprint $table) {
+                $table->unsignedInteger('progress')->default(0)->after('expires_at');
+            });
+        }
     }
 
     /**
@@ -21,8 +23,10 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('enrollments', function (Blueprint $table) {
-            $table->dropColumn('progress');
-        });
+        if (Schema::hasTable('enrollments')) {
+            Schema::table('enrollments', function (Blueprint $table) {
+                $table->dropColumn('progress');
+            });
+        }
     }
 };

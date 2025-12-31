@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Domains\Courses\Models;
 
 use App\Domains\Auth\Models\User;
+use Database\Factories\TeacherFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -47,5 +48,13 @@ class Teacher extends Model
     public function avatar(): BelongsTo
     {
         return $this->belongsTo(\Awcodes\Curator\Models\Media::class, 'avatar_id');
+    }
+
+    /**
+     * Explicit factory resolver to bypass namespace guessing issues.
+     */
+    protected static function newFactory(): TeacherFactory
+    {
+        return TeacherFactory::new();
     }
 }

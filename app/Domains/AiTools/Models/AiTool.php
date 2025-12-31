@@ -124,9 +124,23 @@ class AiTool extends Model
     /**
      * Get dynamic SEO data for the AI tool
      * This method is called by the SEO package to get custom SEO data
+     * 
+     * IMPORTANT: This method is defensive to prevent issues during table rendering.
+     * It only accesses relationships if they're already loaded to avoid N+1 queries.
      */
     public function getDynamicSEOData(): SEOData
     {
+        // Prevent execution during Filament admin table rendering to avoid timeouts
+        // Check if we're in an admin context (Filament routes typically contain '/admin')
+        if (request()->is('admin/*') || request()->is('*/admin/*')) {
+            // Return minimal SEO data to prevent relationship access during table rendering
+            return new SEOData(
+                title: $this->seo_title ?? $this->name,
+                description: $this->seo_description ?? $this->short_description,
+                type: 'website',
+            );
+        }
+
         // Build SoftwareApplication schema
         $softwareSchema = [
             '@context' => 'https://schema.org',
@@ -173,20 +187,29 @@ class AiTool extends Model
             }
         }
 
-        // Add logo/image
-        if ($this->logo) {
+        // Add logo/image - only if relationship is already loaded to avoid N+1 queries
+        if ($this->relationLoaded('logo') && $this->logo) {
             $softwareSchema['image'] = $this->logo->url;
+        } elseif ($this->logo_id && !$this->relationLoaded('logo')) {
+            // If logo_id exists but relationship not loaded, skip to avoid query
+            // This prevents N+1 queries during table rendering
         }
 
         // Add to schema collection
         $schemaCollection = SchemaCollection::initialize();
         $schemaCollection->push(new CustomSchema($softwareSchema));
 
+        // Get logo URL safely - only if already loaded
+        $logoUrl = null;
+        if ($this->relationLoaded('logo') && $this->logo) {
+            $logoUrl = $this->logo->url;
+        }
+
         // Create SEOData with custom fields
         $seoData = new SEOData(
             title: $this->seo_title ?? $this->name,
             description: $this->seo_description ?? $this->short_description,
-            image: $this->logo?->url,
+            image: $logoUrl,
             url: route('ai-tools.show', $this->slug),
             schema: $schemaCollection,
             type: 'website',

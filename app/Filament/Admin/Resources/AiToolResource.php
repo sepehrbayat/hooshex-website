@@ -182,7 +182,7 @@ class AiToolResource extends Resource
                 Tables\Columns\TextColumn::make('rating')
                     ->sortable()
                     ->formatStateUsing(fn ($state) => $state ? number_format($state, 1) : 'N/A'),
-                Tables\Columns\TextColumn::make('click_count')
+                Tables\Columns\TextColumn::make('clicks_count')
                     ->label('تعداد کلیک')
                     ->counts('clicks')
                     ->sortable(),

@@ -11,6 +11,10 @@ return new class extends Migration
 {
     public function up(): void
     {
+        if (!Schema::hasTable('courses')) {
+            return;
+        }
+
         // Rename content to description using raw SQL
         $driver = DB::getDriverName();
         if ($driver === 'sqlite') {
@@ -50,6 +54,10 @@ return new class extends Migration
 
     public function down(): void
     {
+        if (!Schema::hasTable('courses')) {
+            return;
+        }
+
         Schema::table('courses', function (Blueprint $table) {
             // Re-add dropped columns
             $table->string('intro_video_url', 500)->nullable();

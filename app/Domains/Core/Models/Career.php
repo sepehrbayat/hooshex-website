@@ -6,8 +6,10 @@ namespace App\Domains\Core\Models;
 
 use App\Enums\WorkType;
 use App\Enums\ContractType;
+use App\Domains\Auth\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
 use RalphJSmit\Laravel\SEO\Support\SEOData;
 use RalphJSmit\Laravel\SEO\SchemaCollection;
@@ -128,5 +130,13 @@ class Career extends Model
         );
 
         return $seoData;
+    }
+
+    /**
+     * Users who selected this career path
+     */
+    public function selectedByUsers(): HasMany
+    {
+        return $this->hasMany(User::class, 'selected_career_id');
     }
 }

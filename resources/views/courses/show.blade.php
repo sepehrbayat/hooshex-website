@@ -23,9 +23,9 @@
                     @endif
                 </div>
                 
-                <h1 class="text-3xl font-bold mb-4">{{ $course->title }}</h1>
+                <h1 class="text-3xl font-black mb-4" style="font-family: 'Vazirmatn', sans-serif;">{{ $course->title }}</h1>
                 @if($course->short_description)
-                    <p class="text-lg text-gray-600 mb-4">{{ $course->short_description }}</p>
+                    <p class="text-lg text-text-secondary mb-4" style="font-family: 'Vazirmatn', sans-serif;">{{ $course->short_description }}</p>
                 @endif
             </header>
 
@@ -47,26 +47,26 @@
                             <h2 class="text-2xl font-bold mb-6">سرفصل‌های دوره</h2>
                             <div class="space-y-4">
                                 @foreach($course->chapters as $chapter)
-                                    <div class="border rounded-lg overflow-hidden">
-                                        <div class="bg-gray-50 px-6 py-4 border-b">
-                                            <h3 class="font-semibold text-lg">{{ $chapter->title }}</h3>
+                                    <div class="border border-primary-50 rounded-lg overflow-hidden">
+                                        <div class="bg-primary-50 px-6 py-4 border-b border-primary-100">
+                                            <h3 class="font-semibold text-lg text-text-primary" style="font-family: 'Vazirmatn', sans-serif;">{{ $chapter->title }}</h3>
                                         </div>
                                         @if($chapter->lessons->isNotEmpty())
-                                            <div class="divide-y">
+                                            <div class="divide-y divide-primary-50">
                                                 @foreach($chapter->lessons as $lesson)
-                                                    <div class="px-6 py-4 flex items-center justify-between hover:bg-gray-50">
+                                                    <div class="px-6 py-4 flex items-center justify-between hover:bg-primary-50">
                                                         <div class="flex items-center gap-3 flex-1">
                                                             <div class="flex-1">
                                                                 <div class="flex items-center gap-2">
-                                                                    <span class="text-gray-600">{{ $lesson->title }}</span>
+                                                                    <span class="text-text-secondary" style="font-family: 'Vazirmatn', sans-serif;">{{ $lesson->title }}</span>
                                                                     @if($lesson->is_free_preview || $lesson->is_free)
-                                                                        <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                                                                        <span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-700" style="font-family: 'Vazirmatn', sans-serif;">
                                                                             پیش‌نمایش رایگان
                                                                         </span>
                                                                     @endif
                                                                 </div>
                                                                 @if($lesson->duration)
-                                                                    <span class="text-sm text-gray-500">{{ $lesson->duration }}</span>
+                                                                    <span class="text-sm text-text-muted" style="font-family: 'Vazirmatn', sans-serif;">{{ $lesson->duration }}</span>
                                                                 @endif
                                                             </div>
                                                         </div>
@@ -121,17 +121,17 @@
                             </div>
 
                             {{-- Meta List --}}
-                            <div class="space-y-3 text-sm border-t pt-6">
+                            <div class="space-y-3 text-sm border-t border-primary-50 pt-6" style="font-family: 'Vazirmatn', sans-serif;">
                                 @if($course->duration)
                                     <div class="flex justify-between">
-                                        <span class="text-gray-600">مدت زمان:</span>
-                                        <span class="font-medium">{{ $course->duration }}</span>
+                                        <span class="text-text-secondary">مدت زمان:</span>
+                                        <span class="font-medium text-text-primary">{{ $course->duration }}</span>
                                     </div>
                                 @endif
                                 @if($course->level)
                                     <div class="flex justify-between">
-                                        <span class="text-gray-600">سطح:</span>
-                                        <span class="font-medium">
+                                        <span class="text-text-secondary">سطح:</span>
+                                        <span class="font-medium text-text-primary">
                                             {{ match($course->level->value) {
                                                 'beginner' => 'مبتدی',
                                                 'intermediate' => 'متوسط',
@@ -143,14 +143,14 @@
                                 @endif
                                 @if($course->updated_at)
                                     <div class="flex justify-between">
-                                        <span class="text-gray-600">آخرین بروزرسانی:</span>
-                                        <span class="font-medium">{{ $course->updated_at->format('Y/m/d') }}</span>
+                                        <span class="text-text-secondary">آخرین بروزرسانی:</span>
+                                        <span class="font-medium text-text-primary">{{ $course->updated_at->format('Y/m/d') }}</span>
                                     </div>
                                 @endif
                                 @if($course->teacher)
                                     <div class="flex justify-between">
-                                        <span class="text-gray-600">مدرس:</span>
-                                        <span class="font-medium">{{ $course->teacher->name }}</span>
+                                        <span class="text-text-secondary">مدرس:</span>
+                                        <span class="font-medium text-text-primary">{{ $course->teacher->name }}</span>
                                     </div>
                                 @endif
                             </div>

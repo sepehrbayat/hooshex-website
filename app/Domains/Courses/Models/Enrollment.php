@@ -21,11 +21,13 @@ class Enrollment extends Model
         'enrolled_at',
         'expires_at',
         'progress',
+        'completed_at',
     ];
 
     protected $casts = [
         'enrolled_at' => 'datetime',
         'expires_at' => 'datetime',
+        'completed_at' => 'datetime',
     ];
 
     public function user(): BelongsTo

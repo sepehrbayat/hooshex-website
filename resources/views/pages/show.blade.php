@@ -1,10 +1,10 @@
 <x-layouts.app :page="$page">
     <main class="flex-1">
-        <article class="max-w-4xl mx-auto px-4 py-8">
+        <article class="max-w-4xl mx-auto px-4 py-8" dir="rtl">
             <header class="mb-8">
-                <h1 class="text-3xl font-bold mb-4">{{ $page->title }}</h1>
+                <h1 class="text-3xl font-black text-text-primary mb-4" style="font-family: 'Vazirmatn', sans-serif;">{{ $page->title }}</h1>
                 @if($page->excerpt)
-                    <p class="text-lg text-gray-600">{{ $page->excerpt }}</p>
+                    <p class="text-lg text-text-secondary" style="font-family: 'Vazirmatn', sans-serif;">{{ $page->excerpt }}</p>
                 @endif
             </header>
 
@@ -29,8 +29,8 @@
                                 @break
                             
                             @default
-                                <div class="my-8 p-4 bg-gray-100 rounded">
-                                    <p class="text-sm text-gray-600">Block type "{{ $blockType }}" not implemented</p>
+                                <div class="my-8 p-4 bg-primary-50 rounded-lg">
+                                    <p class="text-sm text-text-secondary" style="font-family: 'Vazirmatn', sans-serif;">Block type "{{ $blockType }}" not implemented</p>
                                     <pre class="mt-2 text-xs">{{ json_encode($blockData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE) }}</pre>
                                 </div>
                         @endswitch

@@ -11,6 +11,7 @@ use Filament\Forms\Contracts\HasForms;
 use Filament\Forms\Form;
 use Filament\Notifications\Notification;
 use Filament\Pages\Page;
+use Illuminate\Support\Facades\DB;
 
 class SeoSettings extends Page implements HasForms
 {
@@ -28,26 +29,83 @@ class SeoSettings extends Page implements HasForms
 
     public function mount(): void
     {
-        $settings = app(SeoSettingsConfig::class);
-        $this->form->fill([
-            'title_separator' => $settings->title_separator ?? ' | ',
-            'title_suffix' => $settings->title_suffix ?? '',
-            'noindex_tags' => $settings->noindex_tags ?? false,
-            'noindex_categories' => $settings->noindex_categories ?? false,
-            'noindex_search' => $settings->noindex_search ?? false,
-            'default_schema_ai_tools' => $settings->default_schema_ai_tools ?? 'SoftwareApplication',
-            'default_schema_posts' => $settings->default_schema_posts ?? 'Article',
-            'default_schema_courses' => $settings->default_schema_courses ?? 'Course',
-            'default_schema_products' => $settings->default_schema_products ?? 'Product',
-            'include_ai_tools_in_sitemap' => $settings->include_ai_tools_in_sitemap ?? true,
-            'include_posts_in_sitemap' => $settings->include_posts_in_sitemap ?? true,
-            'include_news_in_sitemap' => $settings->include_news_in_sitemap ?? true,
-            'include_courses_in_sitemap' => $settings->include_courses_in_sitemap ?? true,
-            'include_products_in_sitemap' => $settings->include_products_in_sitemap ?? true,
-            'include_teachers_in_sitemap' => $settings->include_teachers_in_sitemap ?? true,
-            'include_pages_in_sitemap' => $settings->include_pages_in_sitemap ?? true,
-            'include_careers_in_sitemap' => $settings->include_careers_in_sitemap ?? true,
-        ]);
+        try {
+            $settings = app(SeoSettingsConfig::class);
+            $this->form->fill([
+                'title_separator' => $settings->title_separator ?? ' | ',
+                'title_suffix' => $settings->title_suffix ?? '',
+                'noindex_tags' => $settings->noindex_tags ?? false,
+                'noindex_categories' => $settings->noindex_categories ?? false,
+                'noindex_search' => $settings->noindex_search ?? false,
+                'default_schema_ai_tools' => $settings->default_schema_ai_tools ?? 'SoftwareApplication',
+                'default_schema_posts' => $settings->default_schema_posts ?? 'Article',
+                'default_schema_courses' => $settings->default_schema_courses ?? 'Course',
+                'default_schema_products' => $settings->default_schema_products ?? 'Product',
+                'include_ai_tools_in_sitemap' => $settings->include_ai_tools_in_sitemap ?? true,
+                'include_posts_in_sitemap' => $settings->include_posts_in_sitemap ?? true,
+                'include_news_in_sitemap' => $settings->include_news_in_sitemap ?? true,
+                'include_courses_in_sitemap' => $settings->include_courses_in_sitemap ?? true,
+                'include_products_in_sitemap' => $settings->include_products_in_sitemap ?? true,
+                'include_teachers_in_sitemap' => $settings->include_teachers_in_sitemap ?? true,
+                'include_pages_in_sitemap' => $settings->include_pages_in_sitemap ?? true,
+                'include_careers_in_sitemap' => $settings->include_careers_in_sitemap ?? true,
+            ]);
+        } catch (\Spatie\LaravelSettings\Exceptions\MissingSettings $e) {
+            // Settings not initialized yet, initialize them with default values
+            $defaults = [
+                'title_separator' => ' | ',
+                'title_suffix' => '',
+                'noindex_tags' => false,
+                'noindex_categories' => false,
+                'noindex_search' => false,
+                'default_schema_ai_tools' => 'SoftwareApplication',
+                'default_schema_posts' => 'Article',
+                'default_schema_courses' => 'Course',
+                'default_schema_products' => 'Product',
+                'include_ai_tools_in_sitemap' => true,
+                'include_posts_in_sitemap' => true,
+                'include_news_in_sitemap' => true,
+                'include_courses_in_sitemap' => true,
+                'include_products_in_sitemap' => true,
+                'include_teachers_in_sitemap' => true,
+                'include_pages_in_sitemap' => true,
+                'include_careers_in_sitemap' => true,
+            ];
+            
+            // Initialize settings in database
+            foreach ($defaults as $name => $value) {
+                $payload = $value === null ? json_encode('') : json_encode($value);
+                DB::table('settings')->updateOrInsert(
+                    ['name' => $name, 'group' => 'seo'],
+                    ['payload' => $payload, 'created_at' => now(), 'updated_at' => now()]
+                );
+            }
+            
+            // Now fill the form with default values
+            $this->form->fill($defaults);
+        } catch (\Exception $e) {
+            // Catch any other exceptions (database errors, etc.) and use defaults
+            \Log::warning('Failed to load SeoSettings in mount(): ' . $e->getMessage());
+            $this->form->fill([
+                'title_separator' => ' | ',
+                'title_suffix' => '',
+                'noindex_tags' => false,
+                'noindex_categories' => false,
+                'noindex_search' => false,
+                'default_schema_ai_tools' => 'SoftwareApplication',
+                'default_schema_posts' => 'Article',
+                'default_schema_courses' => 'Course',
+                'default_schema_products' => 'Product',
+                'include_ai_tools_in_sitemap' => true,
+                'include_posts_in_sitemap' => true,
+                'include_news_in_sitemap' => true,
+                'include_courses_in_sitemap' => true,
+                'include_products_in_sitemap' => true,
+                'include_teachers_in_sitemap' => true,
+                'include_pages_in_sitemap' => true,
+                'include_careers_in_sitemap' => true,
+            ]);
+        }
     }
 
     public function form(Form $form): Form
@@ -173,5 +231,10 @@ class SeoSettings extends Page implements HasForms
                 ->label('ذخیره')
                 ->submit('save'),
         ];
+    }
+
+    protected function hasFullWidthFormActions(): bool
+    {
+        return false;
     }
 }

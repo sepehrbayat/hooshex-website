@@ -42,8 +42,7 @@ class TeacherResource extends Resource
                             CuratorPicker::make('avatar_id')
                                 ->label('آواتار')
                                 ->directory('teachers')
-                                ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp'])
-                                ->avatar(),
+                                ->acceptedFileTypes(['image/jpeg', 'image/png', 'image/webp']),
                             Forms\Components\Toggle::make('is_featured'),
                             Forms\Components\DateTimePicker::make('published_at'),
                         ])->columns(2),

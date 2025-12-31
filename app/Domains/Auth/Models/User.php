@@ -11,12 +11,16 @@ use Illuminate\Notifications\Notifiable;
 use App\Domains\Courses\Models\Course;
 use App\Domains\Courses\Models\Enrollment;
 use App\Domains\Courses\Models\Teacher;
+use App\Domains\Core\Models\Career;
 use App\Enums\UserRole;
+use Filament\Models\Contracts\FilamentUser;
+use Filament\Panel;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class User extends Authenticatable
+class User extends Authenticatable implements FilamentUser
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
@@ -45,6 +49,7 @@ class User extends Authenticatable
         'social_links',
         'password',
         'legacy_password',
+        'selected_career_id',
     ];
 
     /**
@@ -70,6 +75,15 @@ class User extends Authenticatable
             'social_links' => 'array',
             'role' => UserRole::class,
         ];
+    }
+
+    public function canAccessPanel(Panel $panel): bool
+    {
+        if ($panel->getId() === 'admin') {
+            return $this->isAdmin();
+        }
+
+        return true;
     }
 
     /**
@@ -137,6 +151,30 @@ class User extends Authenticatable
     public function isStudent(): bool
     {
         return $this->role === UserRole::Student;
+    }
+
+    /**
+     * Selected career path by this user
+     */
+    public function selectedCareer(): BelongsTo
+    {
+        return $this->belongsTo(Career::class, 'selected_career_id');
+    }
+
+    /**
+     * Select a career path
+     */
+    public function selectCareer(Career $career): void
+    {
+        $this->update(['selected_career_id' => $career->id]);
+    }
+
+    /**
+     * Course licenses owned by this user
+     */
+    public function courseLicenses(): HasMany
+    {
+        return $this->hasMany(\App\Domains\Courses\Models\CourseLicense::class);
     }
 }
 

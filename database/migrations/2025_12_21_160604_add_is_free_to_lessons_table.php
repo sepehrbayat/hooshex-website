@@ -13,9 +13,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('lessons', function (Blueprint $table) {
-            $table->boolean('is_free')->default(false)->after('is_free_preview');
-        });
+        if (Schema::hasTable('lessons')) {
+            Schema::table('lessons', function (Blueprint $table) {
+                $table->boolean('is_free')->default(false)->after('is_free_preview');
+            });
+        }
     }
 
     /**
@@ -23,8 +25,10 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('lessons', function (Blueprint $table) {
-            $table->dropColumn('is_free');
-        });
+        if (Schema::hasTable('lessons')) {
+            Schema::table('lessons', function (Blueprint $table) {
+                $table->dropColumn('is_free');
+            });
+        }
     }
 };

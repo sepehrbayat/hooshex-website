@@ -13,11 +13,12 @@ use Awcodes\Curator\CuratorPlugin;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\Support\Assets\Css;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Routing\Middleware\SubstituteBindings;
-use Illuminate\Session\Middleware\StartSession;
+use App\Http\Middleware\StartSessionForPanel;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 use App\Http\Middleware\AuthenticateSessionForFilament;
 
@@ -29,6 +30,7 @@ class AdminPanelProvider extends PanelProvider
             ->default()
             ->id('admin')
             ->path('admin')
+            ->authGuard('admin')
             ->brandName('HooshEx Admin')
             ->login(\App\Filament\Admin\Pages\Auth\Login::class)
             ->colors([
@@ -48,19 +50,19 @@ class AdminPanelProvider extends PanelProvider
                 in: app_path('Filament/Admin/Widgets'),
                 for: 'App\\Filament\\Admin\\Widgets'
             )
-            ->navigationItems([
-                NavigationItem::make('AI Tools')
-                    ->url(fn () => route('filament.admin.resources.ai-tools.index'))
-                    ->icon('heroicon-o-sparkles'),
-            ])
+            ->navigationItems([])
             ->plugins([
                 CuratorPlugin::make(),
+            ])
+            ->assets([
+                Css::make('filament-rtl', resource_path('css/filament-rtl.css')),
+                Css::make('filament-design-system', asset('css/filament-design-system.css')),
             ])
             ->middleware([
                 EncryptCookies::class,
                 AddQueuedCookiesToResponse::class,
-                StartSession::class,
-                AuthenticateSessionForFilament::class,
+                StartSessionForPanel::class,
+                // AuthenticateSessionForFilament::class, // REMOVED: Causes 403 logout after cache clear with legacy password migration
                 ShareErrorsFromSession::class,
                 VerifyCsrfToken::class,
                 SubstituteBindings::class,

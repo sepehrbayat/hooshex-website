@@ -7,76 +7,51 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\RequestOtpRequest;
 use App\Http\Requests\Auth\VerifyOtpRequest;
-use App\Domains\Auth\Models\User;
-use App\Services\SmsIrClient;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Cache;
-use Illuminate\Support\Str;
+use App\Domains\Auth\Actions\RequestOtpAction;
+use App\Domains\Auth\Actions\VerifyOtpAction;
+use Illuminate\Http\JsonResponse;
 
+/**
+ * OTP Controller
+ * Thin controller that delegates to domain actions
+ */
 class OtpController extends Controller
 {
-    public function __construct(private readonly SmsIrClient $sms)
-    {
-    }
+    public function __construct(
+        private readonly RequestOtpAction $requestOtpAction,
+        private readonly VerifyOtpAction $verifyOtpAction
+    ) {}
 
-    public function requestOtp(RequestOtpRequest $request)
-    {
-        $data = $request->validated();
-
-        $code = (string) random_int(10000, 99999);
-        $ttl = now()->addMinutes(5);
-
-        Cache::put($this->cacheKey($data['mobile']), $code, $ttl);
-
-        $templateId = config('services.sms_ir.otp_template_id');
-        $this->sms->sendUltraFastOtp($data['mobile'], (string) $templateId, ['code' => $code]);
-
-        return response()->json([
-            'ok' => true,
-            'expires_at' => $ttl->toIso8601String(),
-        ]);
-    }
-
-    public function verifyOtp(VerifyOtpRequest $request)
+    /**
+     * Request OTP for the given mobile number
+     */
+    public function requestOtp(RequestOtpRequest $request): JsonResponse
     {
         $data = $request->validated();
 
-        $cached = Cache::pull($this->cacheKey($data['mobile']));
-        if ($cached !== $data['code']) {
-            return response()->json(['ok' => false, 'message' => 'Invalid code'], 422);
-        }
+        $result = $this->requestOtpAction->execute($data['mobile']);
 
-        $user = User::firstOrNew(['mobile' => $data['mobile']]);
-        if (! $user->exists) {
-            $user->username = $this->usernameFromMobile($data['mobile']);
-            $user->email = $user->username.'@example.local';
-        }
-
-        $user->name = $data['name'] ?? $user->name;
-        $user->password = Str::password();
-        $user->legacy_password = null;
-        $user->save();
-
-        Auth::login($user);
-
-        return response()->json([
-            'ok' => true,
-            'user' => [
-                'id' => $user->id,
-                'username' => $user->username,
-                'mobile' => $user->mobile,
-            ],
-        ]);
+        return response()->json($result);
     }
 
-    private function cacheKey(string $mobile): string
+    /**
+     * Verify OTP and login/register user
+     */
+    public function verifyOtp(VerifyOtpRequest $request): JsonResponse
     {
-        return 'otp:'.$mobile;
-    }
+        $data = $request->validated();
 
-    private function usernameFromMobile(string $mobile): string
-    {
-        return 'user_'.preg_replace('/\\D/', '', $mobile);
+        $result = $this->verifyOtpAction->execute(
+            mobile: $data['mobile'],
+            code: $data['code'],
+            name: $data['name'] ?? null
+        );
+
+        if (!$result['ok']) {
+            return response()->json($result, 422);
+        }
+
+        return response()->json($result);
     }
 }
 

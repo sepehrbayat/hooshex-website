@@ -16,9 +16,13 @@
 /public/build
 /public/hot
 /public/storage
+/public/css/app
 /storage/*.key
 /storage/pail
 /vendor
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Local temp reports / agent summaries
+/tmp

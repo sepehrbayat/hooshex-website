@@ -35,8 +35,13 @@ class Post extends Model
         'slug',
         'excerpt',
         'content',
+        'focus_keywords',
         'thumbnail_path',
         'thumbnail_id',
+        'image_alt_text',
+        'image_title',
+        'image_caption',
+        'image_description',
         'status',
         'seo_title',
         'seo_description',
@@ -51,6 +56,7 @@ class Post extends Model
         'type' => PostType::class,
         'status' => PostStatus::class,
         'is_featured' => 'boolean',
+        'focus_keywords' => 'array',
     ];
 
     public function author(): BelongsTo

@@ -7,7 +7,7 @@
         <article class="max-w-7xl mx-auto px-4 py-8" dir="rtl">
             {{-- Breadcrumb Section --}}
             <nav class="mb-6" aria-label="Breadcrumb">
-                <ol class="flex items-center gap-2 text-sm text-gray-600">
+                <ol class="flex items-center gap-2 text-sm text-text-secondary" style="font-family: 'Vazirmatn', sans-serif;">
                     <li>
                         <a href="{{ route('home') }}" class="hover:text-primary-600">خانه</a>
                     </li>
@@ -22,7 +22,7 @@
                         </li>
                     @endif
                     <li>/</li>
-                    <li class="text-gray-900 font-medium">{{ $post->title }}</li>
+                    <li class="text-text-primary font-medium">{{ $post->title }}</li>
                 </ol>
             </nav>
 
@@ -62,10 +62,10 @@
 
             {{-- Hero Header --}}
             <header class="mb-8">
-                <h1 class="text-3xl font-bold text-gray-900 mb-4">{{ $post->title }}</h1>
+                <h1 class="text-3xl font-black text-text-primary mb-4" style="font-family: 'Vazirmatn', sans-serif;">{{ $post->title }}</h1>
                 
                 {{-- Meta Row --}}
-                <div class="flex flex-wrap items-center gap-4 text-sm text-gray-600 mb-6">
+                <div class="flex flex-wrap items-center gap-4 text-sm text-text-secondary mb-6" style="font-family: 'Vazirmatn', sans-serif;">
                     @if($post->author)
                         <div class="flex items-center gap-2">
                             @if($post->author->avatar_path)
@@ -73,7 +73,7 @@
                                      alt="{{ $post->author->name }}" 
                                      class="rounded-full w-10 h-10 object-cover">
                             @else
-                                <div class="rounded-full w-10 h-10 bg-gray-300 flex items-center justify-center text-gray-600 font-medium">
+                                <div class="rounded-full w-10 h-10 bg-primary-50 flex items-center justify-center text-primary-600 font-medium">
                                     {{ mb_substr($post->author->name, 0, 1, 'UTF-8') }}
                                 </div>
                             @endif
@@ -123,7 +123,7 @@
                     @endif
 
                     @if($post->excerpt)
-                        <p class="text-lg text-gray-600 mb-6">{{ $post->excerpt }}</p>
+                        <p class="text-lg text-text-secondary mb-6" style="font-family: 'Vazirmatn', sans-serif;">{{ $post->excerpt }}</p>
                     @endif
 
                     <div class="prose prose-lg prose-slate max-w-none prose-headings:scroll-mt-24 prose-img:rounded-xl prose-a:text-primary-600 hover:prose-a:text-primary-700">
@@ -136,12 +136,12 @@
                     <div class="sticky top-24 space-y-6">
                         {{-- TOC Widget --}}
                         @if(!empty($toc))
-                            <div class="bg-gray-50 rounded-lg p-6">
-                                <h2 class="text-lg font-bold text-gray-900 mb-4">در این صفحه</h2>
-                                <nav class="space-y-2">
+                            <div class="bg-primary-50 rounded-lg p-6">
+                                <h2 class="text-lg font-bold text-text-primary mb-4" style="font-family: 'Vazirmatn', sans-serif;">در این صفحه</h2>
+                                <nav class="space-y-2" style="font-family: 'Vazirmatn', sans-serif;">
                                     @foreach($toc as $item)
                                         <a href="#{{ $item['id'] }}" 
-                                           class="block text-gray-600 hover:text-primary-600 transition-colors {{ $item['level'] === 3 ? 'mr-4' : '' }}">
+                                           class="block text-text-secondary hover:text-primary-600 transition-colors {{ $item['level'] === 3 ? 'mr-4' : '' }}">
                                             {{ $item['text'] }}
                                         </a>
                                     @endforeach
@@ -165,8 +165,8 @@
                         @endphp
 
                         @if($relatedPosts->isNotEmpty())
-                            <div class="bg-gray-50 rounded-lg p-6">
-                                <h2 class="text-lg font-bold text-gray-900 mb-4">مطالب مرتبط</h2>
+                            <div class="bg-primary-50 rounded-lg p-6">
+                                <h2 class="text-lg font-bold text-text-primary mb-4" style="font-family: 'Vazirmatn', sans-serif;">مطالب مرتبط</h2>
                                 <div class="space-y-4">
                                     @foreach($relatedPosts as $relatedPost)
                                         <a href="{{ route('posts.show', $relatedPost->slug) }}" 
@@ -176,7 +176,7 @@
                                                      alt="{{ $relatedPost->title }}" 
                                                      class="w-full h-32 object-cover rounded-lg mb-2 group-hover:opacity-90 transition-opacity">
                                             @endif
-                                            <h3 class="text-sm font-medium text-gray-900 group-hover:text-primary-600 line-clamp-2">
+                                            <h3 class="text-sm font-medium text-text-primary group-hover:text-primary-600 line-clamp-2" style="font-family: 'Vazirmatn', sans-serif;">
                                                 {{ $relatedPost->title }}
                                             </h3>
                                         </a>
@@ -193,11 +193,11 @@
                 {{-- Tags Section --}}
                 @if($post->tags && $post->tags->isNotEmpty())
                     <div>
-                        <h3 class="text-sm font-semibold text-gray-900 mb-3">برچسب‌ها</h3>
+                        <h3 class="text-sm font-semibold text-text-primary mb-3" style="font-family: 'Vazirmatn', sans-serif;">برچسب‌ها</h3>
                         <div class="flex flex-wrap gap-2">
                             @foreach($post->tags as $tag)
                                 <a href="#" 
-                                   class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm hover:bg-primary-100 hover:text-primary-700 transition-colors">
+                                   class="px-3 py-1 bg-primary-50 text-text-secondary rounded-full text-sm hover:bg-primary-100 hover:text-primary-700 transition-colors" style="font-family: 'Vazirmatn', sans-serif;">
                                     {{ $tag->name }}
                                 </a>
                             @endforeach
@@ -207,21 +207,21 @@
 
                 {{-- Author Bio Box --}}
                 @if($post->author && ($post->author->bio || $post->author->social_links))
-                    <div class="bg-gray-50 rounded-lg p-6">
+                    <div class="bg-primary-50 rounded-lg p-6">
                         <div class="flex items-start gap-4">
                             @if($post->author->avatar_path)
                                 <img src="{{ asset($post->author->avatar_path) }}" 
                                      alt="{{ $post->author->name }}" 
                                      class="rounded-full w-16 h-16 object-cover flex-shrink-0">
                             @else
-                                <div class="rounded-full w-16 h-16 bg-gray-300 flex items-center justify-center text-gray-600 font-bold text-xl flex-shrink-0">
+                                <div class="rounded-full w-16 h-16 bg-surface flex items-center justify-center text-primary-600 font-bold text-xl flex-shrink-0">
                                     {{ mb_substr($post->author->name, 0, 1, 'UTF-8') }}
                                 </div>
                             @endif
                             <div class="flex-1">
-                                <h3 class="text-lg font-bold text-gray-900 mb-2">{{ $post->author->name }}</h3>
+                                <h3 class="text-lg font-bold text-text-primary mb-2" style="font-family: 'Vazirmatn', sans-serif;">{{ $post->author->name }}</h3>
                                 @if($post->author->bio)
-                                    <p class="text-gray-600 mb-3">{{ $post->author->bio }}</p>
+                                    <p class="text-text-secondary mb-3" style="font-family: 'Vazirmatn', sans-serif;">{{ $post->author->bio }}</p>
                                 @endif
                                 @if($post->author->social_links && is_array($post->author->social_links))
                                     <div class="flex gap-3">
@@ -229,7 +229,7 @@
                                             <a href="{{ $url }}" 
                                                target="_blank" 
                                                rel="noopener noreferrer"
-                                               class="text-gray-400 hover:text-primary-600 transition-colors">
+                                               class="text-text-muted hover:text-primary-600 transition-colors">
                                                 <span class="sr-only">{{ $platform }}</span>
                                                 <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                                     <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>

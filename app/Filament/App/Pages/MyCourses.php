@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Filament\App\Pages;
 
 use App\Domains\Courses\Models\Enrollment;
+use App\Filament\App\Pages\MyLicenses;
 use Filament\Pages\Page;
 use Filament\Tables;
 use Filament\Tables\Concerns\InteractsWithTable;
@@ -27,7 +28,9 @@ class MyCourses extends Page implements HasTable
             ->query(
                 Enrollment::query()
                     ->where('user_id', auth()->id())
-                    ->with(['course.thumbnail'])
+                    ->with(['course.thumbnail', 'course.licenses' => function ($query) {
+                        $query->where('user_id', auth()->id())->where('is_active', true);
+                    }])
             )
             ->columns([
                 Tables\Columns\ImageColumn::make('course.thumbnail')
@@ -58,12 +61,31 @@ class MyCourses extends Page implements HasTable
                     ->numeric()
                     ->suffix('%')
                     ->sortable(),
+                Tables\Columns\IconColumn::make('has_license')
+                    ->label('لایسنس')
+                    ->boolean()
+                    ->getStateUsing(function (Enrollment $record) {
+                        return $record->course->licenses()
+                            ->where('user_id', auth()->id())
+                            ->where('is_active', true)
+                            ->exists();
+                    })
+                    ->trueIcon('heroicon-o-key')
+                    ->falseIcon('heroicon-o-x-circle')
+                    ->trueColor('success')
+                    ->falseColor('gray')
+                    ->toggleable(),
             ])
             ->actions([
                 Tables\Actions\Action::make('view')
                     ->label('مشاهده')
                     ->url(fn (Enrollment $record) => route('courses.show', $record->course->slug))
                     ->openUrlInNewTab(),
+                Tables\Actions\Action::make('view_licenses')
+                    ->label('لایسنس‌ها')
+                    ->icon('heroicon-o-key')
+                    ->url(fn (Enrollment $record) => MyLicenses::getUrl() . '?tableFilters[course_id][value]=' . $record->course_id)
+                    ->visible(fn (Enrollment $record) => $record->course->licenses()->where('user_id', auth()->id())->exists()),
             ])
             ->defaultSort('enrolled_at', 'desc');
     }

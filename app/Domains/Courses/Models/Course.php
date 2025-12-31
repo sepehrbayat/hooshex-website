@@ -5,13 +5,19 @@ declare(strict_types=1);
 namespace App\Domains\Courses\Models;
 
 use App\Domains\Auth\Models\User;
+use App\Domains\Core\Models\Category;
 use App\Enums\CourseLevel;
 use App\Enums\CourseStatus;
+use App\Enums\CourseType;
+use Database\Factories\CourseFactory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use RalphJSmit\Laravel\SEO\Support\HasSEO;
 use RalphJSmit\Laravel\SEO\Support\SEOData;
 use RalphJSmit\Laravel\SEO\SchemaCollection;
@@ -20,6 +26,7 @@ use RalphJSmit\Laravel\SEO\Schema\CustomSchema;
 class Course extends Model
 {
     use HasFactory;
+    use SoftDeletes;
     use HasSEO;
 
     protected $fillable = [
@@ -47,16 +54,33 @@ class Course extends Model
         'seo_title',
         'seo_description',
         'published_at',
+        'total_hours',
+        'total_lessons',
+        'has_lifetime_access',
+        'has_practice_files',
+        'course_type',
+        'what_you_learn',
+        'course_requirements',
+        'course_includes',
+        'last_updated_at',
+        'support_type',
     ];
 
     protected $casts = [
         'is_featured' => 'boolean',
         'is_certificate_available' => 'boolean',
+        'has_lifetime_access' => 'boolean',
+        'has_practice_files' => 'boolean',
         'published_at' => 'datetime',
+        'last_updated_at' => 'datetime',
         'status' => CourseStatus::class,
         'level' => CourseLevel::class,
+        'course_type' => CourseType::class,
         'prerequisites' => 'array',
         'target_audience' => 'array',
+        'what_you_learn' => 'array',
+        'course_requirements' => 'array',
+        'course_includes' => 'array',
     ];
 
     public function teacher(): BelongsTo
@@ -85,9 +109,29 @@ class Course extends Model
         return $this->morphMany(\App\Interactions\Review::class, 'reviewable');
     }
 
+    public function categories(): MorphToMany
+    {
+        return $this->morphToMany(Category::class, 'categorizable');
+    }
+
+    public function licenses(): HasMany
+    {
+        return $this->hasMany(CourseLicense::class);
+    }
+
     public function thumbnail(): BelongsTo
     {
         return $this->belongsTo(\Awcodes\Curator\Models\Media::class, 'thumbnail_id');
+    }
+
+    public function scopePublished(Builder $query): Builder
+    {
+        return $query->where('status', CourseStatus::Published);
+    }
+
+    public function scopeFeatured(Builder $query): Builder
+    {
+        return $query->where('is_featured', true);
     }
 
     /**
@@ -163,6 +207,14 @@ class Course extends Model
         // We can add it via transformers if needed, but for now schema is the main focus
 
         return $seoData;
+    }
+
+    /**
+     * Explicit factory resolver to bypass namespace guessing issues.
+     */
+    protected static function newFactory(): CourseFactory
+    {
+        return CourseFactory::new();
     }
 }
 

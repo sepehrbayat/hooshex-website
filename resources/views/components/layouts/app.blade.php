@@ -6,13 +6,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script>
         window.App = {
-            isAuthenticated: @json($isAuthenticated),
-            sessionCart: @json($sessionCart),
-            cartCount: @json($cartCount),
-            user: @json($isAuthenticated ? ['name' => $userName] : null),
+            isAuthenticated: @json($isAuthenticated ?? false),
+            sessionCart: @json($sessionCart ?? []),
+            cartCount: @json($cartCount ?? 0),
+            user: @json(($isAuthenticated ?? false) ? ['name' => ($userName ?? null)] : null),
         };
     </script>
-    <title>{{ $title ?? ($settings->site_name ?? 'هوشکس') }}</title>
+    <title>@yield('title', $title ?? ($settings->site_name ?? 'هوشکس'))</title>
     
     {{-- Favicon --}}
     @if(isset($settings->favicon_path) && $settings->favicon_path)
@@ -84,7 +84,11 @@
         </header>
         
         {{-- Main Content --}}
-        {{ $slot }}
+        @if (isset($slot))
+            {{ $slot }}
+        @else
+            @yield('content')
+        @endif
         
         {{-- Footer --}}
         <x-footer />

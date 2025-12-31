@@ -34,14 +34,9 @@ class Bookmarks extends Page implements HasTable
                     })
             )
             ->columns([
-                Tables\Columns\ImageColumn::make('logo')
+                Tables\Columns\ImageColumn::make('logo_path')
                     ->label('لوگو')
-                    ->getStateUsing(function ($record) {
-                        if ($record->logo) {
-                            return $record->logo->url;
-                        }
-                        return $record->logo_path;
-                    }),
+                    ->defaultImageUrl(url('/images/placeholder.png')),
                 Tables\Columns\TextColumn::make('name')
                     ->label('نام')
                     ->searchable()
@@ -60,7 +55,13 @@ class Bookmarks extends Page implements HasTable
                             ->where('user_id', auth()->id())
                             ->where('ai_tool_id', $record->id)
                             ->delete();
-                    }),
+                        
+                        \Filament\Notifications\Notification::make()
+                            ->title('نشان‌گذاری حذف شد')
+                            ->success()
+                            ->send();
+                    })
+                    ->requiresConfirmation(),
             ])
             ->defaultSort('name');
     }

@@ -20,13 +20,26 @@ class Cart
 
     public function addCourse(Course $course, int $quantity = 1): void
     {
-        $items = $this->items();
+        $this->add(
+            $course->id,
+            Course::class,
+            (int) ($course->sale_price ?? $course->price),
+            $quantity,
+            $course->title,
+        );
+    }
 
-        $items->put($this->key($course), [
-            'type' => Course::class,
-            'id' => $course->id,
-            'title' => $course->title,
-            'price' => (int) ($course->sale_price ?? $course->price),
+    public function add(int|string $id, string $type, int $price, int $quantity = 1, ?string $title = null): void
+    {
+        $items = $this->items();
+        $normalizedType = $type === 'course' ? Course::class : $type;
+        $quantity = max(1, $quantity);
+
+        $items->put($this->keyFrom($normalizedType, $id), [
+            'type' => $normalizedType,
+            'id' => $id,
+            'title' => $title ?? $this->resolveTitle($normalizedType, $id),
+            'price' => $price,
             'quantity' => $quantity,
         ]);
 
@@ -94,6 +107,22 @@ class Cart
     private function key(Course $course): string
     {
         return 'course_'.$course->id;
+    }
+
+    private function keyFrom(string $type, int|string $id): string
+    {
+        $shortType = class_exists($type) ? class_basename($type) : $type;
+
+        return strtolower($shortType).'_'.$id;
+    }
+
+    private function resolveTitle(string $type, int|string $id): ?string
+    {
+        if ($type === Course::class) {
+            return Course::find($id)?->title;
+        }
+
+        return null;
     }
 }
 

@@ -1,0 +1,440 @@
+/**
+ * Filament App Panel Custom Styles
+ * Styling for the user dashboard panel based on Hooshex main site design system
+ */
+
+/* ============================================
+   Background & Layout
+   ============================================ */
+
+body[data-panel-id="app"] {
+    background: linear-gradient(135deg, #FCF1FB 0%, rgba(119, 95, 238, 0.1) 50%, rgba(235, 85, 200, 0.2) 100%) !important;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+}
+
+body[data-panel-id="app"]::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 24rem;
+    height: 24rem;
+    background: rgba(119, 95, 238, 0.1);
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body[data-panel-id="app"]::after {
+    content: '';
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 24rem;
+    height: 24rem;
+    background: rgba(235, 85, 200, 0.2);
+    border-radius: 50%;
+    filter: blur(80px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body[data-panel-id="app"] .fi-main {
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================
+   Sidebar Styling
+   ============================================ */
+
+.fi-sidebar,
+.fi-main-sidebar {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(20px) !important;
+    border-left: 1px solid rgba(119, 95, 238, 0.1) !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08) !important;
+}
+
+.fi-sidebar-nav {
+    padding: 1rem 0.75rem !important;
+}
+
+.fi-sidebar-nav-item {
+    border-radius: 8px !important;
+    margin-bottom: 0.5rem !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-sidebar-nav-item:hover {
+    background: rgba(119, 95, 238, 0.1) !important;
+}
+
+.fi-sidebar-nav-item[aria-current="page"],
+.fi-sidebar-nav-item-active {
+    background: rgba(119, 95, 238, 0.15) !important;
+    color: #5537EA !important;
+    font-weight: 600 !important;
+}
+
+.fi-sidebar-nav-item-label {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    font-size: 0.875rem !important;
+}
+
+/* ============================================
+   Topbar Styling
+   ============================================ */
+
+.fi-topbar {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(20px) !important;
+    border-bottom: 1px solid rgba(119, 95, 238, 0.1) !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05) !important;
+    padding: 1rem 1.5rem !important;
+}
+
+.fi-topbar-nav-item {
+    border-radius: 8px !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-topbar-nav-item:hover {
+    background: rgba(119, 95, 238, 0.1) !important;
+}
+
+/* ============================================
+   Card & Section Styling
+   ============================================ */
+
+.fi-section {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+    border-radius: 16px !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    padding: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.fi-section-header {
+    margin-bottom: 1.5rem !important;
+    padding-bottom: 1rem !important;
+    border-bottom: 1px solid rgba(119, 95, 238, 0.1) !important;
+}
+
+.fi-section-header-actions {
+    margin-top: -0.5rem !important;
+}
+
+.fi-section-content-ctn {
+    background: transparent !important;
+    padding: 0 !important;
+}
+
+/* Page Header */
+.fi-header-heading {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    font-size: 1.875rem !important;
+    font-weight: 700 !important;
+    color: #22165E !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.fi-header-subheading {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    color: #AAAAAA !important;
+    font-size: 0.875rem !important;
+}
+
+/* ============================================
+   Button Styling
+   ============================================ */
+
+.fi-btn {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+    padding: 0.625rem 1.25rem !important;
+}
+
+.fi-btn-primary,
+button.fi-btn[type="submit"],
+.fi-ac-action[type="submit"] {
+    background: #EB55C8 !important;
+    color: #F5F5F5 !important;
+    box-shadow: 0px 2px 8px rgba(235, 85, 200, 0.46),
+                inset 0px -4px 16px rgba(102, 24, 84, 0.13),
+                inset 0px 4px 16px rgba(102, 24, 84, 0.11) !important;
+    border: none !important;
+}
+
+.fi-btn-primary:hover,
+button.fi-btn[type="submit"]:hover {
+    background: #C842A8 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0px 4px 12px rgba(235, 85, 200, 0.5),
+                inset 0px -4px 16px rgba(102, 24, 84, 0.15),
+                inset 0px 4px 16px rgba(102, 24, 84, 0.13) !important;
+}
+
+.fi-btn-secondary {
+    background: transparent !important;
+    border: 2px solid #5537EA !important;
+    color: #5537EA !important;
+}
+
+.fi-btn-secondary:hover {
+    background: rgba(119, 95, 238, 0.1) !important;
+    border-color: #442CBB !important;
+    color: #442CBB !important;
+}
+
+.fi-ac-action {
+    border-radius: 8px !important;
+}
+
+/* ============================================
+   Form Input Styling
+   ============================================ */
+
+.fi-input,
+.fi-input-wrp input,
+.fi-input-wrp textarea,
+.fi-input-wrp select {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(119, 95, 238, 0.2) !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    padding: 0.75rem 1rem !important;
+    transition: all 0.2s ease !important;
+    font-size: 0.875rem !important;
+}
+
+.fi-input:focus,
+.fi-input-wrp input:focus,
+.fi-input-wrp textarea:focus,
+.fi-input-wrp select:focus {
+    border-color: #775FEE !important;
+    box-shadow: 0 0 0 3px rgba(119, 95, 238, 0.1) !important;
+    outline: none !important;
+}
+
+.fi-label {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    font-weight: 500 !important;
+    color: #22165E !important;
+    font-size: 0.875rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.fi-hint {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    color: #AAAAAA !important;
+    font-size: 0.75rem !important;
+}
+
+/* File Upload */
+.fi-fo-file-upload {
+    border-radius: 8px !important;
+    border: 2px dashed rgba(119, 95, 238, 0.3) !important;
+    background: rgba(119, 95, 238, 0.05) !important;
+    transition: all 0.2s ease !important;
+}
+
+.fi-fo-file-upload:hover {
+    border-color: #775FEE !important;
+    background: rgba(119, 95, 238, 0.1) !important;
+}
+
+/* ============================================
+   Table Styling
+   ============================================ */
+
+.fi-ta {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(20px) !important;
+    border-radius: 16px !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    overflow: hidden !important;
+}
+
+.fi-ta-header {
+    background: rgba(119, 95, 238, 0.05) !important;
+    border-bottom: 1px solid rgba(119, 95, 238, 0.1) !important;
+}
+
+.fi-ta-header-cell {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    font-weight: 600 !important;
+    color: #22165E !important;
+    font-size: 0.875rem !important;
+    padding: 1rem !important;
+}
+
+.fi-ta-cell {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    color: #2D2D2D !important;
+    font-size: 0.875rem !important;
+    padding: 1rem !important;
+    border-bottom: 1px solid rgba(119, 95, 238, 0.05) !important;
+}
+
+.fi-ta-row:hover {
+    background: rgba(119, 95, 238, 0.03) !important;
+}
+
+/* Badges in Tables */
+.fi-badge {
+    border-radius: 8px !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    font-weight: 500 !important;
+    font-size: 0.75rem !important;
+    padding: 0.375rem 0.75rem !important;
+}
+
+/* ============================================
+   Typography Improvements
+   ============================================ */
+
+.fi-text-primary {
+    color: #22165E !important;
+}
+
+.fi-text-secondary {
+    color: #2D2D2D !important;
+}
+
+.fi-text-muted {
+    color: #AAAAAA !important;
+}
+
+/* ============================================
+   Spacing & Padding Improvements
+   ============================================ */
+
+.fi-main-content {
+    padding: 2rem !important;
+}
+
+@media (max-width: 1023px) {
+    .fi-main-content {
+        padding: 1rem !important;
+    }
+}
+
+.fi-page {
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+}
+
+/* ============================================
+   Notification Styling
+   ============================================ */
+
+.fi-notification {
+    border-radius: 8px !important;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15) !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+}
+
+/* ============================================
+   Modal/Dialog Styling
+   ============================================ */
+
+.fi-modal {
+    border-radius: 16px !important;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2) !important;
+}
+
+.fi-modal-header {
+    border-bottom: 1px solid rgba(119, 95, 238, 0.1) !important;
+    padding: 1.5rem !important;
+}
+
+.fi-modal-content {
+    padding: 1.5rem !important;
+}
+
+/* ============================================
+   Pagination Styling
+   ============================================ */
+
+.fi-pagination {
+    margin-top: 2rem !important;
+    padding-top: 1.5rem !important;
+    border-top: 1px solid rgba(119, 95, 238, 0.1) !important;
+}
+
+.fi-pg-btn {
+    border-radius: 8px !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+}
+
+.fi-pg-btn-active {
+    background: #775FEE !important;
+    color: white !important;
+}
+
+/* ============================================
+   Search/Filter Styling
+   ============================================ */
+
+.fi-search-input {
+    border-radius: 8px !important;
+    border: 1px solid rgba(119, 95, 238, 0.2) !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+}
+
+.fi-search-input:focus {
+    border-color: #775FEE !important;
+    box-shadow: 0 0 0 3px rgba(119, 95, 238, 0.1) !important;
+}
+
+/* ============================================
+   Brand/Logo Styling
+   ============================================ */
+
+.fi-brand {
+    font-family: 'Vazirmatn', sans-serif !important;
+    font-feature-settings: 'ss01' on, 'ss02' on, 'ss03' on, 'ss04' on !important;
+    font-variation-settings: 'DOTS' 7 !important;
+    font-weight: 700 !important;
+    color: #22165E !important;
+    font-size: 1.25rem !important;
+}
+

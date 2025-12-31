@@ -1,0 +1,68 @@
+/* Custom RTL fixes for Filament Admin Panel */
+[dir="rtl"] {
+    direction: rtl;
+}
+
+/* Fix flex direction for RTL */
+[dir="rtl"] .flex {
+    direction: rtl;
+}
+
+/* Fix icon positions in buttons */
+[dir="rtl"] button svg,
+[dir="rtl"] a svg {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Fix navigation icons */
+[dir="rtl"] .fi-sidebar-nav-item-icon {
+    margin-right: 0 !important;
+    margin-left: 0.75rem !important;
+}
+
+/* Fix form labels */
+[dir="rtl"] .fi-fo-field-wrp-label {
+    text-align: right;
+}
+
+/* Fix dropdown menus */
+[dir="rtl"] .fi-dropdown-list {
+    right: auto;
+    left: 0;
+}
+
+/* Fix modals */
+[dir="rtl"] .fi-modal {
+    direction: rtl;
+}
+
+/* Fix table headers */
+[dir="rtl"] .fi-ta-header-cell {
+    text-align: right;
+}
+
+/* Fix table cells */
+[dir="rtl"] .fi-ta-cell {
+    text-align: right;
+}
+
+/* Fix notifications */
+[dir="rtl"] .fi-notification {
+    direction: rtl;
+}
+
+/* Fix breadcrumbs */
+[dir="rtl"] .fi-breadcrumbs {
+    direction: rtl;
+}
+
+/* Fix pagination */
+[dir="rtl"] .fi-pagination {
+    direction: rtl;
+}
+
+/* Fix action groups */
+[dir="rtl"] .fi-action-group {
+    direction: rtl;
+}

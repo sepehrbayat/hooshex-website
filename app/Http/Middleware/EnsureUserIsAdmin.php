@@ -17,23 +17,10 @@ class EnsureUserIsAdmin
      */
     public function handle(Request $request, Closure $next): Response
     {
-        // Allow access to login and auth routes (before authentication)
-        $authRoutes = [
-            'filament.admin.auth.login',
-            'filament.admin.auth.logout',
-            'filament.admin.auth.password-reset.request',
-            'filament.admin.auth.password-reset.reset',
-            'filament.admin.auth.email-verification.prompt',
-            'filament.admin.auth.email-verification.verify',
-        ];
-
-        if ($request->routeIs($authRoutes) || str_contains($request->path(), '/admin/login')) {
-            return $next($request);
-        }
-
-        // Check if user is authenticated and is admin
-        if (!auth()->check() || !auth()->user()?->isAdmin()) {
-            abort(403, 'Access denied. Admin access required.');
+        // At this point, user is already authenticated (Authenticate middleware ran first)
+        // Just check if the authenticated user has admin role using the admin guard
+        if (!auth('admin')->user()?->isAdmin()) {
+            abort(403, 'دسترسی غیرمجاز. شما اجازه دسترسی به پنل مدیریت را ندارید.');
         }
 
         return $next($request);

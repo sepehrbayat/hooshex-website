@@ -9,11 +9,18 @@ use App\Domains\Blog\Models\Post;
 use App\Domains\Commerce\Models\Order;
 use App\Domains\Courses\Models\Course;
 use App\Domains\Courses\Models\Enrollment;
-use App\Policies\AiToolPolicy;
-use App\Policies\PostPolicy;
-use App\Policies\OrderPolicy;
-use App\Policies\CoursePolicy;
-use App\Policies\EnrollmentPolicy;
+use App\Interactions\Comment;
+use App\Interactions\Review;
+
+// Domain-based policies
+use App\Domains\AiTools\Policies\AiToolPolicy;
+use App\Domains\Blog\Policies\PostPolicy;
+use App\Domains\Commerce\Policies\OrderPolicy;
+use App\Domains\Courses\Policies\CoursePolicy;
+use App\Domains\Courses\Policies\EnrollmentPolicy;
+use App\Interactions\Policies\CommentPolicy;
+use App\Interactions\Policies\ReviewPolicy;
+
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 
@@ -25,11 +32,16 @@ class AuthServiceProvider extends ServiceProvider
      * @var array<class-string, class-string>
      */
     protected $policies = [
+        // Domain Policies
         AiTool::class => AiToolPolicy::class,
         Post::class => PostPolicy::class,
         Order::class => OrderPolicy::class,
         Course::class => CoursePolicy::class,
         Enrollment::class => EnrollmentPolicy::class,
+        
+        // Interactions Policies
+        Comment::class => CommentPolicy::class,
+        Review::class => ReviewPolicy::class,
     ];
 
     /**

@@ -1,0 +1,126 @@
+/**
+ * Filament App Panel RTL Styles
+ * استایل‌های RTL برای پنل کاربری
+ */
+
+/* RTL Direction */
+[dir="rtl"] {
+    direction: rtl !important;
+}
+
+/* Body RTL */
+body[dir="rtl"],
+body {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* HTML Element */
+html[dir="rtl"],
+html {
+    direction: rtl !important;
+}
+
+/* Filament Main Container */
+.fi-main-ctn[dir="rtl"],
+.fi-main-ctn {
+    direction: rtl !important;
+}
+
+/* Sidebar RTL Adjustments */
+[dir="rtl"] .fi-sidebar {
+    right: 0 !important;
+    left: auto !important;
+    border-left: 1px solid rgba(119, 95, 238, 0.1) !important;
+    border-right: none !important;
+}
+
+/* Topbar RTL */
+[dir="rtl"] .fi-topbar {
+    text-align: right !important;
+}
+
+[dir="rtl"] .fi-topbar-nav {
+    flex-direction: row-reverse !important;
+}
+
+/* Navigation Items RTL */
+[dir="rtl"] .fi-sidebar-nav-item {
+    text-align: right !important;
+    padding-right: 1rem !important;
+    padding-left: 0.5rem !important;
+}
+
+[dir="rtl"] .fi-sidebar-nav-item-icon {
+    margin-left: 0.75rem !important;
+    margin-right: 0 !important;
+}
+
+/* Content Area RTL */
+[dir="rtl"] .fi-main-content {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+
+/* Form RTL */
+[dir="rtl"] .fi-section-content-ctn {
+    text-align: right !important;
+}
+
+[dir="rtl"] .fi-input-wrp {
+    text-align: right !important;
+}
+
+/* Buttons RTL */
+[dir="rtl"] .fi-btn {
+    text-align: center !important;
+}
+
+/* Tables RTL */
+[dir="rtl"] .fi-ta-table {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+[dir="rtl"] .fi-ta-header-cell {
+    text-align: right !important;
+}
+
+[dir="rtl"] .fi-ta-cell {
+    text-align: right !important;
+}
+
+/* Badges and Labels RTL */
+[dir="rtl"] .fi-badge,
+[dir="rtl"] .fi-label {
+    text-align: right !important;
+}
+
+/* Card RTL */
+[dir="rtl"] .fi-section {
+    text-align: right !important;
+}
+
+/* Icon Alignment in RTL */
+[dir="rtl"] .fi-icon-btn {
+    transform: scaleX(-1) !important;
+}
+
+/* Modal and Overlay RTL */
+[dir="rtl"] .fi-modal {
+    direction: rtl !important;
+}
+
+/* Form Actions RTL */
+[dir="rtl"] .fi-ac {
+    justify-content: flex-start !important;
+    flex-direction: row-reverse !important;
+}
+
+/* Input fields with ltr direction should stay ltr */
+[dir="rtl"] input[dir="ltr"],
+[dir="rtl"] textarea[dir="ltr"] {
+    direction: ltr !important;
+    text-align: left !important;
+}
+

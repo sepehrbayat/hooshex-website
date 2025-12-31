@@ -27,7 +27,7 @@ class OrderHistory extends Page implements HasTable
             ->query(
                 Order::query()
                     ->where('user_id', auth()->id())
-                    ->with(['items.orderable', 'user'])
+                    ->with(['items.orderable', 'user', 'licenses.course'])
             )
             ->columns([
                 Tables\Columns\TextColumn::make('id')
@@ -49,6 +49,12 @@ class OrderHistory extends Page implements HasTable
                     ->label('تاریخ')
                     ->dateTime('Y/m/d H:i')
                     ->sortable(),
+                Tables\Columns\TextColumn::make('licenses_count')
+                    ->label('لایسنس‌ها')
+                    ->counts('licenses')
+                    ->badge()
+                    ->color('success')
+                    ->toggleable(),
             ])
             ->actions([
                 Tables\Actions\Action::make('download')
@@ -56,6 +62,15 @@ class OrderHistory extends Page implements HasTable
                     ->icon('heroicon-o-arrow-down-tray')
                     ->url(fn (Order $record) => route('app.invoice.download', $record))
                     ->openUrlInNewTab(),
+                Tables\Actions\Action::make('licenses')
+                    ->label('لایسنس‌ها')
+                    ->icon('heroicon-o-key')
+                    ->visible(fn (Order $record) => $record->licenses()->count() > 0)
+                    ->color('success')
+                    ->modalHeading(fn (Order $record) => "لایسنس‌های سفارش #{$record->id}")
+                    ->modalContent(fn (Order $record) => view('filament.app.components.order-licenses', ['order' => $record]))
+                    ->modalSubmitAction(false)
+                    ->modalCancelActionLabel('بستن'),
             ])
             ->defaultSort('created_at', 'desc');
     }
