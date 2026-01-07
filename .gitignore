@@ -26,3 +26,27 @@ Thumbs.db
 
 # Local temp reports / agent summaries
 /tmp
+
+# Backups and database dumps
+*.tar.gz
+*.zip
+*.sql
+backup-*
+
+# Analysis and reports
+/reports
+/docs
+
+# Legacy migration files
+create-careers-table*.php
+create-careers-table.sql
+drop_sessions.php
+fix_sessions.php
+listtables.php
+mark_migration.php
+run-migrations.php
+
+# Figma exports and images
+/figma-images
+homepage-*.png
+*-figma.css
